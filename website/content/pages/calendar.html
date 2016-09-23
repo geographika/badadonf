@@ -1,0 +1,55 @@
+﻿<!--<script src='/js/fullcalendar-3.0.0/locale/fr.js'></script>-->
+
+<!--<iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;height=600&amp;wkst=2&amp;hl=fr&amp;bgcolor=%23ff6600&amp;src=badadonf.95350%40gmail.com&amp;color=%231B887A&amp;src=en.french%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=Europe%2FParis" style="border-width:0"
+        width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+<!--<script src='/js/fullcalendar-3.0.0/lib/moment.min.js'></script>-->
+<!--<script src='/js/fullcalendar-3.0.0/lib/jquery.min.js'></script>-->
+<!--
+<script src='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.0/fullcalendar.min.js'></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.0/fullcalendar.min.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.0/fullcalendar.print.css" />
+-->
+<!--<script src='/js/fullcalendar-3.0.0/fullcalendar.min.js'></script>
+<link rel="stylesheet" href="/js/fullcalendar-3.0.0/fullcalendar.min.css" />
+<link rel="stylesheet" href="/js/fullcalendar-3.0.0/fullcalendar.print.css" />-->
+<!--<link rel="stylesheet" href="/js/fullcalendar-3.0.0/fullcalendar.css" />
+<link rel="stylesheet" href="/js/fullcalendar-3.0.0/fullcalendar.print.css" />-->
+<!--<script src='/js/fullcalendar-3.0.0/fullcalendar.js'></script>
+<script src='/js/fullcalendar-3.0.0/gcal.js'></script>-->
+
+<script type='text/javascript'>
+
+    $(document).ready(function () {
+        $('#calendar').fullCalendar({
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'month,listYear'
+            },
+
+            googleCalendarApiKey: 'AIzaSyDcnW6WejpTOCffshGDDb4neIrXVUA1EAE',
+
+            // US Holidays
+            //events: 'en.usa#holiday@group.v.calendar.google.com'
+            //googleCalendarApiKey: 'AIzaSyAtw2Y_ksHT2bVS_N3Hs61ARZPLriTQdUE',
+            eventSources: [{
+                googleCalendarId: 'badadonf.95350@gmail.com',
+                // https://fullcalendar.io/docs/event_data/Event_Source_Object/
+                //   textColor: 'black' // an option!
+                color: 'orange'
+            }, {
+                googleCalendarId: 'fr.french#holiday@group.v.calendar.google.com',
+                color: 'red'
+            },
+            {
+                // Tournois privés du 95
+                googleCalendarId: 'h5sjmgmlfvpa5pc0voc1bjmdp4@group.calendar.google.com',
+                color: 'yellow'
+            }
+            ]
+        });
+    });
+
+</script>
+
+<div id='calendar'></div>

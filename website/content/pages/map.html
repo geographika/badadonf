@@ -1,0 +1,22 @@
+﻿<link rel="stylesheet" href="js/leaflet/leaflet.css" />
+<script src="js/leaflet/leaflet.js"></script>
+<div id="mapid" style="height: 400px"></div>
+
+<script>
+    //var mymap = L.map('mapid').setView([48, 99, 2.35], 13);
+    var mymap = L.map('mapid').setView([48.997, 2.356], 14);
+
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox.streets',
+        accessToken: 'pk.eyJ1IjoiY29tcGFzc2luZm9ybWF0aWNzIiwiYSI6IjNjYTNhZjc4YmNjOGI4YzZmMTE0YWI3OGQ0OTA1ZmY0In0.IouoaPPnzpbSDz_v5qcL0Q'
+    }).addTo(mymap);
+
+    var marker = L.marker([49.0, 2.36]).addTo(mymap);
+    marker.bindPopup("<b>COSEC</b><br>Lundi, mercredi, vendredi"); //.openPopup();
+
+    var marker2 = L.marker([48.99, 2.352]).addTo(mymap);
+    marker2.bindPopup("<b>Nezant</b><br>Jeudi"); //.openPopup();
+
+</script>

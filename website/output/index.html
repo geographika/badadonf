@@ -1,0 +1,237 @@
+﻿<!DOCTYPE html>
+<html lang="fr" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>VOSB Saint-Brice-sous-Forêt - Badadonf</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="/pages/vosb-saint-brice-sous-foret.html">
+
+        <meta name="author" content="Badadonf" />
+        <meta name="description" content="Horaires pour badminton" />
+
+    <meta property="og:site_name" content="Badadonf" />
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="VOSB Saint-Brice-sous-Forêt"/>
+    <meta property="og:url" content="/pages/vosb-saint-brice-sous-foret.html"/>
+    <meta property="og:description" content="Horaires pour badminton" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="/theme/css/bootstrap.united.min.css" type="text/css"/>
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+
+
+
+
+
+    <link rel="stylesheet" href="/js/fullcalendar-3.0.0/fullcalendar.css" />
+    <link rel="stylesheet" href="/js/fullcalendar-3.0.0/fullcalendar.print.css" media='print' />
+    <script src='/js/fullcalendar-3.0.0/lib/moment.min.js'></script>
+    <!--<script src="/theme/js/jquery.min.js"></script>-->
+    <script src='/js/fullcalendar-3.0.0/lib/jquery.min.js'></script>
+    <script src='/js/fullcalendar-3.0.0/fullcalendar.js'></script>
+    <script src='/js/fullcalendar-3.0.0/gcal.js'></script>
+
+ 
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">
+Badadonf            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="/pages/calendrier.html">
+                             Calendrier
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+    <section id="content" class="body">
+        <h1 class="entry-title">VOSB Saint-Brice-sous-Forêt</h1>
+        
+        <div class="entry-content">
+            <img alt="mika" class="align-right" src="./images/tournoi_vierzon_2011.jpg" />
+<!-- :scale: 50 %
+Didn't work. Resized to 50% -->
+<div class="section" id="horaires">
+<h2>Horaires</h2>
+<p>Lundi (gymnase : COSEC)</p>
+<ul class="simple">
+<li>19h00 – 20h30 Entraînement Loisirs / Débutants</li>
+<li>20h30 – 22h00 Entraînement Compétiteurs</li>
+</ul>
+<p>Mercredi (gymnase : COSEC)</p>
+<ul class="simple">
+<li>13h30 – 15h00         Entraînement Jeunes Groupe 1</li>
+<li>15h00 – 16h30         Entraînement Jeunes Groupe 2</li>
+</ul>
+<p>Jeudi (gymnase : NEZANT)</p>
+<ul class="simple">
+<li>19h00 – 22h00         Jeu Libre</li>
+</ul>
+<p>Vendredi (gymnase : COSEC)</p>
+<ul class="simple">
+<li>20h00 – 22h00         Jeu Libre et INTERCLUB</li>
+</ul>
+</div>
+<div class="section" id="carte">
+<h2>Carte</h2>
+<link rel="stylesheet" href="js/leaflet/leaflet.css" />
+<script src="js/leaflet/leaflet.js"></script>
+<div id="mapid" style="height: 400px"></div>
+
+<script>
+    //var mymap = L.map('mapid').setView([48, 99, 2.35], 13);
+    var mymap = L.map('mapid').setView([48.997, 2.356], 14);
+
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox.streets',
+        accessToken: 'pk.eyJ1IjoiY29tcGFzc2luZm9ybWF0aWNzIiwiYSI6IjNjYTNhZjc4YmNjOGI4YzZmMTE0YWI3OGQ0OTA1ZmY0In0.IouoaPPnzpbSDz_v5qcL0Q'
+    }).addTo(mymap);
+
+    var marker = L.marker([49.0, 2.36]).addTo(mymap);
+    marker.bindPopup("<b>COSEC</b><br>Lundi, mercredi, vendredi"); //.openPopup();
+
+    var marker2 = L.marker([48.99, 2.352]).addTo(mymap);
+    marker2.bindPopup("<b>Nezant</b><br>Jeudi"); //.openPopup();
+
+</script></div>
+<div class="section" id="rappel">
+<h2>Rappel</h2>
+<p>Les volants sont fournis par le club pour les entrainements et les tournois :</p>
+<ul class="simple">
+<li>Volants en plastique pour les loisirs et compétiteurs Non Classés</li>
+<li>Volants en plumes pour les compétiteurs Classés</li>
+</ul>
+<p>Lors du jeu libre :</p>
+<ul class="simple">
+<li>Volant en plastique fournis par le club</li>
+<li>Volant en plumes à la charge des joueurs (en vente dans le gymnase (voir Anne))</li>
+</ul>
+</div>
+<div class="section" id="contact">
+<h2>Contact</h2>
+<p>Vous souhaitez poser une question? Vous désirez un renseignement?</p>
+<p>Envoyez nous un mail à l'adresse mail suivante: <a class="reference external" href="mailto:badadonf&#64;live.fr">badadonf&#64;live.fr</a></p>
+</div>
+
+        </div>
+    </section>
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+
+
+
+
+
+<style>
+    .fb-page, .fb-page iframe[style], .fb-page span {
+        width: 100% !important;
+    }
+</style>
+
+<div id="fb-root"></div>
+<script>
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.7";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!--https://developers.facebook.com/docs/plugins/page-plugin-->
+
+<div class="fb-page" data-href="https://www.facebook.com/badadonf95"
+     data-tabs="timeline"
+     data-small-header="false" data-adapt-container-width="true"
+     data-hide-cover="false"
+     data-show-facepile="false">
+    <blockquote cite="https://www.facebook.com/badadonf95" class="fb-xfbml-parse-ignore">
+        <a href="https://www.facebook.com/badadonf95">Badadonf VOSB Saint Brice s/forêt</a>
+    </blockquote>
+</div>
+
+<li class="list-group-item">
+    <h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Liens</span></h4>
+    <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://www.ffbad.org/" target="_blank">
+                FFBAD
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="http://www.cdbvo.fr/" target="_blank">
+                Comité départemental de badminton du Val d'Oise
+            </a>
+        </li>
+    </ul>
+</li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy;  Badadonf
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Retour vers le haut</a></p></div>
+      </div>
+   </div>
+</footer>
+<!--<script src='/js/fullcalendar-3.0.0/lib/moment.min.js'></script>
+<script src="/theme/js/jquery.min.js"></script>
+<script src='/js/fullcalendar-3.0.0/fullcalendar.js'></script>
+<script src='/js/fullcalendar-3.0.0/gcal.js'></script>-->
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="/theme/js/respond.min.js"></script>
+
+
+
+</body>
+</html>
