@@ -39,7 +39,11 @@ def upload(files, root_folder):
         key = out_fn[1:]
         print key
         k.key = key
-        k.set_contents_from_filename(fn)
+
+        if os.path.isdir(fn):
+            k.set_contents_from_string('')
+        else:
+            k.set_contents_from_filename(fn)
         k.set_acl('public-read') # not working?
 
         #k.get_contents_to_filename('myfile.html')

@@ -40,7 +40,11 @@
     <script src='/js/fullcalendar-3.0.0/fullcalendar.js'></script>
     <script src='/js/fullcalendar-3.0.0/gcal.js'></script>
 
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/3.0.3/jquery.qtip.min.css" />
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/qtip2/3.0.3/jquery.qtip.min.js'></script>
+
     
+
  
 </head>
 <body>
@@ -62,6 +66,9 @@ Badadonf            </a>
                          <li class="active"><a href="/pages/calendrier.html">
                              Calendrier
                           </a></li>
+                         <li><a href="/pages/entrainements.html">
+                             Entraînements
+                          </a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
             </ul>
@@ -78,26 +85,7 @@ Badadonf            </a>
         <h1 class="entry-title">Calendrier</h1>
         
         <div class="entry-content">
-            <!--<script src='/js/fullcalendar-3.0.0/locale/fr.js'></script>-->
-
-<!--<iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;height=600&amp;wkst=2&amp;hl=fr&amp;bgcolor=%23ff6600&amp;src=badadonf.95350%40gmail.com&amp;color=%231B887A&amp;src=en.french%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=Europe%2FParis" style="border-width:0"
-        width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
-<!--<script src='/js/fullcalendar-3.0.0/lib/moment.min.js'></script>-->
-<!--<script src='/js/fullcalendar-3.0.0/lib/jquery.min.js'></script>-->
-<!--
-<script src='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.0/fullcalendar.min.js'></script>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.0/fullcalendar.min.css" />
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.0/fullcalendar.print.css" />
--->
-<!--<script src='/js/fullcalendar-3.0.0/fullcalendar.min.js'></script>
-<link rel="stylesheet" href="/js/fullcalendar-3.0.0/fullcalendar.min.css" />
-<link rel="stylesheet" href="/js/fullcalendar-3.0.0/fullcalendar.print.css" />-->
-<!--<link rel="stylesheet" href="/js/fullcalendar-3.0.0/fullcalendar.css" />
-<link rel="stylesheet" href="/js/fullcalendar-3.0.0/fullcalendar.print.css" />-->
-<!--<script src='/js/fullcalendar-3.0.0/fullcalendar.js'></script>
-<script src='/js/fullcalendar-3.0.0/gcal.js'></script>-->
-
-<script type='text/javascript'>
+            <script type='text/javascript'>
 
     $(document).ready(function () {
         $('#calendar').fullCalendar({
@@ -106,23 +94,57 @@ Badadonf            </a>
                 center: 'title',
                 right: 'month,listYear'
             },
+            //displayEventEnd: true,
+            timeFormat: 'H:mm',  //'H(:mm)',
+            views: {
+                month: { // name of view
+                    //titleFormat: 'YYYY, MM, DD'
+                    // other view-specific options here
+                    displayEventTime: true
+                }
+            },
+
+            eventRender: function (event, element) {
+
+                // qtip is a plugin
+                element.qtip({
+                    content: event.location
+                });
+            },
+
 
             googleCalendarApiKey: 'AIzaSyDcnW6WejpTOCffshGDDb4neIrXVUA1EAE',
 
-            // US Holidays
-            //events: 'en.usa#holiday@group.v.calendar.google.com'
-            //googleCalendarApiKey: 'AIzaSyAtw2Y_ksHT2bVS_N3Hs61ARZPLriTQdUE',
             eventSources: [{
-                googleCalendarId: 'badadonf.95350@gmail.com',
-                color: 'orange'
+                // also includes school holidays
+                //googleCalendarId: 'badadonf.95350@gmail.com',
+
+                googleCalendarId: 'pn632p7k99fhsaumjji26hbk54@group.calendar.google.com',
+
+                // https://fullcalendar.io/docs/event_data/Event_Source_Object/
+                //   textColor: 'black' // an option!
+                color: 'orange',
+                allDayDefault: false
+                /**
+                events: function (start, end, callback) {
+                    // ...
+                    debugger;
+                }
+				*/
             }, {
-                googleCalendarId: 'fr.french#holiday@group.v.calendar.google.com',
-                color: 'red'
+                // interclub
+                googleCalendarId: 'dpictfqf24a92fb4rhnutbmi00@group.calendar.google.com',
+                color: 'wheat',
+                allDayDefault: false
+            }, {
+                // zone c holidays
+                googleCalendarId: 'd7poempihibadbep8963s2bq0g@group.calendar.google.com', //'fr.french#holiday@group.v.calendar.google.com',
+                color: '#FF926D'
             },
             {
                 // Tournois privés du 95
                 googleCalendarId: 'h5sjmgmlfvpa5pc0voc1bjmdp4@group.calendar.google.com',
-                color: 'yellow'
+                color: '#EF6E41'
             }
             ]
         });
@@ -131,6 +153,20 @@ Badadonf            </a>
 </script>
 
 <div id='calendar'></div>
+
+<div class="panel-group">
+    <div class="panel panel-default">
+        <div class="panel-heading">Légende</div>
+        <div class="panel-body">
+            <h4><span style="background-color: orange" class="label label-default">Badadonf Entraînements et Evennements</span></h4>
+            <h4><span style="background-color: wheat" class="label label-default">Interclub</span></h4>
+            <h4><span style="background-color: #FF926D" class="label label-default">Vacances Scolaires (Zone C)</span></h4>
+            <h4><span style="background-color: #EF6E41" class="label label-default">Tournois privés dans le 95</span></h4>
+        </div>
+
+    </div>
+</div>
+
         </div>
     </section>
         </div>
@@ -220,6 +256,36 @@ Badadonf            </a>
 
 
 
-<script src="/js/fullcalendar-3.0.0/locale/fr.js"></script>
+f
+u
+l
+l
+c
+a
+l
+e
+n
+d
+a
+r
+-
+3
+.
+0
+.
+0
+/
+l
+o
+c
+a
+l
+e
+/
+f
+r
+.
+j
+s
 </body>
 </html>

@@ -37,15 +37,15 @@ DEFAULT_PAGINATION = False
 
 # My Settings
 
-THEME = 'pelican-themes/pelican-bootstrap3'
+THEME = '../../pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'united'
 
 #https://github.com/wrobstory/pelican_dynamic
 
-# cd C:\Projects\badadonf\badadonf\pelican-plugins
-# git clone https://github.com/wrobstory/pelican_dynamic
-PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ['pelican_dynamic']
+# https://github.com/mortada/pelican_javascript
+
+PLUGIN_PATHS = ['../../pelican-plugins']
+PLUGINS = ['pelican_javascript']
 
 # do not process HTML files
 READERS = {'html': None}

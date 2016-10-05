@@ -1,5 +1,5 @@
-VOSB Saint-Brice-sous-Forêt
-###########################
+VOSB Badminton de Saint-Brice-sous-Forêt
+########################################
 
 :date: 2016-09-02 10:20
 :modified: 2016-09-02 10:20
@@ -20,24 +20,25 @@ VOSB Saint-Brice-sous-Forêt
 Horaires
 --------
     
-Lundi (gymnase : COSEC)
+**Lundi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
-* 19h00 – 20h30 Entraînement Loisirs / Débutants
-* 20h30 – 22h00 Entraînement Compétiteurs
+Voir `le page entraînements <{filename}/pages/entrainements.rst>`_ pour plus de détails. 
 
-Mercredi (gymnase : COSEC)
+* 19h – 20h30 1er entraînement
+* 20h30 – 22h 2ème entraînement
 
-* 13h30 – 15h00		Entraînement Jeunes Groupe 1
-* 15h00 – 16h30		Entraînement Jeunes Groupe 2
+**Mercredi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
-Jeudi (gymnase : NEZANT)
+* 13h30 – 15h		Entraînement Jeunes Groupe 1
+* 15h – 16h30		Entraînement Jeunes Groupe 2
 
-* 19h00 – 22h00		Jeu Libre
+**Jeudi (gymnase : NEZANT)**
 
-Vendredi (gymnase : COSEC)
+* 19h – 22h		Jeu Libre
 
-* 20h00 – 22h00		Jeu Libre et INTERCLUB
+**Vendredi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
+* 20h – 22h		Jeu Libre et INTERCLUB
 
 Carte
 -----
@@ -56,7 +57,7 @@ Les volants sont fournis par le club pour les entrainements et les tournois :
 Lors du jeu libre :
 
 * Volant en plastique fournis par le club
-* Volant en plumes à la charge des joueurs (en vente dans le gymnase (voir Anne))
+* Volant en plumes à la charge des joueurs (en vente dans le gymnase - voir Anne)
 
 Contact
 -------
