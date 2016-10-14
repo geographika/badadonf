@@ -21,8 +21,8 @@ Publish
 C:\VirtualEnvs\badadonf\Scripts\activate
 cd C:\Projects\badadonf\badadonf\website
 pelican content
-robocopy C:\Projects\badadonf\badadonf\website\output C:\Users\SG\Documents\Dropbox\Public\badadonf /MIR
-robocopy C:\Projects\badadonf\badadonf\website\output C:\Users\seth\Dropbox\Public\badadonf /MIR
+cd C:\Projects\badadonf\badadonf
+python s3upload.py
 
 Setup
 -----
@@ -51,3 +51,11 @@ https://commons.wikimedia.org/wiki/File:Badminton_pictogram.svg
 # add theme to project for easier editing
 
 mklink /J "C:\Projects\badadonf\badadonf\pelican-bootstrap3" "C:\Projects\badadonf\pelican-themes\pelican-bootstrap3"
+
+Git
+---
+
+Pelican plugins - need to update submodules too or lots are missing!
+C:\Projects\badadonf\pelican-plugins
+
+git.exe submodule update --init

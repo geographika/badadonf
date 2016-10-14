@@ -278,6 +278,9 @@
     <Content Include="website\content\pages\calendar.html" />
     <Content Include="website\content\pages\calendrier.rst" />
     <Content Include="website\content\pages\accueil.rst" />
+    <Content Include="website\content\pages\entrainements.rst" />
+    <Content Include="website\content\pages\facebook.html" />
+    <Content Include="website\content\pages\interclub.rst" />
     <Content Include="website\content\pages\map.html" />
     <Content Include="website\content\test.rst.ignore" />
     <Content Include="website\develop_server.sh" />

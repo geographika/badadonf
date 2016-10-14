@@ -6,8 +6,8 @@ Calendrier
 :tags: horaires
 :authors: Badadonf
 :summary: Calendrier pour badminton
-:scripts: fullcalendar-3.0.0/locale/fr.js
-:styles: 
+:javascripts: fullcalendar-3.0.0/locale/fr.js
+:stylesheets: 
 
 .. raw:: html
     :file: calendar.html

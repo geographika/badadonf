@@ -22,7 +22,7 @@ Horaires
     
 **Lundi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
-Voir `le page entraînements <{filename}/pages/entrainements.rst>`_ pour plus de détails. 
+Voir `la page entraînements <{filename}/pages/entrainements.rst>`_ pour plus de détails. 
 
 * 19h – 20h30 1er entraînement
 * 20h30 – 22h 2ème entraînement
@@ -62,6 +62,6 @@ Lors du jeu libre :
 Contact
 -------
 
-Vous souhaitez poser une question? Vous désirez un renseignement?
+Vous souhaitez poser une question ? Vous désirez un renseignement ?
 
 Envoyez nous un mail à l'adresse mail suivante: badadonf@live.fr
