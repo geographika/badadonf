@@ -282,6 +282,7 @@
     <Content Include="website\content\pages\facebook.html" />
     <Content Include="website\content\pages\interclub.rst" />
     <Content Include="website\content\pages\map.html" />
+    <Content Include="website\content\pdfs\Poules_mixte_masculin.pdf" />
     <Content Include="website\content\test.rst.ignore" />
     <Content Include="website\develop_server.sh" />
     <Content Include="files\badadonf_fab.jpg" />
@@ -316,6 +317,7 @@
     <Folder Include="website\content\js\leaflet\" />
     <Folder Include="website\content\js\leaflet\images\" />
     <Folder Include="website\content\js\" />
+    <Folder Include="website\content\pdfs\" />
     <Folder Include="website\content\pages\" />
     <Folder Include="website\output\" />
   </ItemGroup>

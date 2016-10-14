@@ -45,7 +45,7 @@ BOOTSTRAP_THEME = 'united'
 # https://github.com/mortada/pelican_javascript
 
 PLUGIN_PATHS = ['../../pelican-plugins']
-PLUGINS = ['pelican_javascript']
+PLUGINS = ['pelican_javascript','pdf-img']
 
 # do not process HTML files
 READERS = {'html': None}
@@ -58,6 +58,7 @@ STATIC_PATHS = ['js','images']
 STATIC_PATHS = [
     'images', 
     'js',
+    'pdfs',
     #'extra/robots.txt', 
     'extra/favicon.png'
 ]

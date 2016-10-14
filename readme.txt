@@ -59,3 +59,19 @@ Pelican plugins - need to update submodules too or lots are missing!
 C:\Projects\badadonf\pelican-plugins
 
 git.exe submodule update --init
+
+
+PDFs
+----
+
+Plugin
+
+https://github.com/cmacmackin/pdf-img
+http://stackoverflow.com/questions/32466112/imagemagick-convert-pdf-to-jpeg
+
+pip install wand
+pip install bs4
+
+
+http://docs.wand-py.org/en/0.4.1/guide/install.html#install-imagemagick-windows - not needed?
+http://ghostscript.com/download/gsdnld.html

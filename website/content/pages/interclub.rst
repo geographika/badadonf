@@ -25,3 +25,16 @@ Interclub
 + Richard
 + Aurélie
 + Seth
+
+Ligue D3B
++++++++++
+
+* PONTOISE 6
+* **SAINT BRICE 1**
+* JOUY LE MOUTIER 5
+* ST GRATIEN 1
+* LUZARCHES 2
+* ERAGNY 3
+
+.. image:: /pdfs/Poules_mixte_masculin.pdf
+	:alt: Poules Mixte Masculin
