@@ -2,7 +2,7 @@ Interclub
 #########
 
 :date: 2016-10-05 23:09
-:modified: 2016-10-05 23:09
+:modified: 2016-11-20 23:09
 :tags: interclub
 :authors: Badadonf
 :summary: équipe et resultats
@@ -14,8 +14,10 @@ Interclub
 
 + Mélanie
 + Marion
++ Flavien
 + Gilbert
-+ Jérôme
++ Jérôme D.
++ Jérôme P.
 + Stéphane
 + Michaël
 + Ludovic
@@ -25,6 +27,11 @@ Interclub
 + Richard
 + Aurélie
 + Seth
+
+Resultats
++++++++++
+
+* Résultat de l'interclub 2ème journée: VOSB vs ASSGBAD - `Interclub_16354_D3B_J2_VOSB_ASSGBAD.pdf <{filename}/pdfs/Interclub_16354_D3B_J2_VOSB_ASSGBAD.pdf>`_
 
 Ligue D3B
 +++++++++
@@ -36,5 +43,7 @@ Ligue D3B
 * LUZARCHES 2
 * ERAGNY 3
 
-.. image:: /pdfs/Poules_mixte_masculin.pdf
-	:alt: Poules Mixte Masculin
+.. image:: /pdfs/IC_class_Sen_D3B_J1_16-17_N&B-1.pdf
+	:alt: Calendrier
+
+* Ligue D3 `Poules_mixte_masculin.pdf <{filename}/pdfs/Poules_mixte_masculin.pdf>`_

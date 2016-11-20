@@ -24,6 +24,12 @@ pelican content
 cd C:\Projects\badadonf\badadonf
 python s3upload.py
 
+http://stackoverflow.com/questions/1086240/how-can-i-update-files-on-amazons-cdn-cloudfront
+https://console.aws.amazon.com/cloudfront/
+Select, then click Invalidations tab
+Enter "*"
+
+
 Setup
 -----
 
