@@ -28,10 +28,15 @@ Interclub
 + Aurélie
 + Seth
 
+.. image:: /images/interclub_022017.jpg
+	:alt: Les Sportifs!
+
 Resultats
 +++++++++
 
-* Résultat de l'interclub 2ème journée: VOSB vs ASSGBAD - `Interclub_16354_D3B_J2_VOSB_ASSGBAD.pdf <{filename}/pdfs/Interclub_16354_D3B_J2_VOSB_ASSGBAD.pdf>`_
+* `Résultat J2: Saint Gratien <{filename}/pdfs/IC_site_WEB_Sen_D3B_J2_16-17.pdf>`_
+* `Résultat J4: Luzarches <{filename}/pdfs/IC_site_WEB_Sen_D3B_J4_16-17.pdf>`_
+* `Résultat J6: Pontoise <{filename}/pdfs/IC_site_WEB_Sen_D3B_J6_16-17.pdf>`_
 
 Ligue D3B
 +++++++++

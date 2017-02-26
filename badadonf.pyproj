@@ -164,6 +164,7 @@
     <Content Include="website\content\extra\favicon-32.png" />
     <Content Include="website\content\extra\favicon.png" />
     <Content Include="website\content\images\tournoi_vierzon_2011.jpg" />
+    <Content Include="website\content\images\interclub_022017.jpg" />
     <Content Include="website\content\js\fullcalendar-3.0.0\CHANGELOG.txt" />
     <Content Include="website\content\js\fullcalendar-3.0.0\CONTRIBUTING.txt" />
     <Content Include="website\content\js\fullcalendar-3.0.0\demos\agenda-views.html" />
@@ -282,6 +283,15 @@
     <Content Include="website\content\pages\facebook.html" />
     <Content Include="website\content\pages\interclub.rst" />
     <Content Include="website\content\pages\map.html" />
+    <Content Include="website\content\pages\vosb.rst" />
+    <Content Include="website\content\pdfs\IC_class_Sen_D3B_J1_16-17_N&amp;B-1.pdf" />
+    <Content Include="website\content\pdfs\IC_class_Sen_D3B_J1_16-17_NB.pdf" />
+    <Content Include="website\content\pdfs\IC_site_WEB_Sen_D3B_J2_16-17.pdf" />
+    <Content Include="website\content\pdfs\IC_site_WEB_Sen_D3B_J4_16-17.pdf" />
+    <Content Include="website\content\pdfs\IC_site_WEB_Sen_D3B_J5_16-17.pdf" />
+    <Content Include="website\content\pdfs\IC_site_WEB_Sen_D3B_J6_16-17.pdf" />
+    <Content Include="website\content\pdfs\Interclub_16354_D3B_J2_VOSB_ASSGBAD.pdf" />
+    <Content Include="website\content\pdfs\plaquette_de_la_VOSB.pdf" />
     <Content Include="website\content\pdfs\Poules_mixte_masculin.pdf" />
     <Content Include="website\content\test.rst.ignore" />
     <Content Include="website\develop_server.sh" />

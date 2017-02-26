@@ -81,3 +81,8 @@ pip install bs4
 
 http://docs.wand-py.org/en/0.4.1/guide/install.html#install-imagemagick-windows - not needed?
 http://ghostscript.com/download/gsdnld.html
+
+Interclub
+---------
+
+Get results from http://www.cdbvo.fr/vie-sportive/seniors/interclub-mixte-d3.html
