@@ -12,8 +12,7 @@
     <OutputPath>.</OutputPath>
     <Name>badadonf</Name>
     <RootNamespace>badadonf</RootNamespace>
-    <InterpreterId>{24f31483-ce34-49a9-9e0d-71cd9eeab792}</InterpreterId>
-    <InterpreterVersion>2.7</InterpreterVersion>
+    <InterpreterId>MSBuild|badadonf|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,138 +23,268 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="badadonf.py" />
     <Compile Include="s3upload.py" />
     <Compile Include="website\fabfile.py" />
     <Compile Include="website\pelicanconf.py" />
     <Compile Include="website\publishconf.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content-readme.txt">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="files\Calendrier_Scolaire_Zone_C.ics" />
+    <Content Include="files\Interclub_16354_D3B_J2_VOSB_ASSGBAD.xlsx" />
+    <Content Include="pelican-bootstrap3\AUTHORS.md" />
     <Content Include="pelican-bootstrap3\AUTHORS.md" />
     <Content Include="pelican-bootstrap3\CONTRIBUTING.md" />
+    <Content Include="pelican-bootstrap3\CONTRIBUTING.md" />
+    <Content Include="pelican-bootstrap3\EXAMPLES.md" />
     <Content Include="pelican-bootstrap3\EXAMPLES.md" />
     <Content Include="pelican-bootstrap3\LICENSE" />
+    <Content Include="pelican-bootstrap3\LICENSE" />
+    <Content Include="pelican-bootstrap3\README.md" />
     <Content Include="pelican-bootstrap3\README.md" />
     <Content Include="pelican-bootstrap3\screenshot-article.png" />
+    <Content Include="pelican-bootstrap3\screenshot-article.png" />
+    <Content Include="pelican-bootstrap3\screenshot.png" />
     <Content Include="pelican-bootstrap3\screenshot.png" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.amelia.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.amelia.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.cerulean.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.cerulean.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.cosmo.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.cosmo.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.cupid.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.cupid.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.custom.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.custom.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.cyborg.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.cyborg.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.darkly.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.darkly.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.flatly.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.flatly.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.journal.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.journal.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.lumen.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.lumen.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.paper.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.paper.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.readable-old.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.readable-old.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.readable.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.readable.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.sandstone.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.sandstone.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.shamrock.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.shamrock.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.simplex.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.simplex.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.slate.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.slate.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.spacelab.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.spacelab.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.superhero.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.superhero.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.united.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.united.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\bootstrap.yeti.min.css" />
     <Content Include="pelican-bootstrap3\static\css\bootstrap.yeti.min.css" />
     <Content Include="pelican-bootstrap3\static\css\font-awesome.css" />
+    <Content Include="pelican-bootstrap3\static\css\font-awesome.css" />
+    <Content Include="pelican-bootstrap3\static\css\font-awesome.min.css" />
     <Content Include="pelican-bootstrap3\static\css\font-awesome.min.css" />
     <Content Include="pelican-bootstrap3\static\css\html4css1.css" />
+    <Content Include="pelican-bootstrap3\static\css\html4css1.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\autumn.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\autumn.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\borland.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\borland.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\bw.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\bw.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\colorful.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\colorful.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\default.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\default.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\emacs.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\emacs.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\friendly.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\friendly.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\fruity.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\fruity.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\github.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\github.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\igor.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\igor.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\manni.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\manni.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\monokai.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\monokai.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\murphy.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\murphy.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\native.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\native.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\paraiso-dark.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\paraiso-dark.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\paraiso-light.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\paraiso-light.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\pastie.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\pastie.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\perldoc.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\perldoc.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\rrt.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\rrt.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\solarizeddark.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\solarizeddark.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\solarizedlight.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\solarizedlight.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\tango.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\tango.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\trac.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\trac.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\vim.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\vim.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\vs.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\vs.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\xcode.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\xcode.css" />
+    <Content Include="pelican-bootstrap3\static\css\pygments\zenburn.css" />
     <Content Include="pelican-bootstrap3\static\css\pygments\zenburn.css" />
     <Content Include="pelican-bootstrap3\static\css\shariff\shariff.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\shariff\shariff.min.css" />
+    <Content Include="pelican-bootstrap3\static\css\style.css" />
     <Content Include="pelican-bootstrap3\static\css\style.css" />
     <Content Include="pelican-bootstrap3\static\css\typogrify.css" />
+    <Content Include="pelican-bootstrap3\static\css\typogrify.css" />
+    <Content Include="pelican-bootstrap3\static\fonts\fontawesome-webfont.eot" />
     <Content Include="pelican-bootstrap3\static\fonts\fontawesome-webfont.eot" />
     <Content Include="pelican-bootstrap3\static\fonts\fontawesome-webfont.svg" />
+    <Content Include="pelican-bootstrap3\static\fonts\fontawesome-webfont.svg" />
+    <Content Include="pelican-bootstrap3\static\fonts\fontawesome-webfont.ttf" />
     <Content Include="pelican-bootstrap3\static\fonts\fontawesome-webfont.ttf" />
     <Content Include="pelican-bootstrap3\static\fonts\fontawesome-webfont.woff" />
+    <Content Include="pelican-bootstrap3\static\fonts\fontawesome-webfont.woff" />
+    <Content Include="pelican-bootstrap3\static\fonts\fontawesome-webfont.woff2" />
     <Content Include="pelican-bootstrap3\static\fonts\fontawesome-webfont.woff2" />
     <Content Include="pelican-bootstrap3\static\fonts\FontAwesome.otf" />
+    <Content Include="pelican-bootstrap3\static\fonts\FontAwesome.otf" />
+    <Content Include="pelican-bootstrap3\static\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="pelican-bootstrap3\static\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="pelican-bootstrap3\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="pelican-bootstrap3\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="pelican-bootstrap3\static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="pelican-bootstrap3\static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="pelican-bootstrap3\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="pelican-bootstrap3\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="pelican-bootstrap3\static\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="pelican-bootstrap3\static\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="pelican-bootstrap3\static\js\bodypadding.js" />
+    <Content Include="pelican-bootstrap3\static\js\bodypadding.js" />
+    <Content Include="pelican-bootstrap3\static\js\bootstrap.min.js" />
     <Content Include="pelican-bootstrap3\static\js\bootstrap.min.js" />
     <Content Include="pelican-bootstrap3\static\js\github.js" />
+    <Content Include="pelican-bootstrap3\static\js\github.js" />
+    <Content Include="pelican-bootstrap3\static\js\jquery.min.js" />
     <Content Include="pelican-bootstrap3\static\js\jquery.min.js" />
     <Content Include="pelican-bootstrap3\static\js\jXHR.js" />
+    <Content Include="pelican-bootstrap3\static\js\jXHR.js" />
+    <Content Include="pelican-bootstrap3\static\js\respond.min.js" />
     <Content Include="pelican-bootstrap3\static\js\respond.min.js" />
     <Content Include="pelican-bootstrap3\static\js\shariff.min.js" />
+    <Content Include="pelican-bootstrap3\static\js\shariff.min.js" />
+    <Content Include="pelican-bootstrap3\static\tipuesearch\img\loader.gif" />
     <Content Include="pelican-bootstrap3\static\tipuesearch\img\loader.gif" />
     <Content Include="pelican-bootstrap3\static\tipuesearch\img\search.png" />
+    <Content Include="pelican-bootstrap3\static\tipuesearch\img\search.png" />
+    <Content Include="pelican-bootstrap3\static\tipuesearch\tipuesearch.css" />
     <Content Include="pelican-bootstrap3\static\tipuesearch\tipuesearch.css" />
     <Content Include="pelican-bootstrap3\static\tipuesearch\tipuesearch.js" />
+    <Content Include="pelican-bootstrap3\static\tipuesearch\tipuesearch.js" />
+    <Content Include="pelican-bootstrap3\static\tipuesearch\tipuesearch.min.js" />
     <Content Include="pelican-bootstrap3\static\tipuesearch\tipuesearch.min.js" />
     <Content Include="pelican-bootstrap3\static\tipuesearch\tipuesearch_content.js" />
+    <Content Include="pelican-bootstrap3\static\tipuesearch\tipuesearch_content.js" />
+    <Content Include="pelican-bootstrap3\static\tipuesearch\tipuesearch_set.js" />
     <Content Include="pelican-bootstrap3\static\tipuesearch\tipuesearch_set.js" />
     <Content Include="pelican-bootstrap3\templates\archives.html" />
+    <Content Include="pelican-bootstrap3\templates\archives.html" />
+    <Content Include="pelican-bootstrap3\templates\article.html" />
     <Content Include="pelican-bootstrap3\templates\article.html" />
     <Content Include="pelican-bootstrap3\templates\article_list.html" />
+    <Content Include="pelican-bootstrap3\templates\article_list.html" />
+    <Content Include="pelican-bootstrap3\templates\author.html" />
     <Content Include="pelican-bootstrap3\templates\author.html" />
     <Content Include="pelican-bootstrap3\templates\authors.html" />
+    <Content Include="pelican-bootstrap3\templates\authors.html" />
+    <Content Include="pelican-bootstrap3\templates\base.html" />
     <Content Include="pelican-bootstrap3\templates\base.html" />
     <Content Include="pelican-bootstrap3\templates\categories.html" />
+    <Content Include="pelican-bootstrap3\templates\categories.html" />
+    <Content Include="pelican-bootstrap3\templates\category.html" />
     <Content Include="pelican-bootstrap3\templates\category.html" />
     <Content Include="pelican-bootstrap3\templates\includes\aboutme.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\aboutme.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\addthis.html" />
     <Content Include="pelican-bootstrap3\templates\includes\addthis.html" />
     <Content Include="pelican-bootstrap3\templates\includes\article_info.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\article_info.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\banner.html" />
     <Content Include="pelican-bootstrap3\templates\includes\banner.html" />
     <Content Include="pelican-bootstrap3\templates\includes\cc-license.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\cc-license.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\comments.html" />
     <Content Include="pelican-bootstrap3\templates\includes\comments.html" />
     <Content Include="pelican-bootstrap3\templates\includes\comment_count.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\comment_count.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\disqus_script.html" />
     <Content Include="pelican-bootstrap3\templates\includes\disqus_script.html" />
     <Content Include="pelican-bootstrap3\templates\includes\footer.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\footer.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\ga.html" />
     <Content Include="pelican-bootstrap3\templates\includes\ga.html" />
     <Content Include="pelican-bootstrap3\templates\includes\github-js.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\github-js.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\github.html" />
     <Content Include="pelican-bootstrap3\templates\includes\github.html" />
     <Content Include="pelican-bootstrap3\templates\includes\links.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\links.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\liquid_tags_nb_header.html" />
     <Content Include="pelican-bootstrap3\templates\includes\liquid_tags_nb_header.html" />
     <Content Include="pelican-bootstrap3\templates\includes\minify_tipuesearch.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\minify_tipuesearch.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\pagination.html" />
     <Content Include="pelican-bootstrap3\templates\includes\pagination.html" />
     <Content Include="pelican-bootstrap3\templates\includes\piwik.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\piwik.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\related-posts.html" />
     <Content Include="pelican-bootstrap3\templates\includes\related-posts.html" />
     <Content Include="pelican-bootstrap3\templates\includes\series.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\series.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\shariff.html" />
     <Content Include="pelican-bootstrap3\templates\includes\shariff.html" />
     <Content Include="pelican-bootstrap3\templates\includes\sidebar-images.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\sidebar-images.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\sidebar.html" />
     <Content Include="pelican-bootstrap3\templates\includes\sidebar.html" />
     <Content Include="pelican-bootstrap3\templates\includes\taglist.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\taglist.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\translations.html" />
     <Content Include="pelican-bootstrap3\templates\includes\translations.html" />
     <Content Include="pelican-bootstrap3\templates\includes\twitter_cards.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\twitter_cards.html" />
+    <Content Include="pelican-bootstrap3\templates\includes\twitter_timeline.html" />
     <Content Include="pelican-bootstrap3\templates\includes\twitter_timeline.html" />
     <Content Include="pelican-bootstrap3\templates\index.html" />
+    <Content Include="pelican-bootstrap3\templates\index.html" />
+    <Content Include="pelican-bootstrap3\templates\page.html" />
     <Content Include="pelican-bootstrap3\templates\page.html" />
     <Content Include="pelican-bootstrap3\templates\search.html" />
+    <Content Include="pelican-bootstrap3\templates\search.html" />
     <Content Include="pelican-bootstrap3\templates\tag.html" />
+    <Content Include="pelican-bootstrap3\templates\tag.html" />
+    <Content Include="pelican-bootstrap3\templates\tags.html" />
     <Content Include="pelican-bootstrap3\templates\tags.html" />
     <Content Include="readme.txt" />
     <Content Include="requirements.txt" />
@@ -269,6 +398,106 @@
     <Content Include="website\content\js\fullcalendar-3.0.0\locale\vi.js" />
     <Content Include="website\content\js\fullcalendar-3.0.0\locale\zh-cn.js" />
     <Content Include="website\content\js\fullcalendar-3.0.0\locale\zh-tw.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\CHANGELOG.txt" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\CONTRIBUTING.txt" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\agenda-views.html" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\background-events.html" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\basic-views.html" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\default.html" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\external-dragging.html" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\gcal.html" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\json.html" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\json\events.json" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\js\theme-chooser.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\list-views.html" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\locales.html" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\php\get-events.php" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\php\get-timezones.php" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\php\utils.php" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\selectable.html" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\themes.html" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\timezones.html" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\demos\week-numbers.html" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\fullcalendar.css" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\fullcalendar.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\fullcalendar.min.css" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\fullcalendar.min.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\fullcalendar.print.css" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\fullcalendar.print.min.css" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\gcal.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\gcal.min.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\lib\jquery-ui.min.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\lib\jquery.min.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\lib\moment.min.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\LICENSE.txt" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale-all.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\af.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\ar-dz.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\ar-kw.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\ar-ly.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\ar-ma.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\ar-sa.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\ar-tn.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\ar.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\bg.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\ca.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\cs.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\da.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\de-at.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\de-ch.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\de.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\el.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\en-au.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\en-ca.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\en-gb.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\en-ie.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\en-nz.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\es-do.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\es.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\et.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\eu.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\fa.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\fi.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\fr-ca.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\fr-ch.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\fr.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\gl.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\he.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\hi.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\hr.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\hu.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\id.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\is.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\it.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\ja.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\kk.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\ko.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\lb.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\lt.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\lv.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\mk.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\ms-my.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\ms.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\nb.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\nl-be.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\nl.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\nn.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\pl.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\pt-br.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\pt.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\ro.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\ru.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\sk.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\sl.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\sr-cyrl.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\sr.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\sv.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\th.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\tr.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\uk.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\vi.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\zh-cn.js" />
+    <Content Include="website\content\js\fullcalendar-3.5.0\locale\zh-tw.js" />
     <Content Include="website\content\js\leaflet\images\layers-2x.png" />
     <Content Include="website\content\js\leaflet\images\layers.png" />
     <Content Include="website\content\js\leaflet\images\marker-icon-2x.png" />
@@ -279,10 +508,13 @@
     <Content Include="website\content\pages\calendar.html" />
     <Content Include="website\content\pages\calendrier.rst" />
     <Content Include="website\content\pages\accueil.rst" />
-    <Content Include="website\content\pages\entrainements.rst" />
+    <Content Include="website\content\pages\leclub.rst" />
     <Content Include="website\content\pages\facebook.html" />
     <Content Include="website\content\pages\interclub.rst" />
     <Content Include="website\content\pages\map.html" />
+    <Content Include="website\content\pages\tournoi.rst">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="website\content\pages\vosb.rst" />
     <Content Include="website\content\pdfs\IC_class_Sen_D3B_J1_16-17_N&amp;B-1.pdf" />
     <Content Include="website\content\pdfs\IC_class_Sen_D3B_J1_16-17_NB.pdf" />
@@ -293,6 +525,7 @@
     <Content Include="website\content\pdfs\Interclub_16354_D3B_J2_VOSB_ASSGBAD.pdf" />
     <Content Include="website\content\pdfs\plaquette_de_la_VOSB.pdf" />
     <Content Include="website\content\pdfs\Poules_mixte_masculin.pdf" />
+    <Content Include="website\content\pdfs\Vosb9__Plaquette.pdf" />
     <Content Include="website\content\test.rst.ignore" />
     <Content Include="website\develop_server.sh" />
     <Content Include="files\badadonf_fab.jpg" />
@@ -301,6 +534,17 @@
   <ItemGroup>
     <Folder Include="files\" />
     <Folder Include="pelican-bootstrap3\" />
+    <Folder Include="pelican-bootstrap3\static\" />
+    <Folder Include="pelican-bootstrap3\static\css\" />
+    <Folder Include="pelican-bootstrap3\static\css\pygments\" />
+    <Folder Include="pelican-bootstrap3\static\css\shariff\" />
+    <Folder Include="pelican-bootstrap3\static\fonts\" />
+    <Folder Include="pelican-bootstrap3\static\js\" />
+    <Folder Include="pelican-bootstrap3\static\tipuesearch\" />
+    <Folder Include="pelican-bootstrap3\static\tipuesearch\img\" />
+    <Folder Include="pelican-bootstrap3\templates\" />
+    <Folder Include="pelican-bootstrap3\templates\includes\" />
+    <Folder Include="pelican-bootstrap3_orig\" />
     <Folder Include="pelican-bootstrap3\static\" />
     <Folder Include="pelican-bootstrap3\static\css\" />
     <Folder Include="pelican-bootstrap3\static\css\pygments\" />
@@ -324,6 +568,13 @@
     <Folder Include="website\content\js\fullcalendar-3.0.0\lib\cupertino\" />
     <Folder Include="website\content\js\fullcalendar-3.0.0\lib\cupertino\images\" />
     <Folder Include="website\content\js\fullcalendar-3.0.0\locale\" />
+    <Folder Include="website\content\js\fullcalendar-3.5.0\" />
+    <Folder Include="website\content\js\fullcalendar-3.5.0\demos\" />
+    <Folder Include="website\content\js\fullcalendar-3.5.0\demos\json\" />
+    <Folder Include="website\content\js\fullcalendar-3.5.0\demos\js\" />
+    <Folder Include="website\content\js\fullcalendar-3.5.0\demos\php\" />
+    <Folder Include="website\content\js\fullcalendar-3.5.0\lib\" />
+    <Folder Include="website\content\js\fullcalendar-3.5.0\locale\" />
     <Folder Include="website\content\js\leaflet\" />
     <Folder Include="website\content\js\leaflet\images\" />
     <Folder Include="website\content\js\" />
@@ -334,7 +585,6 @@
   <ItemGroup>
     <Interpreter Include="..\..\..\VirtualEnvs\badadonf\">
       <Id>{24f31483-ce34-49a9-9e0d-71cd9eeab792}</Id>
-      <BaseInterpreter>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</BaseInterpreter>
       <Version>2.7</Version>
       <Description>badadonf (Python 64-bit 2.7)</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
@@ -343,13 +593,19 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>Amd64</Architecture>
     </Interpreter>
+    <Interpreter Include="C:\VirtualEnvs\badadonf\">
+      <Id>badadonf</Id>
+      <Version>2.7</Version>
+      <Description>badadonf (Python 2.7 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
-    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
-  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
-  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
        Visual Studio and specify your pre- and post-build commands in
        the BeforeBuild and AfterBuild targets below. -->
@@ -358,4 +614,5 @@
   </Target>
   <Target Name="AfterBuild">
   </Target>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>

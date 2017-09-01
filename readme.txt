@@ -1,41 +1,13 @@
-Build
------
-
-To build:
-
-C:\VirtualEnvs\badadonf\Scripts\activate
-cd C:\Projects\badadonf\badadonf\website
-pelican content
-
-To view:
-
-C:\VirtualEnvs\badadonf\Scripts\activate
-cd C:\Projects\badadonf\badadonf\website\output
-python -m pelican.server
-
-http://localhost:8000/
-
-Publish
--------
-
-C:\VirtualEnvs\badadonf\Scripts\activate
-cd C:\Projects\badadonf\badadonf\website
-pelican content
-cd C:\Projects\badadonf\badadonf
-python s3upload.py
-
-http://stackoverflow.com/questions/1086240/how-can-i-update-files-on-amazons-cdn-cloudfront
-https://console.aws.amazon.com/cloudfront/
-Select, then click Invalidations tab
-Enter "*"
-
-
 Setup
 -----
 
 pip install pelican
 pip install pillow
 pip install fabric
+
+Or
+
+pip install  -r D:\GitHub\badadonf\requirements.txt
 
 To build initial website:
 
@@ -45,8 +17,14 @@ pelican-quickstart
 
 Theme setup - see https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3
 
-cd C:\Projects\badadonf\badadonf\website\theme\
-git clone https://github.com/getpelican/pelican-themes.git
+cd /D D:\GitHub\badadonf
+git clone https://github.com/geographika/pelican-themes
+git clone https://github.com/getpelican/pelican-plugins.git
+
+Pelican plugins - need to update submodules too or lots are missing!
+
+cd /D D:\GitHub\badadonf\pelican-plugins
+git submodule update --init
 
 Other Notes
 -----------
@@ -56,16 +34,46 @@ https://commons.wikimedia.org/wiki/File:Badminton_pictogram.svg
 
 # add theme to project for easier editing
 
-mklink /J "C:\Projects\badadonf\badadonf\pelican-bootstrap3" "C:\Projects\badadonf\pelican-themes\pelican-bootstrap3"
+mklink /J "D:\GitHub\badadonf\pelican-bootstrap3" "D:\GitHub\badadonf\pelican-themes\pelican-bootstrap3"
 
-Git
----
+Build
+-----
 
-Pelican plugins - need to update submodules too or lots are missing!
-C:\Projects\badadonf\pelican-plugins
+To build:
 
-git.exe submodule update --init
+C:\VirtualEnvs\badadonf\Scripts\activate
+cd /D D:\GitHub\badadonf\website
+pelican content
 
+To view (easiest to keep this running in separate command window for hot reloading after new build):
+
+C:\VirtualEnvs\badadonf\Scripts\activate
+cd /D D:\GitHub\badadonf\website\output
+python -m pelican.server
+
+
+http://localhost:8000/
+
+Publish
+-------
+
+C:\VirtualEnvs\badadonf\Scripts\activate
+cd /D D:\GitHub\badadonf\website
+pelican content
+cd /D D:\GitHub\badadonf\
+python s3upload.py
+
+http://stackoverflow.com/questions/1086240/how-can-i-update-files-on-amazons-cdn-cloudfront
+https://console.aws.amazon.com/cloudfront/
+Select, then click Invalidations tab
+Enter "*"
+
+
+**Update**
+
+Use s3browser
+Delete old site
+Copy new one in
 
 PDFs
 ----
@@ -78,9 +86,29 @@ http://stackoverflow.com/questions/32466112/imagemagick-convert-pdf-to-jpeg
 pip install wand
 pip install bs4
 
+Need both the following installed:
 
-http://docs.wand-py.org/en/0.4.1/guide/install.html#install-imagemagick-windows - not needed?
+http://docs.wand-py.org/en/0.4.1/guide/install.html#install-imagemagick-windows
 http://ghostscript.com/download/gsdnld.html
+
+set MAGICK_HOME="C:\Program Files\ImageMagick-6.9.9-Q8"
+
+Error: TypeError: LoadLibrary() argument 1 must be string, not unicode
+For fix see: https://stackoverflow.com/questions/42660590/install-wand-on-a-windows-machine
+Edit wand/api.py
+
+        try:
+            tried_paths.append(libwand_path)
+            libwand = ctypes.CDLL(str(libwand_path))
+            if libwand_path == libmagick_path:
+                libmagick = libwand
+            else:
+                tried_paths.append(libmagick_path)
+                libmagick = ctypes.CDLL((libmagick_path))
+        except (IOError, OSError):
+
+
+No GhostScript: Exception TypeError: TypeError("object of type 'NoneType' has no len()",) in <bound method Image.__del__ of <wand.image.Image: (empty)>> ignored
 
 Interclub
 ---------

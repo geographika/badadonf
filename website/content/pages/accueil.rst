@@ -8,21 +8,25 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 :summary: Horaires pour badminton
 :save_as: index.html
 :status: hidden
+:page-order: 000
+
+.. raw:: html
+
+     <p class="bg-info">On sera présent au Forum des Associations le Dimanche, Gymnase Lionel Terray, 
+        le 10 Septembre 2017 de 10h à 18h!</p>
+
+     <p class="bg-warning">Tournoi 18-19 Novembre 2017 - <a href="/pages/9eme-badadonf-tour.html">9ème Badadonf Tour!</a></p>
 
 .. image:: ./images/tournoi_vierzon_2011.jpg
     :align: right
     :alt: mika
-
-..
-    :scale: 50 %
-    Didn't work. Resized to 50%
-
+   
 Horaires
 --------
     
 **Lundi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
-Voir `la page entraînements <{filename}/pages/entrainements.rst>`_ pour plus de détails. 
+Voir `la section entraînements <{filename}/pages/leclub.rst>`_ pour plus de détails. 
 
 * 19h – 20h30 1er entraînement
 * 20h30 – 22h 2ème entraînement

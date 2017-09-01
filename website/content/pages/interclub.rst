@@ -7,6 +7,7 @@ Interclub
 :authors: Badadonf
 :summary: équipe et resultats
 :styles: 
+:page-order: 003
 
 **Capitaine:** Ludovic M.
 

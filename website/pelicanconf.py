@@ -4,7 +4,6 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Badadonf'
 SITENAME = u'Badadonf'
-#SITEURL = 'http://badadonf.tk'
 #SITEURL = "http://localhost:8000"
 SITEURL = ''
 PATH = 'content'
@@ -37,20 +36,24 @@ DEFAULT_PAGINATION = False
 
 # My Settings
 
-THEME = '../../pelican-themes/pelican-bootstrap3'
+THEME = '../pelican-bootstrap3'
 BOOTSTRAP_THEME = 'united'
 
 #https://github.com/wrobstory/pelican_dynamic
 
 # https://github.com/mortada/pelican_javascript
 
-PLUGIN_PATHS = ['../../pelican-plugins']
-PLUGINS = ['pelican_javascript','pdf-img']
-
+PLUGIN_PATHS = ['../pelican-plugins']
+PLUGINS = ['pelican_javascript','pdf-img','i18n_subsites']
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
 # do not process HTML files
 READERS = {'html': None}
 
 #SITELOGO = 'images/badadonf_fab.jpg'
+
+PAGE_ORDER_BY = 'page-order'
 
 DISPLAY_PAGES_ON_MENU = True
 STATIC_PATHS = ['js','images']
