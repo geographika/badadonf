@@ -17,6 +17,8 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
      <p class="bg-warning">Tournoi 18-19 Novembre 2017 - <a href="/pages/9eme-badadonf-tour.html">9ème Badadonf Tour!</a></p>
 
+     <p class="bg-info">Première séance de la saison - lundi 11 septembre au COSEC à partir du 19h</p>
+
 .. image:: ./images/tournoi_vierzon_2011.jpg
     :align: right
     :alt: mika

@@ -516,6 +516,8 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="website\content\pages\vosb.rst" />
+    <Content Include="website\content\pdfs\feulle_inscription_Badadonf_9.pdf" />
+    <Content Include="website\content\pdfs\feulle_inscription_Badadonf_9.xls" />
     <Content Include="website\content\pdfs\IC_class_Sen_D3B_J1_16-17_N&amp;B-1.pdf" />
     <Content Include="website\content\pdfs\IC_class_Sen_D3B_J1_16-17_NB.pdf" />
     <Content Include="website\content\pdfs\IC_site_WEB_Sen_D3B_J2_16-17.pdf" />
@@ -525,6 +527,7 @@
     <Content Include="website\content\pdfs\Interclub_16354_D3B_J2_VOSB_ASSGBAD.pdf" />
     <Content Include="website\content\pdfs\plaquette_de_la_VOSB.pdf" />
     <Content Include="website\content\pdfs\Poules_mixte_masculin.pdf" />
+    <Content Include="website\content\pdfs\Vosb9_Reglement_Particulier.pdf" />
     <Content Include="website\content\pdfs\Vosb9__Plaquette.pdf" />
     <Content Include="website\content\test.rst.ignore" />
     <Content Include="website\develop_server.sh" />
