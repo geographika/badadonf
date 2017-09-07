@@ -63,10 +63,7 @@ pelican content
 cd /D D:\GitHub\badadonf\
 python s3upload.py
 
-http://stackoverflow.com/questions/1086240/how-can-i-update-files-on-amazons-cdn-cloudfront
-https://console.aws.amazon.com/cloudfront/
-Select, then click Invalidations tab
-Enter "*"
+
 
 
 **Update**
@@ -74,6 +71,11 @@ Enter "*"
 Use s3browser
 Delete old site
 Copy new one in
+
+http://stackoverflow.com/questions/1086240/how-can-i-update-files-on-amazons-cdn-cloudfront
+https://console.aws.amazon.com/cloudfront/
+Select, then click Invalidations tab
+Enter "*"
 
 PDFs
 ----
