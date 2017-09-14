@@ -12,26 +12,41 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
 .. raw:: html
 
-     <p class="bg-info">On sera présent au Forum des Associations le Dimanche, Gymnase Lionel Terray, 
-        le 10 Septembre 2017 de 10h à 18h!</p>
-
      <p class="bg-warning">Tournoi 18-19 Novembre 2017 - <a href="/pages/9eme-badadonf-tour.html">9ème Badadonf Tour!</a></p>
-
-     <p class="bg-info">Première séance de la saison - lundi 11 septembre au COSEC à partir du 19h</p>
 
 .. image:: ./images/tournoi_vierzon_2011.jpg
     :align: right
     :alt: mika
-   
+
+Inscrivez-Vous!
+---------------
+
+Adultes:
+
++ `Inscription Adultes (PDF) <{filename}/pdfs/Inscription_Adultes_Loisirs.pdf>`_
++ `Informations Adultes (PDF) <{filename}/pdfs/Informations_inscription_Adultes.pdf>`_
+
+Jeunes (8-16 ans):
+ 
++ `Inscription Jeunes (PDF) <{filename}/pdfs/Inscription_Jeunes.pdf>`_
++ `Informations Jeunes (PDF) <{filename}/pdfs/Informations_inscription_Jeunes.pdf>`_
+
+..et aussi les parents des jeunes!
+ 
++ `Inscription Parent du Mercredi (PDF) <{filename}/pdfs/Inscription_Parents_du_mercredi.pdf>`_
+    
+Voir `la page Cotisations Saison 2017-2018 <{filename}/pages/leclub.rst>`_ pour plus de détails.
+
 Horaires
 --------
     
+Pas de séances pendant les vacances scolaires de Noël . 
+
 **Lundi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
 Voir `la section entraînements <{filename}/pages/leclub.rst>`_ pour plus de détails. 
 
-* 19h – 20h30 1er entraînement
-* 20h30 – 22h 2ème entraînement
+* 19h – 22h (Reprise le lundi 11 sept. le 02 oct. pour l’entraînement)
 
 **Mercredi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
@@ -44,6 +59,8 @@ Voir `la section entraînements <{filename}/pages/leclub.rst>`_ pour plus de dé
 
 **Vendredi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
+*En période scolaire*
+
 * 20h – 22h		Jeu Libre et INTERCLUB
 
 Carte
@@ -55,7 +72,7 @@ Carte
 Rappel
 ------
 
-Les volants sont fournis par le club pour les entrainements et les tournois :
+Les volants sont fournis par le club pour les entraînements et les tournois :
 
 * Volants en plastique pour les loisirs et compétiteurs Non Classés
 * Volants en plumes pour les compétiteurs Classés

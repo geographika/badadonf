@@ -19,16 +19,11 @@
 + Nombre de terrains : **7** (sur un parquet tout neuf!)
 + Date limite d'inscription : **18/10/2017**
 + Date de tirage au sort et prise en compte du CPPH: **03/11/2017**
-+ Juge arbitre : *à annoncer*
++ Juge arbitre : **Jack JOUHANET**
 + Numéro d'autorisation : *Demande déposée le 04/08/2017*
 
 Les Tableaux
 ------------
-
-Inscriptions sur http://www.badnet.org.
-
-Le module d'inscription en ligne de BadNet est gratuit et accessible à tous. Les joueurs s'inscrivent au tournoi soit
-directement, soit par l'intermédiaire de leur club.
 
 + 1 tableau : 12 €
 + 2 tableaux : 17 €
@@ -50,7 +45,6 @@ directement, soit par l'intermédiaire de leur club.
 
 + *2 sortants par poule*
 + *Seulement les joueurs des catégories séniors et vétérans peuvent participer.*
-+ *Les inscriptions se feront sur le site de Badnet (http://www.badnet.org) par ordre d'arrivée.*
 
 Tous les tableaux se joueront en poules qualificatives dans la mesure du possible. Toutefois, ce mode
 de déroulement pourra être modifié en fonction du nombre d'inscriptions dans chaque tableau.

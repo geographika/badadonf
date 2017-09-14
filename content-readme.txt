@@ -43,3 +43,11 @@ Edited files:
 base.html
 footer.html
 links.html
+
+
+
+Bootstrap Links
+---------------
+
+     <p class="bg-info">On sera présent au Forum des Associations le Dimanche, Gymnase Lionel Terray, 
+        le 10 Septembre 2017 de 10h à 18h!</p>
