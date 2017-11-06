@@ -43,6 +43,9 @@
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/3.0.3/jquery.qtip.min.css" />
     <script src='http://cdnjs.cloudflare.com/ajax/libs/qtip2/3.0.3/jquery.qtip.min.js'></script>
 
+    <script src='/js/lightbox-5.3.0/ekko-lightbox.min.js'></script>
+    <link rel="stylesheet" href="/js/lightbox-5.3.0/ekko-lightbox.css" />
+
     
     
 
@@ -53,6 +56,12 @@
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             <a href="/" class="navbar-brand">
 Badadonf            </a>
         </div>
@@ -73,6 +82,9 @@ Badadonf            </a>
                          <li><a href="/pages/9eme-badadonf-tour.html">
                              9ème Badadonf Tour
                           </a></li>
+                        <li >
+                            <a href="/category/archives.html">Archives</a>
+                        </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
             </ul>
@@ -89,9 +101,15 @@ Badadonf            </a>
         <h1 class="entry-title">VOSB Badminton de Saint-Brice-sous-Forêt</h1>
         
         <div class="entry-content">
-            <p class="bg-warning">Tournoi 18-19 Novembre 2017 - <a href="/pages/9eme-badadonf-tour.html">9ème Badadonf Tour!</a></p><img alt="mika" class="align-right" src="./images/tournoi_vierzon_2011.jpg" />
+            <div class="section" id="evenements-a-venir">
+<h2>Événements à venir</h2>
+<div class="bg-warning"><p>Tournoi 18-19 Novembre 2017 - <a class="reference external" href="/pages/9eme-badadonf-tour.html">9ème Badadonf Tour!</a></p>
+</div><div class="bg-success"><p>Inscris-toi vite ! 1er Tournoi Interne Badadonf VOSB Badminton du Jeudi 7 décembre 2017. Voir
+<a class="reference external" href="/pdfs/1er_Tournoi_Interne_BADMINTON_VOSB_07122017.pdf">1er Tournoi Interne BADMINTON VOSB 07122017.pdf (PDF)</a></p>
+</div><img alt="mika" class="align-right" src="./images/tournoi_vierzon_2011.jpg" />
+</div>
 <div class="section" id="inscrivez-vous">
-<h2>Inscrivez-Vous!</h2>
+<h2>Inscrivez-vous!</h2>
 <p>Adultes:</p>
 <ul class="simple">
 <li><a class="reference external" href="/pdfs/Inscription_Adultes_Loisirs.pdf">Inscription Adultes (PDF)</a></li>
@@ -241,13 +259,19 @@ Badadonf            </a>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy;  Badadonf
+         <div class="col-xs-10">&copy; 2017 Badadonf
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
          <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Retour vers le haut</a></p></div>
       </div>
    </div>
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
 </footer>
 <!--<script src='/js/fullcalendar-3.0.0/lib/moment.min.js'></script>
 <script src="/theme/js/jquery.min.js"></script>

@@ -43,6 +43,9 @@
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/3.0.3/jquery.qtip.min.css" />
     <script src='http://cdnjs.cloudflare.com/ajax/libs/qtip2/3.0.3/jquery.qtip.min.js'></script>
 
+    <script src='/js/lightbox-5.3.0/ekko-lightbox.min.js'></script>
+    <link rel="stylesheet" href="/js/lightbox-5.3.0/ekko-lightbox.css" />
+
     
     
 
@@ -53,6 +56,12 @@
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             <a href="/" class="navbar-brand">
 Badadonf            </a>
         </div>
@@ -73,6 +82,9 @@ Badadonf            </a>
                          <li><a href="/pages/9eme-badadonf-tour.html">
                              9ème Badadonf Tour
                           </a></li>
+                        <li >
+                            <a href="/category/archives.html">Archives</a>
+                        </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
             </ul>
@@ -91,46 +103,24 @@ Badadonf            </a>
         <div class="entry-content">
             <p><strong>Capitaine:</strong> Ludovic M.</p>
 <p><strong>L'équipe:</strong></p>
-<ul class="simple">
-<li>Mélanie</li>
-<li>Marion</li>
-<li>Flavien</li>
-<li>Gilbert</li>
-<li>Jérôme D.</li>
-<li>Jérôme P.</li>
-<li>Stéphane</li>
-<li>Michaël</li>
-<li>Ludovic</li>
-</ul>
 <p><strong>Remplaçants:</strong></p>
-<ul class="simple">
-<li>Richard</li>
-<li>Aurélie</li>
-<li>Seth</li>
-</ul>
-<img alt="Les Sportifs!" src="/images/interclub_022017.jpg"/>
 <div class="section" id="resultats">
 <h2>Resultats</h2>
-<ul class="simple">
-<li><a class="reference external" href="/pdfs/IC_site_WEB_Sen_D3B_J2_16-17.pdf">Résultat J2: Saint Gratien</a></li>
-<li><a class="reference external" href="/pdfs/IC_site_WEB_Sen_D3B_J4_16-17.pdf">Résultat J4: Luzarches</a></li>
-<li><a class="reference external" href="/pdfs/IC_site_WEB_Sen_D3B_J6_16-17.pdf">Résultat J6: Pontoise</a></li>
-</ul>
+<blockquote>
+À venir.</blockquote>
 </div>
-<div class="section" id="ligue-d3b">
-<h2>Ligue D3B</h2>
+<div class="section" id="ligue-d3a">
+<h2>Ligue D3A</h2>
 <ul class="simple">
-<li>PONTOISE 6</li>
-<li><strong>SAINT BRICE 1</strong></li>
-<li>JOUY LE MOUTIER 5</li>
-<li>ST GRATIEN 1</li>
-<li>LUZARCHES 2</li>
-<li>ERAGNY 3</li>
+<li>ARGENTEUIL</li>
+<li>BESSANCOURT 3</li>
+<li>EAUBONNE 6</li>
+<li>ERAGNY 2</li>
+<li>ERMONT 8</li>
+<li>MONMAGNY 2</li>
+<li><strong>SAINT BRICE</strong></li>
 </ul>
-<a href="/pdfs/IC_class_Sen_D3B_J1_16-17_N&amp;B-1.pdf"><img alt="Calendrier" src="/__pdf_previews__/pdfs/IC_class_Sen_D3B_J1_16-17_N&amp;B-1.pdf.png"/></a>
-<ul class="simple">
-<li>Ligue D3 <a class="reference external" href="/pdfs/Poules_mixte_masculin.pdf">Poules_mixte_masculin.pdf</a></li>
-</ul>
+<a href="/pdfs/IC_class_Sen_D3A_J1_17-18_N&amp;B.pdf"><img alt="Calendrier" src="/__pdf_previews__/pdfs/IC_class_Sen_D3A_J1_17-18_N&amp;B.pdf.png"/></a>
 </div>
 
         </div>
@@ -200,13 +190,19 @@ Badadonf            </a>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy;  Badadonf
+         <div class="col-xs-10">&copy; 2017 Badadonf
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
          <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Retour vers le haut</a></p></div>
       </div>
    </div>
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
 </footer>
 <!--<script src='/js/fullcalendar-3.0.0/lib/moment.min.js'></script>
 <script src="/theme/js/jquery.min.js"></script>

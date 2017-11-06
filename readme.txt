@@ -69,13 +69,17 @@ python s3upload.py
 **Update**
 
 Use s3browser
-Delete old site
+Delete old site - NOT favicon.ico, bad-logs or badadonf-logs
 Copy new one in
+Apply "Read" and "Read Permissions" to "All Users" for all files except the logs
 
 http://stackoverflow.com/questions/1086240/how-can-i-update-files-on-amazons-cdn-cloudfront
 https://console.aws.amazon.com/cloudfront/
 Select, then click Invalidations tab
 Enter "*"
+
+Test at https://badadonf.s3.amazonaws.com/index.html
+Then http://badadonf.fr/
 
 PDFs
 ----
@@ -116,3 +120,12 @@ Interclub
 ---------
 
 Get results from http://www.cdbvo.fr/vie-sportive/seniors/interclub-mixte-d3.html
+
+
+JS
+--
+
+Bootstrap Lightbox
+
+https://github.com/ashleydw/lightbox/tree/master/dist
+https://github.com/ashleydw/lightbox/releases

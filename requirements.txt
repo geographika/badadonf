@@ -30,3 +30,6 @@ setuptools==36.3.0
 six==1.10.0
 Unidecode==0.4.21
 Wand==0.4.4
+olefile==0.44
+Pillow==4.3.0
+piexif==1.0.13

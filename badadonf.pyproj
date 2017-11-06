@@ -34,6 +34,7 @@
     </Content>
     <Content Include="files\Calendrier_Scolaire_Zone_C.ics" />
     <Content Include="files\Interclub_16354_D3B_J2_VOSB_ASSGBAD.xlsx" />
+    <Content Include="files\lightbox-5.3.0.zip" />
     <Content Include="pelican-bootstrap3\AUTHORS.md" />
     <Content Include="pelican-bootstrap3\AUTHORS.md" />
     <Content Include="pelican-bootstrap3\CONTRIBUTING.md" />
@@ -292,8 +293,27 @@
     <Content Include="website\content\extra\favicon-310.png" />
     <Content Include="website\content\extra\favicon-32.png" />
     <Content Include="website\content\extra\favicon.png" />
+    <Content Include="website\content\images\gallery\tournoi_deguise\20170504_200757.jpg" />
+    <Content Include="website\content\images\gallery\tournoi_deguise\20170504_200803.jpg" />
+    <Content Include="website\content\images\gallery\tournoi_deguise\20170504_200806.jpg" />
+    <Content Include="website\content\images\gallery\tournoi_deguise\20170504_200819.jpg" />
+    <Content Include="website\content\images\gallery\tournoi_deguise\20170504_202426.jpg" />
+    <Content Include="website\content\images\gallery\tournoi_deguise\20170504_220920.jpg" />
+    <Content Include="website\content\images\gallery\tournoi_deguise\20170504_220921.jpg" />
+    <Content Include="website\content\images\gallery\tournoi_deguise\20170504_220924.jpg" />
+    <Content Include="website\content\images\gallery\tournoi_deguise\20170504_220926.jpg" />
+    <Content Include="website\content\images\gallery\tournoi_deguise\20170504_220927.jpg" />
+    <Content Include="website\content\images\gallery\tournoi_deguise\20170504_220931.jpg" />
+    <Content Include="website\content\images\gallery\tournoi_deguise\blacklist.txt" />
+    <Content Include="website\content\images\gallery\tournoi_deguise\captions.txt" />
     <Content Include="website\content\images\tournoi_vierzon_2011.jpg" />
     <Content Include="website\content\images\interclub_022017.jpg" />
+    <Content Include="website\content\interclub.rst" />
+    <Content Include="website\content\js\lightbox-5.3.0\ekko-lightbox.css" />
+    <Content Include="website\content\js\lightbox-5.3.0\ekko-lightbox.js" />
+    <Content Include="website\content\js\lightbox-5.3.0\ekko-lightbox.js.map" />
+    <Content Include="website\content\js\lightbox-5.3.0\ekko-lightbox.min.js" />
+    <Content Include="website\content\js\lightbox-5.3.0\ekko-lightbox.min.js.map" />
     <Content Include="website\content\js\fullcalendar-3.0.0\CHANGELOG.txt" />
     <Content Include="website\content\js\fullcalendar-3.0.0\CONTRIBUTING.txt" />
     <Content Include="website\content\js\fullcalendar-3.0.0\demos\agenda-views.html" />
@@ -508,6 +528,7 @@
     <Content Include="website\content\pages\calendar.html" />
     <Content Include="website\content\pages\calendrier.rst" />
     <Content Include="website\content\pages\accueil.rst" />
+    <Content Include="website\content\gallery.rst" />
     <Content Include="website\content\pages\leclub.rst" />
     <Content Include="website\content\pages\facebook.html" />
     <Content Include="website\content\pages\interclub.rst" />
@@ -516,10 +537,12 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="website\content\pages\vosb.rst" />
+    <Content Include="website\content\pdfs\1er_Tournoi_Interne_BADMINTON_VOSB_07122017.pdf" />
     <Content Include="website\content\pdfs\Charte_du_bon_badiste.pdf" />
     <Content Include="website\content\pdfs\Charte_du_jeune_badiste.pdf" />
     <Content Include="website\content\pdfs\feulle_inscription_Badadonf_9.pdf" />
     <Content Include="website\content\pdfs\feulle_inscription_Badadonf_9.xls" />
+    <Content Include="website\content\pdfs\IC_class_Sen_D3A_J1_17-18_N&amp;B.pdf" />
     <Content Include="website\content\pdfs\IC_class_Sen_D3B_J1_16-17_N&amp;B-1.pdf" />
     <Content Include="website\content\pdfs\IC_class_Sen_D3B_J1_16-17_NB.pdf" />
     <Content Include="website\content\pdfs\IC_site_WEB_Sen_D3B_J2_16-17.pdf" />
@@ -570,6 +593,9 @@
     <Folder Include="website\content\" />
     <Folder Include="website\content\extra\" />
     <Folder Include="website\content\images\" />
+    <Folder Include="website\content\images\gallery\" />
+    <Folder Include="website\content\images\gallery\tournoi_deguise\" />
+    <Folder Include="website\content\js\lightbox-5.3.0\" />
     <Folder Include="website\content\js\fullcalendar-3.0.0\" />
     <Folder Include="website\content\js\fullcalendar-3.0.0\demos\" />
     <Folder Include="website\content\js\fullcalendar-3.0.0\demos\json\" />

@@ -96,17 +96,34 @@
         </article>
     </section>
 
-{% endblock %}
+    {% if article.photo_gallery %}
+<div class="gallery">
+    {% for title, gallery in article.photo_gallery %}
+    <h1>{{ title }}</h1>
+    {% for name, photo, thumb, exif, caption in gallery %}
+    <a href="{{ SITEURL }}/{{ photo }}" 
+       data-toggle="lightbox"
+       data-gallery="gallery-name"
+       class="img-fluid"
+       title="{{ name }}" exif="{{ exif }}" caption="{{ caption }}"><img title="{{ caption }}" 
+                                                                         src="{{ SITEURL }}/{{ thumb }}"></a>
+    {% endfor %}
+    {% endfor %}
+</div>
+    {% endif %}
 
-{% block scripts %}
-{% if ADDTHIS_PROFILE %}
+
+    {% endblock %}
+
+    {% block scripts %}
+    {% if ADDTHIS_PROFILE %}
     {% if ADDTHIS_DATA_TRACK_ADDRESSBAR|default(true) %}
-        <script type="text/javascript">var addthis_config = {"data_track_addressbar": true};</script>
+    <script type="text/javascript">var addthis_config = { "data_track_addressbar": true };</script>
     {% endif %}
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ ADDTHIS_PROFILE }}"></script>
-{% endif %}
-{% if SHARIFF|default(false) %}
+    {% endif %}
+    {% if SHARIFF|default(false) %}
     <!-- add shariff support -->
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/shariff.min.js"></script>
-{% endif %}
-{% endblock %}
+    {% endif %}
+    {% endblock %}

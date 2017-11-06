@@ -44,7 +44,7 @@ BOOTSTRAP_THEME = 'united'
 # https://github.com/mortada/pelican_javascript
 
 PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ['pelican_javascript','pdf-img','i18n_subsites']
+PLUGINS = ['pelican_javascript','pdf-img','i18n_subsites','photos']
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
 }
@@ -69,3 +69,13 @@ EXTRA_PATH_METADATA = {
    # 'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.png'}
 }
+
+# https://github.com/getpelican/pelican-plugins/tree/master/gallery
+# see D:\GitHub\badadonf\pelican-plugins\photos\photos.py
+PHOTO_LIBRARY = r'D:\GitHub\badadonf\website\content\images\gallery'
+PHOTO_RESIZE_JOBS = -1 # debug
+PHOTO_EXIF_KEEP = True
+PHOTO_EXIF_AUTOROTATE = True # true by default
+# originals (1024, 768, 80)
+#PHOTO_GALLERY = (14048, 16264, 80)
+#PHOTO_ARTICLE = (2048, 3264, 80)
