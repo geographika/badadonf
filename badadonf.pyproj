@@ -540,6 +540,8 @@
     <Content Include="website\content\pdfs\1er_Tournoi_Interne_BADMINTON_VOSB_07122017.pdf" />
     <Content Include="website\content\pdfs\Charte_du_bon_badiste.pdf" />
     <Content Include="website\content\pdfs\Charte_du_jeune_badiste.pdf" />
+    <Content Include="website\content\pdfs\Convocations 9ème Badadonf.xlsx" />
+    <Content Include="website\content\pdfs\Convocations_9eme_Badadonf.pdf" />
     <Content Include="website\content\pdfs\feulle_inscription_Badadonf_9.pdf" />
     <Content Include="website\content\pdfs\feulle_inscription_Badadonf_9.xls" />
     <Content Include="website\content\pdfs\IC_class_Sen_D3A_J1_17-18_N&amp;B.pdf" />

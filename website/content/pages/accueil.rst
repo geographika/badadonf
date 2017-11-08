@@ -19,6 +19,8 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
 Tournoi 18-19 Novembre 2017 - `9ème Badadonf Tour! <{filename}/pages/tournoi.rst>`_
 
+**Convocations en ligne!** - `Convocations_9eme_Badadonf.pdf (PDF) <{filename}/pdfs/Convocations_9eme_Badadonf.pdf>`_
+
 .. raw:: html
 
     </div>
@@ -27,8 +29,11 @@ Tournoi 18-19 Novembre 2017 - `9ème Badadonf Tour! <{filename}/pages/tournoi.rs
 
      <div class="bg-success">
 
-Inscris-toi vite ! 1er Tournoi Interne Badadonf VOSB Badminton du Jeudi 7 décembre 2017. Voir 
-`1er Tournoi Interne BADMINTON VOSB 07122017.pdf (PDF) <{filename}/pdfs/1er_Tournoi_Interne_BADMINTON_VOSB_07122017.pdf>`_
+Inscris-toi vite ! 1er Tournoi Interne Badadonf VOSB Badminton du Jeudi 14 décembre 2017. 
+Lien Internet pour le "Qui ramène quoi" - `tchinisse.com <http://tchinisse.com/?ref=1197718ie4690666e8vglxrmq>`_ (nourriture, boissons...) . 
+
+.. 
+    Voir `1er Tournoi Interne BADMINTON VOSB 07122017.pdf (PDF) <{filename}/pdfs/1er_Tournoi_Interne_BADMINTON_VOSB_07122017.pdf>`_
 
 .. raw:: html
 

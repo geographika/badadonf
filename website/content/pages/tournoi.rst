@@ -10,6 +10,7 @@
 
 **The Expendables!**
 
+* Convocations en ligne! - `Convocations_9eme_Badadonf.pdf (PDF) <{filename}/pdfs/Convocations_9eme_Badadonf.pdf>`_
 * `Plaquette du Tournoi <{filename}/pdfs/Vosb9__Plaquette.pdf>`_
 * `Feulle d'Inscription Badadonf 9 (Excel) <{filename}/pdfs/feulle_inscription_Badadonf_9.xls>`_
 * `Feulle d'Inscription Badadonf 9 (PDF) <{filename}/pdfs/feulle_inscription_Badadonf_9.pdf>`_

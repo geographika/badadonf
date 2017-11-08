@@ -71,7 +71,7 @@ python s3upload.py
 Use s3browser
 Delete old site - NOT favicon.ico, bad-logs or badadonf-logs
 Copy new one in
-Apply "Read" and "Read Permissions" to "All Users" for all files except the logs
+Apply "Read" to "All Users" for all files except the logs
 
 http://stackoverflow.com/questions/1086240/how-can-i-update-files-on-amazons-cdn-cloudfront
 https://console.aws.amazon.com/cloudfront/
