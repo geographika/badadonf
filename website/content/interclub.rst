@@ -32,7 +32,7 @@ Interclubs 2016-2017
 .. image:: /images/interclub_022017.jpg
 	:alt: Les Sportifs!
 
-Resultats
+Résultats
 +++++++++
 
 * `Résultat J2: Saint Gratien <{filename}/pdfs/IC_site_WEB_Sen_D3B_J2_16-17.pdf>`_

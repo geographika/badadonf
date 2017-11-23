@@ -56,11 +56,31 @@
                 get the pdf
             </a>
         {% endif %}
+
         <div class="entry-content">
             {{ page.content }}
             {% if page.comments == 'enabled' %}
                 {% include 'includes/comments.html' %}
             {% endif %}
         </div>
+
+        {% if page.photo_gallery %}
+        <div class="gallery">
+            {% for title, gallery in page.photo_gallery %}
+            <h1>{{ title }}</h1>
+            {% for name, photo, thumb, exif, caption in gallery %}
+            <a href="{{ SITEURL }}/{{ photo }}"
+               data-toggle="lightbox"
+               data-gallery="gallery-name"
+               class="img-fluid"
+               title="{{ name }}" exif="{{ exif }}" caption="{{ caption }}">
+                <img title="{{ caption }}"
+                     src="{{ SITEURL }}/{{ thumb }}">
+            </a>
+            {% endfor %}
+            {% endfor %}
+        </div>
+        {% endif %}
+
     </section>
 {% endblock %}

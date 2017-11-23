@@ -17,9 +17,7 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
      <div class="bg-warning">
 
-Tournoi 18-19 Novembre 2017 - `9ème Badadonf Tour! <{filename}/pages/tournoi.rst>`_
-
-**Convocations en ligne!** - `Convocations_9eme_Badadonf.pdf (PDF) <{filename}/pdfs/Convocations_9eme_Badadonf.pdf>`_
+`9ème Badadonf Tour Résultats! <{filename}/pages/resultats.rst>`_
 
 .. raw:: html
 

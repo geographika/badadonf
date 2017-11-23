@@ -129,3 +129,10 @@ Bootstrap Lightbox
 
 https://github.com/ashleydw/lightbox/tree/master/dist
 https://github.com/ashleydw/lightbox/releases
+
+Photos
+------
+
+For Canon:
+
+    if ispiexif and settings['PHOTO_EXIF_KEEP'] and im.format in ('JPEG', 'MPO'):  # Only works with JPEG exif for sure.

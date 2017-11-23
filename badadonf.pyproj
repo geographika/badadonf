@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>71418b45-78ff-4199-939d-ff188c979766</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>s3upload.py</StartupFile>
+    <StartupFile>scripts\photo_resize.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="s3upload.py" />
+    <Compile Include="scripts\photo_resize.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="website\fabfile.py" />
     <Compile Include="website\pelicanconf.py" />
     <Compile Include="website\publishconf.py" />
@@ -290,9 +293,70 @@
     <Content Include="readme.txt" />
     <Content Include="requirements.txt" />
     <Content Include="files\tournoi_vierzon_2011_original.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.16.49.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.17.00.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.17.53.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.18.11.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.18.21.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.18.35.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.18.44.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.18.49.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.19.10.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.19.48.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.20.12.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.20.59.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.21.44.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.22.13.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.22.23.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.22.50.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.23.07.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.23.29.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.23.36.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\unnamed %281%29.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\unnamed %283%29.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\unnamed %284%29.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\unnamed %286%29.jpg" />
+    <Content Include="website\content\images\gallery\badadonf9\unnamed.jpg" />
+    <Content Include="website\content\interclub_eragny.rst" />
     <Content Include="website\content\extra\favicon-310.png" />
     <Content Include="website\content\extra\favicon-32.png" />
     <Content Include="website\content\extra\favicon.png" />
+    <Content Include="website\content\entrainement.rst" />
+    <Content Include="website\content\images\gallery\entrainement\GYLL9563.jpeg" />
+    <Content Include="website\content\images\gallery\entrainement\IMG_9334.JPG" />
+    <Content Include="website\content\images\gallery\entrainement\IMG_9335.JPG" />
+    <Content Include="website\content\images\gallery\entrainement\IMG_9336.JPG" />
+    <Content Include="website\content\images\gallery\entrainement\IMG_9337.JPG" />
+    <Content Include="website\content\images\gallery\entrainement\IMG_9338.JPG" />
+    <Content Include="website\content\images\gallery\entrainement\IMG_9339.JPG" />
+    <Content Include="website\content\images\gallery\entrainement\IMG_9340.JPG" />
+    <Content Include="website\content\images\gallery\entrainement\IMG_9342.JPG" />
+    <Content Include="website\content\images\gallery\entrainement\IMG_9343.JPG" />
+    <Content Include="website\content\images\gallery\entrainement\IMG_9344.JPG" />
+    <Content Include="website\content\images\gallery\entrainement\IMG_9345.JPG" />
+    <Content Include="website\content\images\gallery\entrainement\LTLP5946.jpeg" />
+    <Content Include="website\content\images\gallery\entrainement\NSMB0067.jpeg" />
+    <Content Include="website\content\images\gallery\entrainement\TFIR5789.jpeg" />
+    <Content Include="website\content\images\gallery\interclub\eragny\DGXA4559.jpeg" />
+    <Content Include="website\content\images\gallery\interclub\eragny\Double femme.png" />
+    <Content Include="website\content\images\gallery\interclub\eragny\Double homme.png" />
+    <Content Include="website\content\images\gallery\interclub\eragny\EXFU6155.jpeg" />
+    <Content Include="website\content\images\gallery\interclub\eragny\EYUA2342.jpeg" />
+    <Content Include="website\content\images\gallery\interclub\eragny\Global.png" />
+    <Content Include="website\content\images\gallery\interclub\eragny\GWVP5684.jpeg" />
+    <Content Include="website\content\images\gallery\interclub\eragny\GXUE2699.jpeg" />
+    <Content Include="website\content\images\gallery\interclub\eragny\ILOQ7539.jpeg" />
+    <Content Include="website\content\images\gallery\interclub\eragny\Jerome.png" />
+    <Content Include="website\content\images\gallery\interclub\eragny\KEZI6299.jpeg" />
+    <Content Include="website\content\images\gallery\interclub\eragny\KZFC2743.jpeg" />
+    <Content Include="website\content\images\gallery\interclub\eragny\Photo de groupe + titre.png" />
+    <Content Include="website\content\images\gallery\interclub\eragny\Photo de groupe 1.png" />
+    <Content Include="website\content\images\gallery\interclub\eragny\Photo de groupe 2.png" />
+    <Content Include="website\content\images\gallery\interclub\eragny\Photo de groupe.png" />
+    <Content Include="website\content\images\gallery\interclub\eragny\RHQB1856.jpeg" />
+    <Content Include="website\content\images\gallery\interclub\eragny\SMGU0208.jpeg" />
+    <Content Include="website\content\images\gallery\interclub\eragny\VKLY9615.jpeg" />
+    <Content Include="website\content\images\gallery\interclub\eragny\XDJY5838.jpeg" />
     <Content Include="website\content\images\gallery\tournoi_deguise\20170504_200757.jpg" />
     <Content Include="website\content\images\gallery\tournoi_deguise\20170504_200803.jpg" />
     <Content Include="website\content\images\gallery\tournoi_deguise\20170504_200806.jpg" />
@@ -533,11 +597,22 @@
     <Content Include="website\content\pages\facebook.html" />
     <Content Include="website\content\pages\interclub.rst" />
     <Content Include="website\content\pages\map.html" />
-    <Content Include="website\content\pages\tournoi.rst">
+    <Content Include="website\content\pages\resultats.rst" />
+    <Content Include="website\content\tournoi.rst">
       <SubType>Code</SubType>
     </Content>
     <Content Include="website\content\pages\vosb.rst" />
     <Content Include="website\content\pdfs\1er_Tournoi_Interne_BADMINTON_VOSB_07122017.pdf" />
+    <Content Include="website\content\pdfs\badadonf9\dd_veteran_d.pdf" />
+    <Content Include="website\content\pdfs\badadonf9\dh_veteran_d.pdf" />
+    <Content Include="website\content\pdfs\badadonf9\dh_veteran_nc_p.pdf" />
+    <Content Include="website\content\pdfs\badadonf9\dm_veteran_nc_p.pdf" />
+    <Content Include="website\content\pdfs\badadonf9\sd_cadette_nc_d.pdf" />
+    <Content Include="website\content\pdfs\badadonf9\sd_junior_nc_d.pdf" />
+    <Content Include="website\content\pdfs\badadonf9\sd_nc_p.pdf" />
+    <Content Include="website\content\pdfs\badadonf9\sh_cadet_nc_d.pdf" />
+    <Content Include="website\content\pdfs\badadonf9\sh_junior_nc_d.pdf" />
+    <Content Include="website\content\pdfs\badadonf9\sh_nc_p.pdf" />
     <Content Include="website\content\pdfs\Charte_du_bon_badiste.pdf" />
     <Content Include="website\content\pdfs\Charte_du_jeune_badiste.pdf" />
     <Content Include="website\content\pdfs\Convocations 9ème Badadonf.xlsx" />
@@ -557,6 +632,8 @@
     <Content Include="website\content\pdfs\Inscription_Jeunes.pdf" />
     <Content Include="website\content\pdfs\Inscription_Parents_du_mercredi.pdf" />
     <Content Include="website\content\pdfs\Interclub_16354_D3B_J2_VOSB_ASSGBAD.pdf" />
+    <Content Include="website\content\pdfs\interclub_1718\IC_site_WEB_Sen_D3A_J1_17-18.pdf" />
+    <Content Include="website\content\pdfs\interclub_1718\IC_site_WEB_Sen_D3A_J2_17-18.pdf" />
     <Content Include="website\content\pdfs\plaquette_de_la_VOSB.pdf" />
     <Content Include="website\content\pdfs\Poules_mixte_masculin.pdf" />
     <Content Include="website\content\pdfs\Vosb9_Reglement_Particulier.pdf" />
@@ -568,6 +645,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="files\" />
+    <Folder Include="scripts\" />
     <Folder Include="pelican-bootstrap3\" />
     <Folder Include="pelican-bootstrap3\static\" />
     <Folder Include="pelican-bootstrap3\static\css\" />
@@ -596,6 +674,10 @@
     <Folder Include="website\content\extra\" />
     <Folder Include="website\content\images\" />
     <Folder Include="website\content\images\gallery\" />
+    <Folder Include="website\content\images\gallery\entrainement\" />
+    <Folder Include="website\content\images\gallery\interclub\" />
+    <Folder Include="website\content\images\gallery\interclub\eragny\" />
+    <Folder Include="website\content\images\gallery\badadonf9\" />
     <Folder Include="website\content\images\gallery\tournoi_deguise\" />
     <Folder Include="website\content\js\lightbox-5.3.0\" />
     <Folder Include="website\content\js\fullcalendar-3.0.0\" />
@@ -618,6 +700,8 @@
     <Folder Include="website\content\js\" />
     <Folder Include="website\content\pdfs\" />
     <Folder Include="website\content\pages\" />
+    <Folder Include="website\content\pdfs\badadonf9\" />
+    <Folder Include="website\content\pdfs\interclub_1718\" />
     <Folder Include="website\output\" />
   </ItemGroup>
   <ItemGroup>

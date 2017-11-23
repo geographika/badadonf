@@ -5,21 +5,41 @@ Interclub
 :modified: 2017-11-05 23:09
 :tags: interclub
 :authors: Badadonf
-:summary: équipe et resultats
+:summary: équipe et résultats
 :styles: 
-:category: interclub
+:category: interclubs
 :page-order: 003
 
 **Capitaine:** Ludovic M.
 
 **L'équipe:**
 
-**Remplaçants:**
++ Alice T.
++ Christophe C.
++ Flavien M.
++ Jerôme L. 
++ Jessica G.
++ Margaux C.
++ Marion D.
++ Maxime P.
++ Mickael L. 
++ Stephane B.
++ Vincent D.
 
-Resultats
+Résultats
 +++++++++
 
- À venir. 
+Journée 1
+*********
+
+.. image:: /pdfs/interclub_1718/IC_site_WEB_Sen_D3A_J1_17-18.pdf
+    :scale: 50%
+
+Journée 2
+*********
+
+.. image:: /pdfs/interclub_1718/IC_site_WEB_Sen_D3A_J2_17-18.pdf
+    :scale: 50%
 
 Ligue D3A
 +++++++++
