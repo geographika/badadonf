@@ -26,17 +26,17 @@ Senior
 * `Simple Dame Non Classé et P <{filename}/pdfs/badadonf9/sd_nc_p.pdf>`_
 * `Simple Homme Non Classé et P <{filename}/pdfs/badadonf9/sh_nc_p.pdf>`_
 
-Cadet/Cadette
-+++++++++++++
-
-* `Simple Dame Cadette NC-D8 <{filename}/pdfs/badadonf9/sd_cadette_nc_d.pdf>`_
-* `Simple Homme Cadet NC-D8 <{filename}/pdfs/badadonf9/sh_junior_nc_d.pdf>`_
-
 Junior
 ++++++
 
 * `Simple Dame Junior NC-D8 <{filename}/pdfs/badadonf9/sd_junior_nc_d.pdf>`_
 * `Simple Homme Junior NC-D8 <{filename}/pdfs/badadonf9/sh_junior_nc_d.pdf>`_
+
+Cadet/Cadette
++++++++++++++
+
+* `Simple Dame Cadette NC-D8 <{filename}/pdfs/badadonf9/sd_cadette_nc_d.pdf>`_
+* `Simple Homme Cadet NC-D8 <{filename}/pdfs/badadonf9/sh_cadet_nc_d.pdf>`_
 
 Photos
 ------
