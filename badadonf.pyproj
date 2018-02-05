@@ -609,6 +609,7 @@
     <Content Include="website\content\pages\interclub.rst" />
     <Content Include="website\content\pages\map.html" />
     <Content Include="website\content\pages\resultats.rst" />
+    <Content Include="website\content\pdfs\2eme_Tournoi_Interne_BADMINTON_VOSB_ST.pdf" />
     <Content Include="website\content\tournoi.rst">
       <SubType>Code</SubType>
     </Content>

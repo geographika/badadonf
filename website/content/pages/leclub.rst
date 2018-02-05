@@ -2,7 +2,7 @@ Le Club
 #######
 
 :date: 2017-08-31 23:55
-:modified: 2017-08-31 23:55
+:modified: 2018-05-02 10:20
 :tags: bureau, horarires, entrainement, cotisations
 :authors: Badadonf
 :summary: Le Club
@@ -33,7 +33,7 @@ Au mois de décembre, 2 possibilités s’offre à la personne:
 Entraînements
 -------------
 
-**Lundi soir (gymnase : COSEC)**
+**Lundi soir (gymnase : COSEC) - 19h30 à 21h**
 
 Les entraînements n’ont lieu que pendant le temps scolaire.
 

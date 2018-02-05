@@ -2,7 +2,7 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 ########################################
 
 :date: 2016-09-02 10:20
-:modified: 2016-09-02 10:20
+:modified: 2018-05-02 10:20
 :tags: horaires
 :authors: Badadonf
 :summary: Horaires pour badminton
@@ -15,23 +15,14 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
 .. raw:: html
 
-     <div class="bg-warning">
-
-`9ème Badadonf Tour Résultats! <{filename}/pages/resultats.rst>`_
-
-.. raw:: html
-
     </div>
 
 .. raw:: html
 
      <div class="bg-success">
 
-Inscris-toi vite ! 1er Tournoi Interne Badadonf VOSB Badminton du Jeudi 14 décembre 2017. 
-Lien Internet pour le "Qui ramène quoi" - `tchinisse.com <http://tchinisse.com/?ref=1197718ie4690666e8vglxrmq>`_ (nourriture, boissons...) . 
-
-.. 
-    Voir `1er Tournoi Interne BADMINTON VOSB 07122017.pdf (PDF) <{filename}/pdfs/1er_Tournoi_Interne_BADMINTON_VOSB_07122017.pdf>`_
+Inscris-toi vite ! 2ème Tournoi Interne Badadonf VOSB Badminton du Jeudi 15 février 2018. 
+Voir `2eme Tournoi Interne BADMINTON VOSB ST.pdf (PDF) <{filename}/pdfs/2eme_Tournoi_Interne_BADMINTON_VOSB_ST.pdf>`_
 
 .. raw:: html
 
@@ -69,7 +60,8 @@ Pas de séances pendant les vacances scolaires de Noël .
 
 Voir `la section entraînements <{filename}/pages/leclub.rst>`_ pour plus de détails. 
 
-* 19h – 22h (Reprise le lundi 11 sept. le 02 oct. pour l’entraînement)
+* Ouvert de 19h – 22h
+* Entraînement 19h30 à 21h
 
 **Mercredi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
