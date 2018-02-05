@@ -15,10 +15,6 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
 .. raw:: html
 
-    </div>
-
-.. raw:: html
-
      <div class="bg-success">
 
 Inscris-toi vite ! 2ème Tournoi Interne Badadonf VOSB Badminton du Jeudi 15 février 2018. 

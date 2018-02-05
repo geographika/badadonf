@@ -79,6 +79,9 @@ Select, then click Invalidations tab
 Enter "*"
 
 Test at https://badadonf.s3.amazonaws.com/index.html
+
+http://badadonf.s3-website-eu-west-1.amazonaws.com/
+
 Then http://badadonf.fr/
 
 PDFs
