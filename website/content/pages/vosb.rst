@@ -16,3 +16,10 @@ Le club de badminton appartient à la `Vaillante omnisport de Saint-Brice (VOSB)
 	:alt: plaquette VOSB
 
 * Plaquette de la VOSB `plaquette_de_la_VOSB.pdf <{filename}/pdfs/plaquette_de_la_VOSB.pdf>`_
+
+CDBVO
+-----
+
+`CDBVO <https://www.cdbvo.fr/>`_ (Comité Départemental Badminton du Val d’Oise) est ne association fondée en 1986 dans le 
+but de coordonner les actions liées à la pratique et au développement du badminton dans le département du 95. 
+

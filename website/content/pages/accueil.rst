@@ -2,10 +2,11 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 ########################################
 
 :date: 2016-09-02 10:20
-:modified: 2018-05-02 10:20
+:modified: 2018-04-07 10:20
 :tags: horaires
 :authors: Badadonf
 :summary: Horaires pour badminton
+:javascripts: twitter.js
 :save_as: index.html
 :status: hidden
 :page-order: 000
@@ -17,8 +18,17 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
      <div class="bg-success">
 
-Inscris-toi vite ! 2ème Tournoi Interne Badadonf VOSB Badminton du Jeudi 15 février 2018. 
-Voir `2eme Tournoi Interne BADMINTON VOSB ST.pdf (PDF) <{filename}/pdfs/2eme_Tournoi_Interne_BADMINTON_VOSB_ST.pdf>`_
+Inscrivez-vous au Badminton ! Rendez-vous au `Forum des associations 
+<http://www.saintbrice95.fr/Agenda/Sports-et-loisirs/Forum-des-associations>`_ le 9 septembre 2018 de 10h  à 18 h
+
+.. raw:: html
+
+    </div>
+
+     <div class="bg-success">
+
++ Adultes - Reprise le lundi 10 sept. 2018 en jeu libre
++ Jeunes - Reprise de l’entraînement le mercredi 12 sept. 2018
 
 .. raw:: html
 
@@ -31,21 +41,10 @@ Voir `2eme Tournoi Interne BADMINTON VOSB ST.pdf (PDF) <{filename}/pdfs/2eme_Tou
 Inscrivez-vous!
 ---------------
 
-Adultes:
++ `Fiche d'Inscription (PDF) <{filename}/pdfs/Fiche_Inscription_2018.pdf>`_
++ `Feuille d'Information - Tarifs, Horarires, Contacts (PDF) <{filename}/pdfs/Feuille_information_2018.pdf>`_
 
-+ `Inscription Adultes (PDF) <{filename}/pdfs/Inscription_Adultes_Loisirs.pdf>`_
-+ `Informations Adultes (PDF) <{filename}/pdfs/Informations_inscription_Adultes.pdf>`_
-
-Jeunes (8-16 ans):
- 
-+ `Inscription Jeunes (PDF) <{filename}/pdfs/Inscription_Jeunes.pdf>`_
-+ `Informations Jeunes (PDF) <{filename}/pdfs/Informations_inscription_Jeunes.pdf>`_
-
-..et aussi les parents des jeunes!
- 
-+ `Inscription Parent du Mercredi (PDF) <{filename}/pdfs/Inscription_Parents_du_mercredi.pdf>`_
-    
-Voir `la page Cotisations Saison 2017-2018 <{filename}/pages/leclub.rst>`_ pour plus de détails.
+Voir `la page Cotisations Saison 2018-2019 <{filename}/pages/leclub.rst>`_ pour plus de détails.
 
 Horaires
 --------
@@ -56,23 +55,22 @@ Pas de séances pendant les vacances scolaires de Noël .
 
 Voir `la section entraînements <{filename}/pages/leclub.rst>`_ pour plus de détails. 
 
-* Ouvert de 19h – 22h
-* Entraînement 19h30 à 21h
+* Ouvert de 19h – 22h: Entraînement et jeu libre
 
 **Mercredi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
-* 13h30 – 15h		Entraînement Jeunes Groupe 1
-* 15h – 16h30		Entraînement Jeunes Groupe 2
+* 13h30 – 15h: Entraînement Jeunes Groupe 1
+* 15h – 16h30: Entraînement Jeunes Groupe 2
 
 **Jeudi (gymnase : NEZANT)**
 
-* 19h – 22h		Jeu Libre
+* 19h – 22h: Jeu Libre
 
 **Vendredi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
 *En période scolaire*
 
-* 20h – 22h		Jeu Libre et INTERCLUB
+* 20h – 22h: Jeu Libre et INTERCLUB
 
 Carte
 -----
@@ -91,7 +89,7 @@ Les volants sont fournis par le club pour les entraînements et les tournois :
 Lors du jeu libre :
 
 * Volant en plastique fournis par le club
-* Volant en plumes à la charge des joueurs (en vente dans le gymnase - voir Anne)
+* Volant en plumes à la charge des joueurs (en vente dans le gymnase)
 
 Contact
 -------

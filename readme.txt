@@ -57,21 +57,23 @@ http://localhost:8000/
 Publish
 -------
 
+IGNORE BELOW!
+
 C:\VirtualEnvs\badadonf\Scripts\activate
 cd /D D:\GitHub\badadonf\website
 pelican content
 cd /D D:\GitHub\badadonf\
 python s3upload.py
 
-
-
-
 **Update**
 
 Use s3browser
-Delete old site - NOT favicon.ico, bad-logs or badadonf-logs
-Copy new one in
-Apply "Read" to "All Users" for all files except the logs
+Delete old site - NOT favicon.ico or badadonf-logs
+Copy new one in from ``D:\GitHub\badadonf\website\output``
+Apply "Read" to "All Users" for all files except the logs (select all then right-click permissions)
+
+DON't DO FOLLOWING AS IT COST 200EUR WHEN DONE TOO MUCH!
+LET SITE UPDATE OVERNIGHT...
 
 http://stackoverflow.com/questions/1086240/how-can-i-update-files-on-amazons-cdn-cloudfront
 https://console.aws.amazon.com/cloudfront/

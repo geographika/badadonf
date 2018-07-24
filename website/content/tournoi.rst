@@ -12,8 +12,8 @@
 
 * Convocations en ligne! - `Convocations_9eme_Badadonf.pdf (PDF) <{filename}/pdfs/Convocations_9eme_Badadonf.pdf>`_
 * `Plaquette du Tournoi <{filename}/pdfs/Vosb9__Plaquette.pdf>`_
-* `Feulle d'Inscription Badadonf 9 (Excel) <{filename}/pdfs/feulle_inscription_Badadonf_9.xls>`_
-* `Feulle d'Inscription Badadonf 9 (PDF) <{filename}/pdfs/feulle_inscription_Badadonf_9.pdf>`_
+* `Feuille d'Inscription Badadonf 9 (Excel) <{filename}/pdfs/feuille_inscription_Badadonf_9.xls>`_
+* `Feuille d'Inscription Badadonf 9 (PDF) <{filename}/pdfs/feuille_inscription_Badadonf_9.pdf>`_
 
 + Date: **18 & 19 Novembre 2017**
 + Lieu: **St Brice sous Forêt, 20 min au nord de Paris. Gymnase Lionel TERRAY 12 Rue Pasteur 95350 St Brice sous Forêt**

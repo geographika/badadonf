@@ -328,6 +328,7 @@
     <Content Include="website\content\images\gallery\badadonf9\unnamed %284%29.jpg" />
     <Content Include="website\content\images\gallery\badadonf9\unnamed %286%29.jpg" />
     <Content Include="website\content\images\gallery\badadonf9\unnamed.jpg" />
+    <Content Include="website\content\images\vosb_logo.png" />
     <Content Include="website\content\interclub_eragny.rst" />
     <Content Include="website\content\extra\favicon-310.png" />
     <Content Include="website\content\extra\favicon-32.png" />
@@ -600,8 +601,11 @@
     <Content Include="website\content\js\leaflet\images\marker-shadow.png" />
     <Content Include="website\content\js\leaflet\leaflet.css" />
     <Content Include="website\content\js\leaflet\leaflet.js" />
+    <Content Include="website\content\js\twitter.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="website\content\pages\calendar.html" />
-    <Content Include="website\content\pages\calendrier.rst" />
+    <Content Include="website\content\pages\calendrier.rst.ignore" />
     <Content Include="website\content\pages\accueil.rst" />
     <Content Include="website\content\gallery.rst" />
     <Content Include="website\content\pages\leclub.rst" />
@@ -610,6 +614,9 @@
     <Content Include="website\content\pages\map.html" />
     <Content Include="website\content\pages\resultats.rst" />
     <Content Include="website\content\pdfs\2eme_Tournoi_Interne_BADMINTON_VOSB_ST.pdf" />
+    <Content Include="website\content\pdfs\Compte_rendu_AG_section_Badminton_VOSB_20180618.pdf" />
+    <Content Include="website\content\pdfs\Feuille_information_2018.pdf" />
+    <Content Include="website\content\pdfs\Fiche_Inscription_2018.pdf" />
     <Content Include="website\content\tournoi.rst">
       <SubType>Code</SubType>
     </Content>
@@ -629,8 +636,8 @@
     <Content Include="website\content\pdfs\Charte_du_jeune_badiste.pdf" />
     <Content Include="website\content\pdfs\Convocations 9ème Badadonf.xlsx" />
     <Content Include="website\content\pdfs\Convocations_9eme_Badadonf.pdf" />
-    <Content Include="website\content\pdfs\feulle_inscription_Badadonf_9.pdf" />
-    <Content Include="website\content\pdfs\feulle_inscription_Badadonf_9.xls" />
+    <Content Include="website\content\pdfs\feuille_inscription_Badadonf_9.pdf" />
+    <Content Include="website\content\pdfs\feuille_inscription_Badadonf_9.xls" />
     <Content Include="website\content\pdfs\IC_class_Sen_D3A_J1_17-18_N&amp;B.pdf" />
     <Content Include="website\content\pdfs\IC_class_Sen_D3B_J1_16-17_N&amp;B-1.pdf" />
     <Content Include="website\content\pdfs\IC_class_Sen_D3B_J1_16-17_NB.pdf" />
