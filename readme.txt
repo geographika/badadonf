@@ -73,7 +73,7 @@ Copy new one in from ``D:\GitHub\badadonf\website\output``
 Apply "Read" to "All Users" for all files except the logs (select all then right-click permissions)
 
 DON't DO FOLLOWING AS IT COST 200EUR WHEN DONE TOO MUCH!
-LET SITE UPDATE OVERNIGHT...
+LET SITE UPDATE OVERNIGHT...OR JUST INVALIDATE /pages files (select and right-click)
 
 http://stackoverflow.com/questions/1086240/how-can-i-update-files-on-amazons-cdn-cloudfront
 https://console.aws.amazon.com/cloudfront/
