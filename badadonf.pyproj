@@ -293,6 +293,7 @@
     <Content Include="readme.txt" />
     <Content Include="requirements.txt" />
     <Content Include="files\tournoi_vierzon_2011_original.jpg" />
+    <Content Include="website\content\entrainement2018.rst" />
     <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.16.49.jpg" />
     <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.17.00.jpg" />
     <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.17.53.jpg" />
@@ -328,6 +329,11 @@
     <Content Include="website\content\images\gallery\badadonf9\unnamed %284%29.jpg" />
     <Content Include="website\content\images\gallery\badadonf9\unnamed %286%29.jpg" />
     <Content Include="website\content\images\gallery\badadonf9\unnamed.jpg" />
+    <Content Include="website\content\images\gallery\entrainement2018\IMG_20181001_200642.jpeg" />
+    <Content Include="website\content\images\gallery\entrainement2018\IMG_20181001_200647.jpeg" />
+    <Content Include="website\content\images\gallery\entrainement2018\IMG_20181001_200654.jpeg" />
+    <Content Include="website\content\images\gallery\entrainement2018\IMG_20181001_200700.jpeg" />
+    <Content Include="website\content\images\gallery\entrainement2018\panoramic.jpg" />
     <Content Include="website\content\images\mika_rentree.jpg" />
     <Content Include="website\content\images\vosb_logo.png" />
     <Content Include="website\content\interclub_eragny.rst" />
@@ -613,7 +619,7 @@
     <Content Include="website\content\pages\facebook.html" />
     <Content Include="website\content\pages\interclub.rst" />
     <Content Include="website\content\pages\map.html" />
-    <Content Include="website\content\pages\resultats.rst" />
+    <Content Include="website\content\resultats.rst" />
     <Content Include="website\content\pdfs\2eme_Tournoi_Interne_BADMINTON_VOSB_ST.pdf" />
     <Content Include="website\content\pdfs\Compte_rendu_AG_section_Badminton_VOSB_20180618.pdf" />
     <Content Include="website\content\pdfs\Feuille_information_2018.pdf" />
@@ -698,6 +704,7 @@
     <Folder Include="website\content\images\gallery\interclub\" />
     <Folder Include="website\content\images\gallery\interclub\eragny\" />
     <Folder Include="website\content\images\gallery\badadonf9\" />
+    <Folder Include="website\content\images\gallery\entrainement2018\" />
     <Folder Include="website\content\images\gallery\tournoi_deguise\" />
     <Folder Include="website\content\js\lightbox-5.3.0\" />
     <Folder Include="website\content\js\fullcalendar-3.0.0\" />

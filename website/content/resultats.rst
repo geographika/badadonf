@@ -6,7 +6,7 @@
 :tags: tournoi
 :authors: Badadonf
 :summary: tournoi, badadonf, Photos du tournoi
-:page-order: 005
+:category: archives
 :gallery: {photo}badadonf9
 
 Les Résultats
