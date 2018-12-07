@@ -72,7 +72,9 @@ EXTRA_PATH_METADATA = {
 
 # https://github.com/getpelican/pelican-plugins/tree/master/gallery
 # see D:\GitHub\badadonf\pelican-plugins\photos\photos.py
-PHOTO_LIBRARY = r'D:\GitHub\badadonf\website\content\images\gallery'
+# following assumes content build script is run from
+# D:\GitHub\badadonf\website
+PHOTO_LIBRARY = r'./content/images/gallery'
 PHOTO_RESIZE_JOBS = -1 # debug or get errors
 PHOTO_EXIF_KEEP = True
 PHOTO_EXIF_AUTOROTATE = True # true by default

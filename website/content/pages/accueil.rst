@@ -16,17 +16,12 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
 .. raw:: html
 
-     <div class="bg-success">
+    <div class="bg-success">
 
-L’entraînement `a repris ce lundi 1er octobre <{filename}/entrainement2018.rst>`_ Encore 2 lundis hélas et ce 
-sera déjà la coupure des vacances...
+    BAD NOEL - Inscris-toi vite ! Jeudi 13 décembre - 
+    Tournoi de Noël- 2eme Tournoi Interne Badadonf VOSB
 
-Enfin pas tout à fait car vous pourrez jouer au badminton (Jeu libre) aux dates suivantes:
-
-* Lundis 22 et 29 octobre de 19h à 22h au COSEC
-* Jeudi 25 octobre de 19h à 22h à Nezant
-
-Pas de badminton les vendredis des vacances et évidemment jeudi 1er novembre ;-)
+    <br />
 
 .. raw:: html
 

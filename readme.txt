@@ -1,12 +1,17 @@
 Setup
 -----
 
+C:\Python27\Scripts\virtualenv C:\VirtualEnvs\badadonf
+C:\VirtualEnvs\badadonf\Scripts\activate
+
+python -m pip install pip -U
 pip install pelican
 pip install pillow
 pip install fabric
 
 Or
 
+pip install  -r C:\Code\badadonf\requirements.txt
 pip install  -r D:\GitHub\badadonf\requirements.txt
 
 To build initial website:
@@ -17,13 +22,16 @@ pelican-quickstart
 
 Theme setup - see https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3
 
-cd /D D:\GitHub\badadonf
+SET PROJECT_ROOT=D:\GitHub\badadonf
+SET PROJECT_ROOT=C:\Code\badadonf
+
+cd /D %PROJECT_ROOT%
 git clone https://github.com/geographika/pelican-themes
 git clone https://github.com/getpelican/pelican-plugins.git
 
 Pelican plugins - need to update submodules too or lots are missing!
 
-cd /D D:\GitHub\badadonf\pelican-plugins
+cd /D %PROJECT_ROOT%\pelican-plugins
 git submodule update --init
 
 Other Notes
@@ -41,14 +49,17 @@ Build
 
 To build:
 
+SET WEB_PATH=D:\GitHub\badadonf\website
+SET WEB_PATH=C:\Code\badadonf\website
+
 C:\VirtualEnvs\badadonf\Scripts\activate
-cd /D D:\GitHub\badadonf\website
+cd /D %WEB_PATH%
 pelican content
 
 To view (easiest to keep this running in separate command window for hot reloading after new build):
 
 C:\VirtualEnvs\badadonf\Scripts\activate
-cd /D D:\GitHub\badadonf\website\output
+cd /D %WEB_PATH%\output
 python -m pelican.server
 
 
@@ -56,16 +67,6 @@ http://localhost:8000/
 
 Publish
 -------
-
-IGNORE BELOW!
-
-C:\VirtualEnvs\badadonf\Scripts\activate
-cd /D D:\GitHub\badadonf\website
-pelican content
-cd /D D:\GitHub\badadonf\
-python s3upload.py
-
-**Update**
 
 Use s3browser
 Delete old site - NOT favicon.ico or badadonf-logs
@@ -96,6 +97,7 @@ http://stackoverflow.com/questions/32466112/imagemagick-convert-pdf-to-jpeg
 
 pip install wand
 pip install bs4
+pip install piexif
 
 Need both the following installed:
 
@@ -124,7 +126,7 @@ No GhostScript: Exception TypeError: TypeError("object of type 'NoneType' has no
 Interclub
 ---------
 
-Get results from http://www.cdbvo.fr/vie-sportive/seniors/interclub-mixte-d3.html
+Get results from https://www.cdbvo.fr/vie-sportive/seniors/interclub-mixte-d4.html
 
 
 JS
