@@ -18,8 +18,9 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
     <div class="bg-success">
 
-    BAD NOEL - Inscris-toi vite ! Jeudi 13 décembre - 
-    Tournoi de Noël- 2eme Tournoi Interne Badadonf VOSB
+    Bonnes fêtes les badistes et les parents des badistes!!!
+    Les adultes reprendront le lundi 7 janvier
+    Les enfants/ados reprendront  le mercredi 9 janvier
 
     <br />
 
