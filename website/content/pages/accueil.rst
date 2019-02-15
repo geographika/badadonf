@@ -18,9 +18,7 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
     <div class="bg-success">
 
-    Bonnes fêtes les badistes et les parents des badistes!!!
-    Les adultes reprendront le lundi 7 janvier
-    Les enfants/ados reprendront  le mercredi 9 janvier
+    Félicitations à l'équipe d'Interclubs - Les nouveaux Champions de Interclub Départemental D4 Poule A!
 
     <br />
 
@@ -35,10 +33,10 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 Inscrivez-vous!
 ---------------
 
-+ `Fiche d'Inscription (PDF) <{filename}/pdfs/Fiche_Inscription_2018.pdf>`_
-+ `Feuille d'Information - Tarifs, Horaires, Contacts (PDF) <{filename}/pdfs/Feuille_information_2018.pdf>`_
++ `Fiche d'Inscription (PDF) <{static}/pdfs/Fiche_Inscription_2018.pdf>`_
++ `Feuille d'Information - Tarifs, Horaires, Contacts (PDF) <{static}/pdfs/Feuille_information_2018.pdf>`_
 
-Voir `la page Cotisations Saison 2018-2019 <{filename}/pages/leclub.rst>`_ pour plus de détails.
+Voir `la page Cotisations Saison 2018-2019 <{static}/pages/leclub.rst>`_ pour plus de détails.
 
 Horaires
 --------
@@ -47,7 +45,7 @@ Pas de séances pendant les vacances scolaires de Noël .
 
 **Lundi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
-Voir `la section entraînements <{filename}/pages/leclub.rst>`_ pour plus de détails. 
+Voir `la section entraînements <{static}/pages/leclub.rst>`_ pour plus de détails. 
 
 * Ouvert de 19h – 22h: Entraînement et jeu libre
 

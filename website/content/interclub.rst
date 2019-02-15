@@ -35,9 +35,9 @@ Interclubs 2016-2017
 Résultats
 +++++++++
 
-* `Résultat J2: Saint Gratien <{filename}/pdfs/IC_site_WEB_Sen_D3B_J2_16-17.pdf>`_
-* `Résultat J4: Luzarches <{filename}/pdfs/IC_site_WEB_Sen_D3B_J4_16-17.pdf>`_
-* `Résultat J6: Pontoise <{filename}/pdfs/IC_site_WEB_Sen_D3B_J6_16-17.pdf>`_
+* `Résultat J2: Saint Gratien <{static}/pdfs/IC_site_WEB_Sen_D3B_J2_16-17.pdf>`_
+* `Résultat J4: Luzarches <{static}/pdfs/IC_site_WEB_Sen_D3B_J4_16-17.pdf>`_
+* `Résultat J6: Pontoise <{static}/pdfs/IC_site_WEB_Sen_D3B_J6_16-17.pdf>`_
 
 Ligue D3B
 +++++++++
@@ -52,4 +52,4 @@ Ligue D3B
 .. image:: /pdfs/IC_class_Sen_D3B_J1_16-17_N&B-1.pdf
 	:alt: Calendrier
 
-* Ligue D3 `Poules_mixte_masculin.pdf <{filename}/pdfs/Poules_mixte_masculin.pdf>`_
+* Ligue D3 `Poules_mixte_masculin.pdf <{static}/pdfs/Poules_mixte_masculin.pdf>`_

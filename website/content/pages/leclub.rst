@@ -20,9 +20,9 @@ Cotisations Saison 2018-2019
 * Licences sans entraînement: 110 € (25 € pour l’adhésion (obligatoire) à l’association VOSB, 51 € FFBAD (licence), 
   34€ pour la section VOSB Badminton)
 
-+ `Fiche d'Inscription (PDF) <{filename}/pdfs/Fiche_Inscription_2018.pdf>`_
-+ `Feuille d'Information - Tarifs, Horarires, Contacts (PDF) <{filename}/pdfs/Feuille_information_2018.pdf>`_
-+ `Charte du bon badiste (PDF) <{filename}/pdfs/Charte_du_bon_badiste.pdf>`_
++ `Fiche d'Inscription (PDF) <{static}/pdfs/Fiche_Inscription_2018.pdf>`_
++ `Feuille d'Information - Tarifs, Horarires, Contacts (PDF) <{static}/pdfs/Feuille_information_2018.pdf>`_
++ `Charte du bon badiste (PDF) <{static}/pdfs/Charte_du_bon_badiste.pdf>`_
 
 Entraînements
 -------------
@@ -47,9 +47,9 @@ Les entraînements auront lieu le mercredi au Gymnase du COSEC:
 La reprise des entraînements se fera le mercredi 12 septembre 2018 Il n’y aura pas d’entraînement pendant les vacances scolaires. 
 Votre enfant sera entraîné par Karim AOUDIA (06.22.22.02.37, bad.vosb@gmail.com). 
 
-+ `Fiche d'Inscription (PDF) <{filename}/pdfs/Fiche_Inscription_2018.pdf>`_
-+ `Feuille d'Information - Tarifs, Horarires, Contacts (PDF) <{filename}/pdfs/Feuille_information_2018.pdf>`_
-+ `Charte du jeune badiste (PDF) <{filename}/pdfs/Charte_du_jeune_badiste.pdf>`_
++ `Fiche d'Inscription (PDF) <{static}/pdfs/Fiche_Inscription_2018.pdf>`_
++ `Feuille d'Information - Tarifs, Horarires, Contacts (PDF) <{static}/pdfs/Feuille_information_2018.pdf>`_
++ `Charte du jeune badiste (PDF) <{static}/pdfs/Charte_du_jeune_badiste.pdf>`_
 
 Pour les parents des jeunes licenciés, nous vous proposons de prendre part à la séance du vendredi (20h-22h) au gymnase du COSEC, 
 sauf les jours d’interclubs (6 ou 7 dates dans l’année).
@@ -61,7 +61,7 @@ taper dans un volant. Bref, un bon moment en famille! Pour ce faire, nous vous d
 Compte Rendu d’Assemblée Générale 2018
 --------------------------------------
 
-Section BADMINTON de la VOSB COMPTE RENDU DE L’AG du 23/06/2018 - `Compte_rendu_AG_section_Badminton_VOSB_20180618.pdf <{filename}/pdfs/Compte_rendu_AG_section_Badminton_VOSB_20180618.pdf>`_
+Section BADMINTON de la VOSB COMPTE RENDU DE L’AG du 23/06/2018 - `Compte_rendu_AG_section_Badminton_VOSB_20180618.pdf <{static}/pdfs/Compte_rendu_AG_section_Badminton_VOSB_20180618.pdf>`_
 
 Les Membres du Bureau
 ---------------------

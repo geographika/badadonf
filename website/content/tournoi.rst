@@ -10,10 +10,10 @@
 
 **The Expendables!**
 
-* Convocations en ligne! - `Convocations_9eme_Badadonf.pdf (PDF) <{filename}/pdfs/Convocations_9eme_Badadonf.pdf>`_
-* `Plaquette du Tournoi <{filename}/pdfs/Vosb9__Plaquette.pdf>`_
-* `Feuille d'Inscription Badadonf 9 (Excel) <{filename}/pdfs/feuille_inscription_Badadonf_9.xls>`_
-* `Feuille d'Inscription Badadonf 9 (PDF) <{filename}/pdfs/feuille_inscription_Badadonf_9.pdf>`_
+* Convocations en ligne! - `Convocations_9eme_Badadonf.pdf (PDF) <{static}/pdfs/Convocations_9eme_Badadonf.pdf>`_
+* `Plaquette du Tournoi <{static}/pdfs/Vosb9__Plaquette.pdf>`_
+* `Feuille d'Inscription Badadonf 9 (Excel) <{static}/pdfs/feuille_inscription_Badadonf_9.xls>`_
+* `Feuille d'Inscription Badadonf 9 (PDF) <{static}/pdfs/feuille_inscription_Badadonf_9.pdf>`_
 
 + Date: **18 & 19 Novembre 2017**
 + Lieu: **St Brice sous Forêt, 20 min au nord de Paris. Gymnase Lionel TERRAY 12 Rue Pasteur 95350 St Brice sous Forêt**
@@ -42,7 +42,7 @@ Les Tableaux
 
 **Les Règles**
 
-`REGLEMENT PARTICULIER 9ème BADADONF TOUR de St BRICE Sous Forêt - 18 et 19 novembre 2017 (PDF) <{filename}/pdfs/Vosb9_Reglement_Particulier.pdf>`_
+`REGLEMENT PARTICULIER 9ème BADADONF TOUR de St BRICE Sous Forêt - 18 et 19 novembre 2017 (PDF) <{static}/pdfs/Vosb9_Reglement_Particulier.pdf>`_
 
 + *2 sortants par poule*
 + *Seulement les joueurs des catégories séniors et vétérans peuvent participer.*

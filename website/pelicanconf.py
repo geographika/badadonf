@@ -56,7 +56,7 @@ READERS = {'html': None}
 PAGE_ORDER_BY = 'page-order'
 
 DISPLAY_PAGES_ON_MENU = True
-STATIC_PATHS = ['js','images']
+# STATIC_PATHS = ['js','images']
 
 STATIC_PATHS = [
     'images', 

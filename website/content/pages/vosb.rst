@@ -15,7 +15,7 @@ Le club de badminton appartient à la `Vaillante omnisport de Saint-Brice (VOSB)
 .. image:: /pdfs/plaquette_de_la_VOSB.pdf
 	:alt: plaquette VOSB
 
-* Plaquette de la VOSB `plaquette_de_la_VOSB.pdf <{filename}/pdfs/plaquette_de_la_VOSB.pdf>`_
+* Plaquette de la VOSB `plaquette_de_la_VOSB.pdf <{static}/pdfs/plaquette_de_la_VOSB.pdf>`_
 
 CDBVO
 -----

@@ -15,28 +15,28 @@ Les Résultats
 Vétéran
 +++++++
 
-* `Double Dames D vétéran <{filename}/pdfs/badadonf9/dd_veteran_d.pdf>`_
-* `Double Hommes D vétéran <{filename}/pdfs/badadonf9/dh_veteran_d.pdf>`_
-* `Double Hommes NC et P vétéran <{filename}/pdfs/badadonf9/dh_veteran_nc_p.pdf>`_
-* `Mixte NC et P vétéran <{filename}/pdfs/badadonf9/dm_veteran_nc_p.pdf>`_
+* `Double Dames D vétéran <{static}/pdfs/badadonf9/dd_veteran_d.pdf>`_
+* `Double Hommes D vétéran <{static}/pdfs/badadonf9/dh_veteran_d.pdf>`_
+* `Double Hommes NC et P vétéran <{static}/pdfs/badadonf9/dh_veteran_nc_p.pdf>`_
+* `Mixte NC et P vétéran <{static}/pdfs/badadonf9/dm_veteran_nc_p.pdf>`_
 
 Senior
 ++++++
 
-* `Simple Dame Non Classé et P <{filename}/pdfs/badadonf9/sd_nc_p.pdf>`_
-* `Simple Homme Non Classé et P <{filename}/pdfs/badadonf9/sh_nc_p.pdf>`_
+* `Simple Dame Non Classé et P <{static}/pdfs/badadonf9/sd_nc_p.pdf>`_
+* `Simple Homme Non Classé et P <{static}/pdfs/badadonf9/sh_nc_p.pdf>`_
 
 Junior
 ++++++
 
-* `Simple Dame Junior NC-D8 <{filename}/pdfs/badadonf9/sd_junior_nc_d.pdf>`_
-* `Simple Homme Junior NC-D8 <{filename}/pdfs/badadonf9/sh_junior_nc_d.pdf>`_
+* `Simple Dame Junior NC-D8 <{static}/pdfs/badadonf9/sd_junior_nc_d.pdf>`_
+* `Simple Homme Junior NC-D8 <{static}/pdfs/badadonf9/sh_junior_nc_d.pdf>`_
 
 Cadet/Cadette
 +++++++++++++
 
-* `Simple Dame Cadette NC-D8 <{filename}/pdfs/badadonf9/sd_cadette_nc_d.pdf>`_
-* `Simple Homme Cadet NC-D8 <{filename}/pdfs/badadonf9/sh_cadet_nc_d.pdf>`_
+* `Simple Dame Cadette NC-D8 <{static}/pdfs/badadonf9/sd_cadette_nc_d.pdf>`_
+* `Simple Homme Cadet NC-D8 <{static}/pdfs/badadonf9/sh_cadet_nc_d.pdf>`_
 
 Photos
 ------

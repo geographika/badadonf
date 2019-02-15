@@ -293,6 +293,11 @@
     <Content Include="readme.txt" />
     <Content Include="requirements.txt" />
     <Content Include="files\tournoi_vierzon_2011_original.jpg" />
+    <Content Include="website\content\images\interclub1819\1dc35133-e9a1-477c-b4a2-c9d92071a9c0.jpg" />
+    <Content Include="website\content\images\interclub1819\8d1512e0-15b4-44ff-96b4-3779b0e31047.jpg" />
+    <Content Include="website\content\images\interclub1819\b525da5c-39be-4a93-8c83-9f06b2743aa7.jpg" />
+    <Content Include="website\content\images\interclub1819\d728441c-6f5e-4550-8432-72e14e6dbdad.jpg" />
+    <Content Include="website\content\noel2018.rst" />
     <Content Include="website\content\entrainement2018.rst" />
     <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.16.49.jpg" />
     <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.17.00.jpg" />
@@ -334,6 +339,13 @@
     <Content Include="website\content\images\gallery\entrainement2018\IMG_20181001_200654.jpeg" />
     <Content Include="website\content\images\gallery\entrainement2018\IMG_20181001_200700.jpeg" />
     <Content Include="website\content\images\gallery\entrainement2018\panoramic.jpg" />
+    <Content Include="website\content\images\gallery\noel2018\IMG_20181213_223428.jpg" />
+    <Content Include="website\content\images\gallery\noel2018\IMG_20181213_223431.jpg" />
+    <Content Include="website\content\images\gallery\noel2018\IMG_20181213_223438.jpg" />
+    <Content Include="website\content\images\gallery\noel2018\IMG_20181213_223446.jpg" />
+    <Content Include="website\content\images\gallery\noel2018\IMG_20181213_223456.jpg" />
+    <Content Include="website\content\images\gallery\noel2018\IMG_20181213_223523.jpg" />
+    <Content Include="website\content\images\gallery\noel2018\IMG_20181213_223529.jpg" />
     <Content Include="website\content\images\mika_rentree.jpg" />
     <Content Include="website\content\images\vosb_logo.png" />
     <Content Include="website\content\interclub_eragny.rst" />
@@ -620,8 +632,15 @@
     <Content Include="website\content\pages\interclub.rst" />
     <Content Include="website\content\pages\map.html" />
     <Content Include="website\content\pdfs\interclub_1819\IC_class_Sen_D4A_J1_18-19_NB.pdf" />
+    <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J1_18-19.pdf" />
     <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J2_18-19.pdf" />
     <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J3_18-19.pdf" />
+    <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J4_18-19.pdf" />
+    <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J5_18-19.pdf" />
+    <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J6_18-19.pdf" />
+    <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J7_18-19.pdf" />
+    <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J8_18-19.pdf" />
+    <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J9_18-19.pdf" />
     <Content Include="website\content\resultats.rst" />
     <Content Include="website\content\pdfs\2eme_Tournoi_Interne_BADMINTON_VOSB_ST.pdf" />
     <Content Include="website\content\pdfs\Compte_rendu_AG_section_Badminton_VOSB_20180618.pdf" />
@@ -708,7 +727,9 @@
     <Folder Include="website\content\images\gallery\interclub\eragny\" />
     <Folder Include="website\content\images\gallery\badadonf9\" />
     <Folder Include="website\content\images\gallery\entrainement2018\" />
+    <Folder Include="website\content\images\gallery\noel2018\" />
     <Folder Include="website\content\images\gallery\tournoi_deguise\" />
+    <Folder Include="website\content\images\interclub1819\" />
     <Folder Include="website\content\js\lightbox-5.3.0\" />
     <Folder Include="website\content\js\fullcalendar-3.0.0\" />
     <Folder Include="website\content\js\fullcalendar-3.0.0\demos\" />
@@ -736,16 +757,6 @@
     <Folder Include="website\output\" />
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="..\..\..\VirtualEnvs\badadonf\">
-      <Id>{24f31483-ce34-49a9-9e0d-71cd9eeab792}</Id>
-      <Version>2.7</Version>
-      <Description>badadonf (Python 64-bit 2.7)</Description>
-      <InterpreterPath>Scripts\python.exe</InterpreterPath>
-      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
-      <LibraryPath>Lib\</LibraryPath>
-      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
-      <Architecture>Amd64</Architecture>
-    </Interpreter>
     <Interpreter Include="C:\VirtualEnvs\badadonf\">
       <Id>badadonf</Id>
       <Version>2.7</Version>

@@ -7,7 +7,10 @@ C:\VirtualEnvs\badadonf\Scripts\activate
 python -m pip install pip -U
 pip install pelican
 pip install pillow
-pip install fabric
+pip install bs4
+pip install wand
+
+REM pip install fabric
 
 Or
 
@@ -49,8 +52,8 @@ Build
 
 To build:
 
-SET WEB_PATH=D:\GitHub\badadonf\website
 SET WEB_PATH=C:\Code\badadonf\website
+SET WEB_PATH=D:\GitHub\badadonf\website
 
 C:\VirtualEnvs\badadonf\Scripts\activate
 cd /D %WEB_PATH%
@@ -58,6 +61,7 @@ pelican content
 
 To view (easiest to keep this running in separate command window for hot reloading after new build):
 
+SET WEB_PATH=D:\GitHub\badadonf\website
 C:\VirtualEnvs\badadonf\Scripts\activate
 cd /D %WEB_PATH%\output
 python -m pelican.server
@@ -102,9 +106,12 @@ pip install piexif
 Need both the following installed:
 
 http://docs.wand-py.org/en/0.4.1/guide/install.html#install-imagemagick-windows
-http://ghostscript.com/download/gsdnld.html
++ Download link http://www.imagemagick.org/script/download.php
+http://ghostscript.com/download/gsdnld.html ??
 
-set MAGICK_HOME="C:\Program Files\ImageMagick-6.9.9-Q8"
+**Note** Make sure development headers are installed also. 
+
+set MAGICK_HOME="C:\Program Files\ImageMagick-7.0.8-Q16"
 
 Error: TypeError: LoadLibrary() argument 1 must be string, not unicode
 For fix see: https://stackoverflow.com/questions/42660590/install-wand-on-a-windows-machine
