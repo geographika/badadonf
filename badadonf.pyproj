@@ -632,6 +632,7 @@
     <Content Include="website\content\pages\interclub.rst" />
     <Content Include="website\content\pages\map.html" />
     <Content Include="website\content\pdfs\interclub_1819\IC_class_Sen_D4A_J1_18-19_NB.pdf" />
+    <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J10_18-19.pdf" />
     <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J1_18-19.pdf" />
     <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J2_18-19.pdf" />
     <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J3_18-19.pdf" />

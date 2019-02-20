@@ -33,8 +33,26 @@ Interclub
 .. image:: /images/interclub1819/8d1512e0-15b4-44ff-96b4-3779b0e31047.jpg
     :alt: L'Équipe 2018-19
 
+.. raw:: html
+
+    <p>&copy; Auxanne<p>
+
 Résultats
 +++++++++
+
+Journée 10
+**********
+
+.. image:: /pdfs/interclub_1819/IC_site_WEB_Sen_D4A_J10_18-19.pdf
+    :scale: 50%
+    :alt: Journée 10
+
+.. image:: /images/interclub1819/d728441c-6f5e-4550-8432-72e14e6dbdad.jpg
+    :alt: Les Gagnants!
+
+.. raw:: html
+
+    <p>&copy; Auxanne<p>
 
 Journée 9
 *********
@@ -42,9 +60,6 @@ Journée 9
 .. image:: /pdfs/interclub_1819/IC_site_WEB_Sen_D4A_J9_18-19.pdf
     :scale: 50%
     :alt: Journée 9
-
-.. image:: /images/interclub1819/d728441c-6f5e-4550-8432-72e14e6dbdad.jpg
-    :alt: Les Gagnants!
 
 Journée 8
 *********
