@@ -2,7 +2,7 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 ########################################
 
 :date: 2016-09-02 10:20
-:modified: 2018-10-05 10:20
+:modified: 2019-09-01 10:20
 :tags: horaires
 :authors: Badadonf
 :summary: Horaires pour badminton
@@ -18,7 +18,8 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
     <div class="bg-success">
 
-    Félicitations à l'équipe d'Interclubs - Les nouveaux Champions de Interclub Départemental D4 Poule A!
+    <a href="https://www.saintbrice95.fr/a-la-une/agenda/forum-des-associations-192.html">Forum des associations</a> dimanche 08 Sept. de 10:00 à 18:00
+    Centre culturel et sportif Lionel Terray, 12 rue Pasteur 95350 Saint-Brice-sous-Forêt
 
     <br />
 
@@ -26,17 +27,28 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
     </div>
 
+.. raw:: html
+
+    <div class="bg-success">
+
+    Reprise le lundi 09 sept. 2019 en jeu libre
+
+.. raw:: html
+
+    </div>
+
 .. image:: ./images/tournoi_vierzon_2011.jpg
     :align: right
-    :alt: mika
+    :alt: micka
 
 Inscrivez-vous!
 ---------------
 
-+ `Fiche d'Inscription (PDF) <{static}/pdfs/Fiche_Inscription_2018.pdf>`_
-+ `Feuille d'Information - Tarifs, Horaires, Contacts (PDF) <{static}/pdfs/Feuille_information_2018.pdf>`_
++ `Fiche d'Inscription Adultes (PDF) <{static}/pdfs/feuille_201920/Fiche_Inscription_Adultes_2019.pdf>`_
++ `Fiche d'Inscription Jeunes (PDF) <{static}/pdfs/feuille_201920/Fiche_Inscription_Jeunes_2019.pdf>`_
++ `Feuille d'Information - Tarifs, Horaires, Contacts (PDF) <{static}/pdfs/feuille_201920/Feuille_information_2019.pdf>`_
 
-Voir `la page Cotisations Saison 2018-2019 <{static}/pages/leclub.rst>`_ pour plus de détails.
+Voir `la page Cotisations Saison 2019-2020 <{filename}/pages/leclub.rst>`_ pour plus de détails.
 
 Horaires
 --------
@@ -45,7 +57,7 @@ Pas de séances pendant les vacances scolaires de Noël .
 
 **Lundi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
-Voir `la section entraînements <{static}/pages/leclub.rst>`_ pour plus de détails. 
+Voir `la section entraînements <{filename}/pages/leclub.rst>`_ pour plus de détails. 
 
 * Ouvert de 19h – 22h: Entraînement et jeu libre
 
@@ -73,6 +85,9 @@ Carte
 Rappel
 ------
 
+.. image:: ./images/logo_club.png
+    :align: right
+
 Les volants sont fournis par le club pour les entraînements et les tournois :
 
 * Volants en plastique pour les loisirs et compétiteurs Non Classés
@@ -89,3 +104,5 @@ Contact
 Vous souhaitez poser une question ? Vous désirez un renseignement ?
 
 Envoyez nous un mail à l'adresse mail suivante: badadonf@live.fr
+
+
