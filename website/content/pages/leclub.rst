@@ -20,8 +20,8 @@ Cotisations Saison 2020-2021
 * Licences sans entraînement: 110 € (25 € pour l’adhésion (obligatoire) à l’association VOSB, 51 € FFBAD (licence), 
   34€ pour la section VOSB Badminton)
 
-+ `Fiche d'Inscription Adultes (PDF) <{static}/pdfs/feuille_202021/Fiche_Inscription_Adultes_2020.pdf>`_
-+ `Feuille d'Information - Tarifs, Horarires, Contacts (PDF) <{static}/pdfs/feuille_202021/Feuille_information_2020.pdf>`_
++ `Fiche d'Inscription Adultes (PDF) <{static}/pdfs/feuille_202021/Fiche_Inscription_Adultes.pdf>`_
++ `Feuille d'Information - Tarifs, Horarires, Contacts (PDF) <{static}/pdfs/feuille_202021/Feuille_Information.pdf>`_
 + `Charte du bon badiste (PDF) <{static}/pdfs/Charte_du_bon_badiste.pdf>`_
 
 Entraînements
@@ -48,8 +48,8 @@ La reprise des entraînements se fera le mercredi 9 septembre 2020
 Il n’y aura pas d’entraînement pendant les vacances scolaires. 
 Votre enfant sera entraîné par Karim AOUDIA (06.22.22.02.37, bad.vosb@gmail.com). 
 
-+ `Fiche d'Inscription Jeunes (PDF) <{static}/pdfs/feuille_201920/Fiche_Inscription_Jeunes_2019.pdf>`_
-+ `Feuille d'Information - Tarifs, Horarires, Contacts (PDF) <{static}/pdfs/feuille_202021/Feuille_information_2020.pdf>`_
++ `Fiche d'Inscription Jeunes (PDF) <{static}/pdfs/feuille_202021/Fiche_Inscription_Jeunes.pdf>`_
++ `Feuille d'Information - Tarifs, Horarires, Contacts (PDF) <{static}/pdfs/feuille_202021/Feuille_Information.pdf>`_
 + `Charte du jeune badiste (PDF) <{static}/pdfs/Charte_du_jeune_badiste.pdf>`_
 
 Pour les parents des jeunes licenciés, nous vous proposons de prendre part à la séance du vendredi (20h-22h) au gymnase du COSEC, 
