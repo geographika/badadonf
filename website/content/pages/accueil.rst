@@ -18,21 +18,9 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
     <div class="bg-success">
 
-    <a href="https://www.saintbrice95.fr/a-la-une/agenda/forum-des-associations-192.html">Forum des associations</a> dimanche 08 Sept. de 10:00 à 18:00
-    Centre culturel et sportif Lionel Terray, 12 rue Pasteur 95350 Saint-Brice-sous-Forêt
-
+    Nous reprendrons le Bad le Lundi 7 Septembre, 2020 au Gymnase du Cosec à partir de 19 heures!
     <br />
-
-.. raw:: html
-
-    </div>
-
-.. raw:: html
-
-    <div class="bg-success">
-
-    Reprise le lundi 09 sept. 2019 en jeu libre
-
+    <br />
 .. raw:: html
 
     </div>
@@ -44,11 +32,16 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 Inscrivez-vous!
 ---------------
 
-+ `Fiche d'Inscription Adultes (PDF) <{static}/pdfs/feuille_201920/Fiche_Inscription_Adultes_2019.pdf>`_
++ `Fiche d'Inscription Adultes (PDF) <{static}/pdfs/feuille_202021/Fiche_Inscription_Adultes_2020.pdf>`_
 + `Fiche d'Inscription Jeunes (PDF) <{static}/pdfs/feuille_201920/Fiche_Inscription_Jeunes_2019.pdf>`_
-+ `Feuille d'Information - Tarifs, Horaires, Contacts (PDF) <{static}/pdfs/feuille_201920/Feuille_information_2019.pdf>`_
++ `Feuille d'Information - Tarifs, Horaires, Contacts (PDF) <{static}/pdfs/feuille_202021/Feuille_information_2020.pdf>`_
 
-Voir `la page Cotisations Saison 2019-2020 <{filename}/pages/leclub.rst>`_ pour plus de détails.
+Voir `la page Cotisations Saison 2020-2021 <{filename}/pages/leclub.rst>`_ pour plus de détails.
+
+COVID-19
+--------
+
++ `Guide de Reprise du Badminton (FFBAD) (PDF) <{static}/pdfs/feuille_202020/Guide_reprise_FFBAD.pdf>`_
 
 Horaires
 --------
@@ -87,6 +80,7 @@ Rappel
 
 .. image:: ./images/logo_club.png
     :align: right
+    :alt: logo
 
 Les volants sont fournis par le club pour les entraînements et les tournois :
 
