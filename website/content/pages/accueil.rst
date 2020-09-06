@@ -19,11 +19,10 @@ VOSB Badminton de Saint-Brice-sous-Forêt
     <div class="bg-success">
 
     Nous reprendrons le Bad le Lundi 7 Septembre, 2020 au Gymnase du Cosec à partir de 19 heures!
-    <br />
-    <br />
 .. raw:: html
 
     </div>
+    <br />
 
 .. image:: ./images/tournoi_vierzon_2011.jpg
     :align: right
@@ -32,16 +31,19 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 Inscrivez-vous!
 ---------------
 
-+ `Fiche d'Inscription Adultes (PDF) <{static}/pdfs/feuille_202021/Fiche_Inscription_Adultes_2020.pdf>`_
-+ `Fiche d'Inscription Jeunes (PDF) <{static}/pdfs/feuille_201920/Fiche_Inscription_Jeunes_2019.pdf>`_
-+ `Feuille d'Information - Tarifs, Horaires, Contacts (PDF) <{static}/pdfs/feuille_202021/Feuille_information_2020.pdf>`_
++ `Fiche d'Inscription Adultes (PDF) <{static}/pdfs/feuille_202021/Fiche_Inscription_Adultes.pdf>`_
++ `Fiche d'Inscription Jeunes (PDF) <{static}/pdfs/feuille_202021/Fiche_Inscription_Jeunes.pdf>`_
++ `Feuille d'Information - Tarifs, Horaires, Contacts (PDF) <{static}/pdfs/feuille_202021/Feuille_Information.pdf>`_
 
 Voir `la page Cotisations Saison 2020-2021 <{filename}/pages/leclub.rst>`_ pour plus de détails.
 
 COVID-19
 --------
 
-+ `Guide de Reprise du Badminton (FFBAD) (PDF) <{static}/pdfs/feuille_202020/Guide_reprise_FFBAD.pdf>`_
+Les règles sanitaires pour la reprise a respecter et a fair respecter (documents du FFBAD - Fédération Française de Badminton):
+
++ `Mesures sanitaires COVID (PDF) <{static}/pdfs/feuille_202021/Mesures_sanitaires_COVID-19.pdf>`_ 
++ `Guide de Reprise du Badminton (PDF) <{static}/pdfs/feuille_202021/Guide_reprise_FFBAD.pdf>`_
 
 Horaires
 --------
