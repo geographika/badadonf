@@ -297,6 +297,7 @@
     <Content Include="website\content\images\interclub1819\8d1512e0-15b4-44ff-96b4-3779b0e31047.jpg" />
     <Content Include="website\content\images\interclub1819\b525da5c-39be-4a93-8c83-9f06b2743aa7.jpg" />
     <Content Include="website\content\images\interclub1819\d728441c-6f5e-4550-8432-72e14e6dbdad.jpg" />
+    <Content Include="website\content\images\logo_club.png" />
     <Content Include="website\content\noel2018.rst" />
     <Content Include="website\content\entrainement2018.rst" />
     <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.16.49.jpg" />
@@ -631,6 +632,15 @@
     <Content Include="website\content\pages\facebook.html" />
     <Content Include="website\content\pages\interclub.rst" />
     <Content Include="website\content\pages\map.html" />
+    <Content Include="website\content\pdfs\feuille_201920\Feuille_information_2019.pdf" />
+    <Content Include="website\content\pdfs\feuille_201920\Fiche_Inscription_Adultes_2019.pdf" />
+    <Content Include="website\content\pdfs\feuille_201920\Fiche_Inscription_Jeunes_2019.pdf" />
+    <Content Include="website\content\pdfs\feuille_202021\Feuille_Information.pdf" />
+    <Content Include="website\content\pdfs\feuille_202021\Fiche_Inscription_Adultes.pdf" />
+    <Content Include="website\content\pdfs\feuille_202021\Fiche_Inscription_Jeunes.pdf" />
+    <Content Include="website\content\pdfs\feuille_202021\Guide_reprise_FFBAD.pdf" />
+    <Content Include="website\content\pdfs\feuille_202021\Guide_reprise_FFBAD_old.pdf" />
+    <Content Include="website\content\pdfs\feuille_202021\Mesures_sanitaires_COVID-19.pdf" />
     <Content Include="website\content\pdfs\interclub_1819\IC_class_Sen_D4A_J1_18-19_NB.pdf" />
     <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J10_18-19.pdf" />
     <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J1_18-19.pdf" />
@@ -645,8 +655,8 @@
     <Content Include="website\content\resultats.rst" />
     <Content Include="website\content\pdfs\2eme_Tournoi_Interne_BADMINTON_VOSB_ST.pdf" />
     <Content Include="website\content\pdfs\Compte_rendu_AG_section_Badminton_VOSB_20180618.pdf" />
-    <Content Include="website\content\pdfs\Feuille_information_2018.pdf" />
-    <Content Include="website\content\pdfs\Fiche_Inscription_2018.pdf" />
+    <Content Include="website\content\pdfs\feuille_201819\Feuille_information_2018.pdf" />
+    <Content Include="website\content\pdfs\feuille_201819\Fiche_Inscription_2018.pdf" />
     <Content Include="website\content\tournoi.rst">
       <SubType>Code</SubType>
     </Content>
@@ -753,8 +763,11 @@
     <Folder Include="website\content\pdfs\" />
     <Folder Include="website\content\pages\" />
     <Folder Include="website\content\pdfs\badadonf9\" />
+    <Folder Include="website\content\pdfs\feuille_202021\" />
     <Folder Include="website\content\pdfs\interclub_1718\" />
     <Folder Include="website\content\pdfs\interclub_1819\" />
+    <Folder Include="website\content\pdfs\feuille_201920\" />
+    <Folder Include="website\content\pdfs\feuille_201819\" />
     <Folder Include="website\output\" />
   </ItemGroup>
   <ItemGroup>
