@@ -18,7 +18,7 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
     <div class="bg-success">
 
-    Nous reprendrons le Bad le Lundi 7 Septembre, 2020 au Gymnase du Cosec à partir de 19 heures!
+    Nous reprendrons le Bad le jeudi 10 juin, 2021 au Gymnase du Nezant aux horaires habituelles!
 .. raw:: html
 
     </div>
@@ -42,8 +42,9 @@ COVID-19
 
 Les règles sanitaires pour la reprise a respecter et a fair respecter (documents du FFBAD - Fédération Française de Badminton):
 
-+ `Mesures sanitaires COVID (PDF) <{static}/pdfs/feuille_202021/Mesures_sanitaires_COVID-19.pdf>`_ 
-+ `Guide de Reprise du Badminton (PDF) <{static}/pdfs/feuille_202021/Guide_reprise_FFBAD.pdf>`_
++ `FFBaD Reprise Badminton Juin 2021 (PDF) <{static}/pdfs/feuille_202021/FFBaD_AFF_Reprise Badminton_MaiJuin21.pdf>`_
++ `FFBaD Protocole Reprise Badminton Juin 2021 (PDF) <{static}/pdfs/feuille_202021/FFBaD_protocole_Reprise Badminton_MaiJuin21.pdf>`_ 
+
 
 Horaires
 --------
