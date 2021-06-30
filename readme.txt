@@ -1,21 +1,25 @@
 Setup
 -----
 
-C:\Python27\Scripts\virtualenv C:\VirtualEnvs\badadonf
-C:\VirtualEnvs\badadonf\Scripts\activate
+C:\Python38\Scripts\virtualenv C:\VirtualEnvs\badadonf38
+C:\VirtualEnvs\badadonf38\Scripts\activate
+
+cd /D D:\GitHub\badadonf
+
+pip install  -r requirements.txt
+
+Or
 
 python -m pip install pip -U
 pip install pelican
 pip install pillow
 pip install bs4
 pip install wand
-
 REM pip install fabric
 
-Or
 
-pip install  -r C:\Code\badadonf\requirements.txt
-pip install  -r D:\GitHub\badadonf\requirements.txt
+
+
 
 To build initial website:
 
@@ -55,14 +59,14 @@ To build:
 SET WEB_PATH=C:\Code\badadonf\website
 SET WEB_PATH=D:\GitHub\badadonf\website
 
-C:\VirtualEnvs\badadonf\Scripts\activate
+C:\VirtualEnvs\badadonf38\Scripts\activate
 cd /D %WEB_PATH%
 pelican content
 
 To view (easiest to keep this running in separate command window for hot reloading after new build):
 
 SET WEB_PATH=D:\GitHub\badadonf\website
-C:\VirtualEnvs\badadonf\Scripts\activate
+C:\VirtualEnvs\badadonf38\Scripts\activate
 cd /D %WEB_PATH%\output
 python -m pelican.server
 
@@ -84,6 +88,7 @@ http://stackoverflow.com/questions/1086240/how-can-i-update-files-on-amazons-cdn
 https://console.aws.amazon.com/cloudfront/
 Select, then click Invalidations tab
 Enter "*"
+Or "index.html" for a single page
 
 Test at https://badadonf.s3.amazonaws.com/index.html
 
@@ -107,11 +112,14 @@ Need both the following installed:
 
 http://docs.wand-py.org/en/0.4.1/guide/install.html#install-imagemagick-windows
 + Download link http://www.imagemagick.org/script/download.php
-http://ghostscript.com/download/gsdnld.html ??
 
 **Note** Make sure development headers are installed also. 
 
-set MAGICK_HOME="C:\Program Files\ImageMagick-7.0.8-Q16"
+Also need to install: http://ghostscript.com/download/gsdnld.html
+Or CRITICAL: FailedToExecuteCommand `"gswin64c.exe" 
+
+
+set MAGICK_HOME="C:\Program Files\ImageMagick-7.1.0-Q16-HDRI"
 
 Error: TypeError: LoadLibrary() argument 1 must be string, not unicode
 For fix see: https://stackoverflow.com/questions/42660590/install-wand-on-a-windows-machine

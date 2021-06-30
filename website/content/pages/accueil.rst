@@ -31,8 +31,8 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 Inscrivez-vous!
 ---------------
 
-+ `Fiche d'Inscription Adultes (PDF) <{static}/pdfs/feuille_202021/Fiche_Inscription_Adultes.pdf>`_
-+ `Fiche d'Inscription Jeunes (PDF) <{static}/pdfs/feuille_202021/Fiche_Inscription_Jeunes.pdf>`_
++ `Fiche d'Inscription Adultes (PDF) <{static}/pdfs/feuille_202122/Fiche_Inscription_Adultes_Numerique.pdf>`_
++ `Fiche d'Inscription Jeunes (PDF) <{static}/pdfs/feuille_202122/Fiche_Inscription_Jeunes_Numerique.pdf>`_
 + `Feuille d'Information - Tarifs, Horaires, Contacts (PDF) <{static}/pdfs/feuille_202021/Feuille_Information.pdf>`_
 
 Voir `la page Cotisations Saison 2020-2021 <{filename}/pages/leclub.rst>`_ pour plus de détails.
@@ -42,8 +42,8 @@ COVID-19
 
 Les règles sanitaires pour la reprise a respecter et a fair respecter (documents du FFBAD - Fédération Française de Badminton):
 
-+ `FFBaD Reprise Badminton Juin 2021 (PDF) <{static}/pdfs/feuille_202021/FFBaD_AFF_Reprise Badminton_MaiJuin21.pdf>`_
-+ `FFBaD Protocole Reprise Badminton Juin 2021 (PDF) <{static}/pdfs/feuille_202021/FFBaD_protocole_Reprise Badminton_MaiJuin21.pdf>`_ 
++ `FFBaD Reprise Badminton Juin 2021 (PDF) <{static}/pdfs/feuille_202021/FFBaD_AFF_Reprise_Badminton_MaiJuin21.pdf>`_
++ `FFBaD Protocole Reprise Badminton Juin 2021 (PDF) <{static}/pdfs/feuille_202021/FFBaD_protocole_Reprise_Badminton_MaiJuin21.pdf>`_ 
 
 
 Horaires
