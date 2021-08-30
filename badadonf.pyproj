@@ -636,13 +636,15 @@
     <Content Include="website\content\pdfs\feuille_201920\Fiche_Inscription_Adultes_2019.pdf" />
     <Content Include="website\content\pdfs\feuille_201920\Fiche_Inscription_Jeunes_2019.pdf" />
     <Content Include="website\content\pdfs\feuille_202021\Feuille_Information.pdf" />
-    <Content Include="website\content\pdfs\feuille_202021\FFBaD_AFF_Reprise Badminton_MaiJuin21.pdf" />
-    <Content Include="website\content\pdfs\feuille_202021\FFBaD_protocole_Reprise Badminton_MaiJuin21.pdf" />
+    <Content Include="website\content\pdfs\feuille_202021\FFBaD_AFF_Reprise_Badminton_MaiJuin21.pdf" />
+    <Content Include="website\content\pdfs\feuille_202021\FFBaD_protocole_Reprise_Badminton_MaiJuin21.pdf" />
     <Content Include="website\content\pdfs\feuille_202021\Fiche_Inscription_Adultes.pdf" />
     <Content Include="website\content\pdfs\feuille_202021\Fiche_Inscription_Jeunes.pdf" />
     <Content Include="website\content\pdfs\feuille_202021\Guide_reprise_FFBAD.pdf" />
     <Content Include="website\content\pdfs\feuille_202021\Guide_reprise_FFBAD_old.pdf" />
     <Content Include="website\content\pdfs\feuille_202021\Mesures_sanitaires_COVID-19.pdf" />
+    <Content Include="website\content\pdfs\feuille_202122\Fiche_Inscription_Adultes_Numerique.pdf" />
+    <Content Include="website\content\pdfs\feuille_202122\Fiche_Inscription_Jeunes_Numerique.pdf" />
     <Content Include="website\content\pdfs\interclub_1819\IC_class_Sen_D4A_J1_18-19_NB.pdf" />
     <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J10_18-19.pdf" />
     <Content Include="website\content\pdfs\interclub_1819\IC_site_WEB_Sen_D4A_J1_18-19.pdf" />
@@ -770,6 +772,7 @@
     <Folder Include="website\content\pdfs\interclub_1819\" />
     <Folder Include="website\content\pdfs\feuille_201920\" />
     <Folder Include="website\content\pdfs\feuille_201819\" />
+    <Folder Include="website\content\pdfs\feuille_202122\" />
     <Folder Include="website\output\" />
   </ItemGroup>
   <ItemGroup>

@@ -77,9 +77,9 @@ Publish
 -------
 
 Use s3browser
-Delete old site - NOT favicon.ico or badadonf-logs
+Delete old site - NOT favicon.ico
 Copy new one in from ``D:\GitHub\badadonf\website\output``
-Apply "Read" to "All Users" for all files except the logs (select all then right-click permissions)
+Apply "Read" to "All Users" for all files (select all then right-click permissions)
 
 DON't DO FOLLOWING AS IT COST 200EUR WHEN DONE TOO MUCH!
 LET SITE UPDATE OVERNIGHT...OR JUST INVALIDATE /pages files (select and right-click)
