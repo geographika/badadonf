@@ -2,7 +2,7 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 ########################################
 
 :date: 2016-09-02 10:20
-:modified: 2021-08-30 10:20
+:modified: 2022-09-04 10:20
 :tags: horaires
 :authors: Badadonf
 :summary: Horaires pour badminton
@@ -18,38 +18,25 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
     <div class="bg-success">
 
-    Nous reprendrons le Bad le le jeudi 02 septembre, 2021 au Gymnase du Nezant aux horaires habituelles!
+    Nous reprendrons le Bad le le lundi 05 septembre, 2022 au Gymnase du COSEC aux horaires habituelles!
 .. raw:: html
 
     </div>
     <br />
 
-.. image:: ./images/tournoi_vierzon_2011.jpg
-    :align: right
-    :alt: micka
-
 Inscrivez-vous!
 ---------------
 
-+ `Fiche d'Inscription Adultes (PDF) <{static}/pdfs/feuille_202122/Fiche_Inscription_Adultes_Numerique.pdf>`_
-+ `Fiche d'Inscription Jeunes (PDF) <{static}/pdfs/feuille_202122/Fiche_Inscription_Jeunes_Numerique.pdf>`_
-+ `Feuille d'Information - Tarifs, Horaires, Contacts (PDF) <{static}/pdfs/feuille_202122/Feuille_Information.pdf>`_
+.. image:: ./images/nezant.jpg
+    :align: right
+    :alt: nexant
+    :width: 450 px
 
-Voir `la page Cotisations Saison 2021-2021 <{filename}/pages/leclub.rst>`_ pour plus de détails.
++ `Fiche d'Inscription Adultes (PDF) <{static}/pdfs/feuille_202223/Fiche_Inscription_Adultes_Numerique.pdf>`_
++ `Fiche d'Inscription Jeunes (PDF) <{static}/pdfs/feuille_202223/Fiche_Inscription_Jeunes_Numerique.pdf>`_
++ `Feuille d'Information - Tarifs, Horaires, Contacts (PDF) <{static}/pdfs/feuille_202223/Feuille_Information.pdf>`_
 
-COVID-19
---------
-
-+ Le **Pass Sanitaire** est obligatoire pour les personnes majeures afin de prendre part aux séances.
-+ Le **Pass Sanitaire** sera obligatoire pour les 12-17 ans à partir du 30 septembre afin de prendre part aux séances.
-
-Pour plus d’information, vous pouvez consulter `le site de la FFBad <http://www.ffbad.org/actus-24/2021/le-pass-sanitaire-pour-le-sport?oft_id=2378345&oft_k=Ywj2CTGU&oft_lk=x0Bu8m&oft_d=637653954330600000>`_
-
-Documents du FFBAD - Fédération Française de Badminton:
-
-+ `FFBaD Reprise Badminton Juin 2021 (PDF) <{static}/pdfs/feuille_202021/FFBaD_AFF_Reprise_Badminton_MaiJuin21.pdf>`_
-+ `FFBaD Protocole Reprise Badminton Juin 2021 (PDF) <{static}/pdfs/feuille_202021/FFBaD_protocole_Reprise_Badminton_MaiJuin21.pdf>`_ 
-
+Voir `la page Cotisations Saison 2022-2023 <{filename}/pages/leclub.rst>`_ pour plus de détails.
 
 Horaires
 --------
@@ -58,7 +45,9 @@ Pas de séances pendant les vacances scolaires de Noël .
 
 **Lundi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
-* Ouvert de 19h – 22h: Jeu libre
+* Ouvert de 19h
+* 19h30 - 21h: Entraînement
+* 21h 22h: Jeu libre
 
 **Mercredi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
@@ -104,5 +93,3 @@ Contact
 Vous souhaitez poser une question ? Vous désirez un renseignement ?
 
 Envoyez nous un mail à l'adresse mail suivante: badadonf@live.fr
-
-

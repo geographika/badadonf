@@ -701,7 +701,6 @@
     <Content Include="website\content\pdfs\Poules_mixte_masculin.pdf" />
     <Content Include="website\content\pdfs\Vosb9_Reglement_Particulier.pdf" />
     <Content Include="website\content\pdfs\Vosb9__Plaquette.pdf" />
-    <Content Include="website\content\test.rst.ignore" />
     <Content Include="website\develop_server.sh" />
     <Content Include="files\badadonf_fab.jpg" />
     <Content Include="website\Makefile" />
@@ -773,6 +772,7 @@
     <Folder Include="website\content\pdfs\feuille_201920\" />
     <Folder Include="website\content\pdfs\feuille_201819\" />
     <Folder Include="website\content\pdfs\feuille_202122\" />
+    <Folder Include="website\content\pdfs\feuille_202223\" />
     <Folder Include="website\output\" />
   </ItemGroup>
   <ItemGroup>

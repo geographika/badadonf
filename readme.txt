@@ -68,7 +68,8 @@ To view (easiest to keep this running in separate command window for hot reloadi
 SET WEB_PATH=D:\GitHub\badadonf\website
 C:\VirtualEnvs\badadonf38\Scripts\activate
 cd /D %WEB_PATH%\output
-python -m pelican.server
+REM python -m pelican.server
+pelican --listen
 
 
 http://localhost:8000/
