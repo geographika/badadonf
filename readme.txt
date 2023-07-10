@@ -1,44 +1,38 @@
 Setup
 -----
 
-C:\Python38\Scripts\virtualenv C:\VirtualEnvs\badadonf38
-C:\VirtualEnvs\badadonf38\Scripts\activate
+C:\Python310\Scripts\virtualenv C:\VirtualEnvs\badadonf
+C:\VirtualEnvs\badadonf\Scripts\activate.ps1
 
-cd /D D:\GitHub\badadonf
+cd D:\GitHub\badadonf
 
 pip install  -r requirements.txt
 
-Or
-
-python -m pip install pip -U
 pip install pelican
 pip install pillow
-pip install bs4
-pip install wand
-REM pip install fabric
 
-
-
+# pip install bs4
+# pip install wand
+# pip install fabric
 
 
 To build initial website:
 
-C:\VirtualEnvs\badadonf\Scripts\activate
+C:\VirtualEnvs\badadonf\Scripts\activate.ps1
 cd C:\Projects\badadonf\badadonf\website
 pelican-quickstart
 
 Theme setup - see https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3
 
-SET PROJECT_ROOT=D:\GitHub\badadonf
-SET PROJECT_ROOT=C:\Code\badadonf
+$PROJECT_ROOT="D:\GitHub\badadonf"
 
-cd /D %PROJECT_ROOT%
+cd $PROJECT_ROOT
 git clone https://github.com/geographika/pelican-themes
 git clone https://github.com/getpelican/pelican-plugins.git
 
 Pelican plugins - need to update submodules too or lots are missing!
 
-cd /D %PROJECT_ROOT%\pelican-plugins
+cd "$PROJECT_ROOT\pelican-plugins"
 git submodule update --init
 
 Other Notes
@@ -56,19 +50,19 @@ Build
 
 To build:
 
-SET WEB_PATH=C:\Code\badadonf\website
-SET WEB_PATH=D:\GitHub\badadonf\website
+$WEB_PATH="$PROJECT_ROOT\website"
+$MAGICK_HOME="C:\Program Files\ImageMagick-7.1.1-Q16-HDRI"
 
-C:\VirtualEnvs\badadonf38\Scripts\activate
-cd /D %WEB_PATH%
-pelican content
+C:\VirtualEnvs\badadonf\Scripts\activate.ps1
+cd $WEB_PATH
+pelican content --debug
 
 To view (easiest to keep this running in separate command window for hot reloading after new build):
 
-SET WEB_PATH=D:\GitHub\badadonf\website
-C:\VirtualEnvs\badadonf38\Scripts\activate
-cd /D %WEB_PATH%\output
-REM python -m pelican.server
+$PROJECT_ROOT="D:\GitHub\badadonf"
+$WEB_OUTPUT_PATH="$PROJECT_ROOT\website\output"
+C:\VirtualEnvs\badadonf\Scripts\activate.ps1
+cd $WEB_OUTPUT_PATH
 pelican --listen
 
 

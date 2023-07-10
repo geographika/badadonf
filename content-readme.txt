@@ -2,8 +2,6 @@ Calendar
 -------
 
 badadonf.95350@gmail.com
-BEmgCjIXJ4Zm
-
 
 https://github.com/fullcalendar/fullcalendar/releases/tag/v3.5.0
 
