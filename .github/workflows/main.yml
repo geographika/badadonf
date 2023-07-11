@@ -36,9 +36,6 @@ jobs:
           sudo apt-get update && sudo apt-get install -y ghostscript
           sudo apt-get -y install ghostscript
 
-      - name: Check dependencies
-        run: magick -version
-
       - name: Build website
         run: |
           cd ./website
