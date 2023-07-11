@@ -1,27 +1,3 @@
-Calendar
--------
-
-badadonf.95350@gmail.com
-
-https://github.com/fullcalendar/fullcalendar/releases/tag/v3.5.0
-
-Update JS ref in calendrier.rst
-
-:javascripts: fullcalendar-3.0.0/locale/fr.js
-
-And then in pelican-bootstrap3/templates/base.html
-
-    <link rel="stylesheet" href="/js/fullcalendar-3.5.0/fullcalendar.css" />
-    <link rel="stylesheet" href="/js/fullcalendar-3.5.0/fullcalendar.print.css" media='print' />
-    <script src='/js/fullcalendar-3.5.0/lib/moment.min.js'></script>
-    <!--<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.min.js"></script>-->
-    <script src='/js/fullcalendar-3.5.0/lib/jquery.min.js'></script>
-    <script src='/js/fullcalendar-3.5.0/fullcalendar.js'></script>
-    <script src='/js/fullcalendar-3.5.0/gcal.js'></script>
-
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/3.0.3/jquery.qtip.min.css" />
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/qtip2/3.0.3/jquery.qtip.min.js'></script>
-
 pelican-bootstrap
 -----------------
 
