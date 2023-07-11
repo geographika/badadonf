@@ -60,13 +60,13 @@ pelican content --debug
 To view (easiest to keep this running in separate command window for hot reloading after new build):
 
 $PROJECT_ROOT="D:\GitHub\badadonf"
-$WEB_OUTPUT_PATH="$PROJECT_ROOT\website\output"
 C:\VirtualEnvs\badadonf\Scripts\activate.ps1
-cd $WEB_OUTPUT_PATH
-pelican --listen
+# note we should run listen from the /website path
+cd $WEB_PATH
+pelican --listen --port 8222 --autoreload
 
+http://127.0.0.1:8222
 
-http://localhost:8000/
 
 Publish
 -------
@@ -115,21 +115,6 @@ Or CRITICAL: FailedToExecuteCommand `"gswin64c.exe"
 
 
 set MAGICK_HOME="C:\Program Files\ImageMagick-7.1.0-Q16-HDRI"
-
-Error: TypeError: LoadLibrary() argument 1 must be string, not unicode
-For fix see: https://stackoverflow.com/questions/42660590/install-wand-on-a-windows-machine
-Edit wand/api.py
-
-        try:
-            tried_paths.append(libwand_path)
-            libwand = ctypes.CDLL(str(libwand_path))
-            if libwand_path == libmagick_path:
-                libmagick = libwand
-            else:
-                tried_paths.append(libmagick_path)
-                libmagick = ctypes.CDLL((libmagick_path))
-        except (IOError, OSError):
-
 
 No GhostScript: Exception TypeError: TypeError("object of type 'NoneType' has no len()",) in <bound method Image.__del__ of <wand.image.Image: (empty)>> ignored
 

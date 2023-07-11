@@ -39,17 +39,21 @@ DEFAULT_PAGINATION = False
 # My Settings
 
 THEME = "../pelican-bootstrap3"
+# THEME = r"D:\GitHub\pelican-themes\pelican-bootstrap3"
 BOOTSTRAP_THEME = "united"
 
 # https://github.com/wrobstory/pelican_dynamic
 
 # https://github.com/mortada/pelican_javascript
 
-PLUGIN_PATHS = ["../pelican-plugins"]
-PLUGINS = ["pelican_javascript", "i18n_subsites", "photos"] # "pdf-img"
+PLUGIN_PATHS = ["../plugins", "../pelican-plugins"] # put the custom plugins first
+PLUGINS = ["pelican_javascript", "pdf-img", "i18n_subsites", "photos"]
 JINJA_ENVIRONMENT = {
     "extensions": ["jinja2.ext.i18n"],
 }
+
+I18N_TEMPLATES_LANG = 'fr'
+
 # do not process HTML files
 READERS = {"html": None}
 
