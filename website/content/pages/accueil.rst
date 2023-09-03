@@ -2,7 +2,7 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 ########################################
 
 :date: 2016-09-02 10:20
-:modified: 2022-09-04 10:20
+:modified: 2023-09-03 10:20
 :tags: horaires
 :authors: Badadonf
 :summary: Horaires pour badminton
@@ -18,7 +18,7 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
     <div class="bg-success">
 
-    Nous reprendrons le Bad le le lundi 05 septembre, 2022 au Gymnase du COSEC aux horaires habituelles!
+    Nous reprendrons le Bad le le lundi 04 septembre, 2023 au Gymnase du COSEC aux horaires habituelles!
 .. raw:: html
 
     </div>

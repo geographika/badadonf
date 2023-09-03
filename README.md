@@ -1,52 +1,28 @@
 ## Saint Brice sous Foret Badminton Site
 
-https://geographika.github.io/badadonf/
-http://badadonf.fr/
+Source: https://github.com/geographika/badadonf
+GitHub Pages site: https://geographika.github.io/badadonf/
+URL: http://badadonf.fr/
 
 ## Setup
 
 ```
-C:\Python310\Scripts\virtualenv C:\VirtualEnvs\badadonf
+C:\Python310\python -m venv C:\VirtualEnvs\badadonf
 C:\VirtualEnvs\badadonf\Scripts\activate.ps1
 
-cd D:\GitHub\badadonf
-
-pip install  -r requirements.txt
-```
-
-
-To build initial website:
-
-```
-C:\VirtualEnvs\badadonf\Scripts\activate.ps1
-cd C:\Projects\badadonf\badadonf\website
-pelican-quickstart
-```
-
-Theme setup - see https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3
-
-```
 $PROJECT_ROOT="D:\GitHub\badadonf"
 
 cd $PROJECT_ROOT
+
+pip install  -r requirements.txt
+
 git clone https://github.com/geographika/pelican-themes
 git clone https://github.com/getpelican/pelican-plugins.git
 
-Pelican plugins - need to update submodules too or lots are missing!
+# pelican plugins - need to update submodules too or lots are missing!
 
 cd "$PROJECT_ROOT\pelican-plugins"
 git submodule update --init
-```
-
-## Other Notes
-
-http://stackoverflow.com/questions/31270373/how-to-add-a-favicon-to-a-pelican-blog#31270471
-https://commons.wikimedia.org/wiki/File:Badminton_pictogram.svg
-
-# add theme to project for easier editing
-
-```
-mklink /J "D:\GitHub\badadonf\pelican-bootstrap3" "D:\GitHub\badadonf\pelican-themes\pelican-bootstrap3"
 ```
 
 ## Build
@@ -66,6 +42,7 @@ To view (easiest to keep this running in separate command window for hot reloadi
 
 ```
 $PROJECT_ROOT="D:\GitHub\badadonf"
+$WEB_PATH="$PROJECT_ROOT\website"
 C:\VirtualEnvs\badadonf\Scripts\activate.ps1
 # note we should run listen from the /website path
 cd $WEB_PATH

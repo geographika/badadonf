@@ -198,3 +198,4 @@ ModelManifest.xml
 /fichesderenseignements/Charte du bon badiste.pdf
 output
 .vs/
+*.pyc
