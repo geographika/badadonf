@@ -1,11 +1,19 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 AUTHOR = "Badadonf"
 SITENAME = "Badadonf"
 # SITEURL = "http://localhost:8000"
-SITEURL = ""
+
+# Check if the environment variable exists
+if "MY_SITE_URL" in os.environ:
+    SITEURL = os.environ["MY_SITE_URL"]
+else:
+    # Set a default value if the environment variable is not found
+    SITEURL = ""
+
 PATH = "content"
 
 TIMEZONE = "Europe/Paris"
@@ -46,13 +54,13 @@ BOOTSTRAP_THEME = "united"
 
 # https://github.com/mortada/pelican_javascript
 
-PLUGIN_PATHS = ["../plugins", "../pelican-plugins"] # put the custom plugins first
+PLUGIN_PATHS = ["../plugins", "../pelican-plugins"]  # put the custom plugins first
 PLUGINS = ["pelican_javascript", "pdf-img", "i18n_subsites", "photos"]
 JINJA_ENVIRONMENT = {
     "extensions": ["jinja2.ext.i18n"],
 }
 
-I18N_TEMPLATES_LANG = 'fr'
+I18N_TEMPLATES_LANG = "fr"
 
 # do not process HTML files
 READERS = {"html": None}
