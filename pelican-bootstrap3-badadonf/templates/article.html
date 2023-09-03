@@ -87,13 +87,58 @@
                 </div>
                 {{ article.content }}
             </div>
-            <!-- /.entry-content -->
-            {% include 'includes/related-posts.html' %}
-            {% include 'includes/series.html' %}
-            {% include 'includes/addthis.html' %}
-            {% include 'includes/shariff.html' %}
-            {% include 'includes/comments.html' %}
-            {% include 'includes/show_source.html' %}
+
+            {% if article.photo_gallery %}
+            <div class="gallery">
+                {% for title, gallery in article.photo_gallery %}
+                <h1>{{ title }}</h1>
+                {% for name, photo, thumb, exif, caption in gallery %}
+                <a href="{{ SITEURL }}/{{ photo }}" title="{{ name }}" exif="{{ exif }}" caption="{{ caption }}"><img src="{{ SITEURL }}/{{ thumb }}"></a>
+                {% endfor %}
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if article.photo_gallery %}
+            {% for title, gallery in article.photo_gallery %}
+            <h1>{{ title }}</h1>
+            <div id="carousel-{{ loop.index }}" class="carousel slide">
+                <ol class="carousel-indicators">
+                    {% for i in range(0, gallery|length) %}
+                    <li data-target="#carousel-{{ loop.index }}" data-slide-to="{{ i }}" {% if i==0 %} class="active" {% endif %}></li>
+                    {% endfor %}
+                </ol>
+                <div class="carousel-inner">
+                    {% for name, photo, thumb, exif, caption in gallery %}
+                    {% if loop.first %}
+                    <div class="item active">
+                        {% else %}
+                        <div class="item">
+                            {% endif %}
+                            <img src="{{ SITEURL }}/{{ photo }}" exif="{{ exif }}" alt="{{ caption }}">
+                            <div class="carousel-caption">
+                                <h5>{{ caption }}</h5>
+                            </div> <!-- carousel-caption -->
+                        </div> <!-- item -->
+                        {% endfor %}
+                    </div> <!-- carousel-inner -->
+                    <a class="left carousel-control" href="#carousel-{{ loop.index }}" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-{{ loop.index }}" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div> <!-- closes carousel-{{ loop.index }} -->
+                {% endfor %}
+                {% endif %}
+
+                <!-- /.entry-content -->
+                {% include 'includes/related-posts.html' %}
+                {% include 'includes/series.html' %}
+                {% include 'includes/addthis.html' %}
+                {% include 'includes/shariff.html' %}
+                {% include 'includes/comments.html' %}
+                {% include 'includes/show_source.html' %}
         </article>
     </section>
 

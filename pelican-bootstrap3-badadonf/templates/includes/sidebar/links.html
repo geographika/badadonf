@@ -1,16 +1,37 @@
 {% if LINKS %}
   {% from 'includes/sidebar/macros.jinja' import title %}
 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v14.0"
+        nonce="mPGyWoDA">
+</script>
+
+<!--https://developers.facebook.com/docs/plugins/page-plugin-->
+
+<div class="fb-page" data-href="https://www.facebook.com/VOSB.95.BONDADONF/"
+     data-tabs="timeline"
+     data-width=""
+     data-height=""
+     data-small-header="false"
+     data-adapt-container-width="true"
+     data-hide-cover="false"
+     data-show-facepile="true">
+    <blockquote cite="https://www.facebook.com/VOSB.95.BONDADONF/" class="fb-xfbml-parse-ignore">
+        <a href="https://www.facebook.com/VOSB.95.BONDADONF/">Badadonf VOSB Saint Brice s/forêt</a>
+    </blockquote>
+</div>
+
 <!-- Sidebar/Links -->
 <li class="list-group-item">
-  <h4>{{ title(_('Links'), DISABLE_SIDEBAR_TITLE_ICONS, icon='external-link-square') }}</h4>
-  <ul class="list-group" id="links">
-    {% for name, link in LINKS %}
-    <li class="list-group-item">
-      <a href="{{ link }}" target="_blank">{{ name }}</a>
-    </li>
-    {% endfor %}
-  </ul>
+    <h4>{{ title(_('Links'), DISABLE_SIDEBAR_TITLE_ICONS, icon='external-link-square') }}</h4>
+    <ul class="list-group" id="links">
+        {% for name, link in LINKS %}
+        <li class="list-group-item">
+            <a href="{{ link }}" target="_blank">{{ name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
 </li>
 <!-- End Sidebar/Links -->
 {% endif %}

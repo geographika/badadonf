@@ -54,7 +54,8 @@ BOOTSTRAP_THEME = "united"
 
 # https://github.com/mortada/pelican_javascript
 
-PLUGIN_PATHS = ["../plugins", "../pelican-plugins"]  # put the custom plugins first
+PLUGIN_PATHS = ["../plugins"]  # "../pelican-plugins"]  # put the custom plugins first
+# easiest to simply copy all plugins to the /plugins folder
 PLUGINS = ["pelican_javascript", "pdf-img", "i18n_subsites", "photos"]
 JINJA_ENVIRONMENT = {
     "extensions": ["jinja2.ext.i18n"],

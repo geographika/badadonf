@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
 import datetime
@@ -10,7 +10,6 @@ import os
 import pprint
 import re
 import sys
-import functools
 
 from pelican.generators import ArticlesGenerator
 from pelican.generators import PagesGenerator
@@ -40,12 +39,10 @@ else:
 
 
 def initialized(pelican):
-
     p = os.path.expanduser('~/Pictures')
 
     DEFAULT_CONFIG.setdefault('PHOTO_LIBRARY', p)
     DEFAULT_CONFIG.setdefault('PHOTO_GALLERY', (1024, 768, 80))
-    #DEFAULT_CONFIG.setdefault('PHOTO_GALLERY', (2048, 1536, 80))
     DEFAULT_CONFIG.setdefault('PHOTO_ARTICLE', (760, 506, 80))
     DEFAULT_CONFIG.setdefault('PHOTO_THUMB', (192, 144, 60))
     DEFAULT_CONFIG.setdefault('PHOTO_SQUARE_THUMB', False)
@@ -73,7 +70,6 @@ def initialized(pelican):
     if pelican:
         pelican.settings.setdefault('PHOTO_LIBRARY', p)
         pelican.settings.setdefault('PHOTO_GALLERY', (1024, 768, 80))
-        #pelican.settings.setdefault('PHOTO_GALLERY', (3456, 4608, 80))
         pelican.settings.setdefault('PHOTO_ARTICLE', (760, 506, 80))
         pelican.settings.setdefault('PHOTO_THUMB', (192, 144, 60))
         pelican.settings.setdefault('PHOTO_SQUARE_THUMB', False)
@@ -102,7 +98,6 @@ def read_notes(filename, msg=None):
             for line in text.splitlines():
                 if line.startswith('#'):
                     continue
-
                 m = line.split(':', 1)
                 if len(m) > 1:
                     pic = m[0].strip()
@@ -132,7 +127,6 @@ def isalpha(img):
 def remove_alpha(img, bg_color):
     background = Image.new("RGB", img.size, bg_color)
     background.paste(img, mask=img.split()[3])  # 3 is the alpha channel
-
     return background
 
 
@@ -155,7 +149,6 @@ def ReduceOpacity(im, opacity):
 
 
 def watermark_photo(image, settings):
-
     margin = [10, 10]
     opacity = 0.6
 
@@ -179,7 +172,7 @@ def watermark_photo(image, settings):
         mark_image = Image.open(settings['PHOTO_WATERMARK_IMG'])
         mark_image_size = [watermark_layer.size[0] // image_reducer for size in mark_size]
         mark_image_size = settings['PHOTO_WATERMARK_IMG_SIZE'] if settings['PHOTO_WATERMARK_IMG_SIZE'] else mark_image_size
-        mark_image.thumbnail(mark_image_size, Image.LANCZOS)
+        mark_image.thumbnail(mark_image_size, Image.ANTIALIAS)
         mark_position = [watermark_layer.size[i] - mark_image.size[i] - margin[i] for i in [0, 1]]
         mark_position = tuple([mark_position[0] - (text_size[0] // 2) + (mark_image_size[0] // 2), mark_position[1] - text_size[1]])
 
@@ -193,30 +186,8 @@ def watermark_photo(image, settings):
 
     return image
 
-def rotate_image_new(im, exif_dict):
-
-    exif_orientation_tag = 0x0112 # contains an integer, 1 through 8
-    exif_transpose_sequences = [  # corresponding to the following
-        [],
-        [Image.FLIP_LEFT_RIGHT],
-        [Image.ROTATE_180],
-        [Image.FLIP_TOP_BOTTOM],
-        [Image.FLIP_LEFT_RIGHT, Image.ROTATE_90],
-        [Image.ROTATE_270],
-        [Image.FLIP_TOP_BOTTOM, Image.ROTATE_90], #6 
-        [Image.ROTATE_90],
-    ]
-
-    try:
-        seq = exif_transpose_sequences[im._getexif()[exif_orientation_tag] - 1]
-    except Exception:
-        return im
-    else:
-        im = functools.reduce(lambda im, op: im.transpose(op), seq, im)
-        return (im, exif_dict)
 
 def rotate_image(img, exif_dict):
-
     if "exif" in img.info and piexif.ImageIFD.Orientation in exif_dict["0th"]:
         orientation = exif_dict["0th"].pop(piexif.ImageIFD.Orientation)
         if orientation == 2:
@@ -238,7 +209,6 @@ def rotate_image(img, exif_dict):
 
 
 def build_license(license, author):
-
     year = datetime.datetime.now().year
     license_file = os.path.join(DEFAULT_CONFIG['plugin_dir'], 'licenses.json')
 
@@ -252,7 +222,6 @@ def build_license(license, author):
 
 
 def manipulate_exif(img, settings):
-
     try:
         exif = piexif.load(img.info['exif'])
     except Exception:
@@ -281,11 +250,10 @@ def manipulate_exif(img, settings):
 
 
 def resize_worker(orig, resized, spec, settings):
-
     logger.info('photos: make photo {} -> {}'.format(orig, resized))
     im = Image.open(orig)
 
-    if ispiexif and settings['PHOTO_EXIF_KEEP'] and im.format in ('JPEG', 'MPO'):  # Only works with JPEG exif for sure.
+    if ispiexif and settings['PHOTO_EXIF_KEEP'] and im.format == 'JPEG':  # Only works with JPEG exif for sure.
         try:
             im, exif_copy = manipulate_exif(im, settings)
         except:
@@ -297,9 +265,9 @@ def resize_worker(orig, resized, spec, settings):
     icc_profile = im.info.get("icc_profile", None)
 
     if settings['PHOTO_SQUARE_THUMB'] and spec == settings['PHOTO_THUMB']:
-        im = ImageOps.fit(im, (spec[0], spec[1]), Image.LANCZOS)
+        im = ImageOps.fit(im, (spec[0], spec[1]), Image.ANTIALIAS)
 
-    im.thumbnail((spec[0], spec[1]), Image.LANCZOS)
+    im.thumbnail((spec[0], spec[1]), Image.ANTIALIAS)
     directory = os.path.split(resized)[0]
 
     if isalpha(im):
@@ -344,7 +312,6 @@ def resize_photos(generator, writer):
 
 
 def detect_content(content):
-
     hrefs = None
 
     def replacer(m):
@@ -484,7 +451,6 @@ def galleries_string_decompose(gallery_string):
 
 
 def process_gallery(generator, content, location):
-
     content.photo_gallery = []
 
     galleries = galleries_string_decompose(location)
@@ -564,12 +530,11 @@ def file_clipper(x):
 
 
 def process_image(generator, content, image):
-
     if image.startswith('{photo}'):
         path = os.path.join(os.path.expanduser(generator.settings['PHOTO_LIBRARY']), image_clipper(image))
         image = image_clipper(image)
     elif image.startswith('{filename}'):
-        path = os.path.join(content.relative_dir, file_clipper(image))
+        path = os.path.join(generator.path, content.relative_dir, file_clipper(image))
         image = file_clipper(image)
 
     if os.path.isfile(path):
