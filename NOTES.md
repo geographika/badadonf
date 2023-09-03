@@ -16,8 +16,12 @@ Theme setup - see https://github.com/getpelican/pelican-themes/tree/master/pelic
 http://stackoverflow.com/questions/31270373/how-to-add-a-favicon-to-a-pelican-blog#31270471
 https://commons.wikimedia.org/wiki/File:Badminton_pictogram.svg
 
-# add theme to project for easier editing
+Add theme to project for easier editing
 
 ```
 mklink /J "D:\GitHub\badadonf\pelican-bootstrap3" "D:\GitHub\badadonf\pelican-themes\pelican-bootstrap3"
 ```
+
+## Photos
+
+https://github.com/pelican-plugins/photos
