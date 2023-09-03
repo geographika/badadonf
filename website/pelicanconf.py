@@ -39,7 +39,6 @@ DEFAULT_PAGINATION = False
 # My Settings
 
 THEME = "../pelican-bootstrap3"
-# THEME = r"D:\GitHub\pelican-themes\pelican-bootstrap3"
 BOOTSTRAP_THEME = "united"
 
 # https://github.com/wrobstory/pelican_dynamic
