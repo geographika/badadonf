@@ -56,7 +56,7 @@ BOOTSTRAP_THEME = "united"
 
 PLUGIN_PATHS = ["../plugins"]  # "../pelican-plugins"]  # put the custom plugins first
 # easiest to simply copy all plugins to the /plugins folder
-PLUGINS = ["pelican_javascript", "pdf-img", "i18n_subsites", "photos"]
+PLUGINS = ["pdf-img", "i18n_subsites", "photos"]
 JINJA_ENVIRONMENT = {
     "extensions": ["jinja2.ext.i18n"],
 }
@@ -78,11 +78,11 @@ STATIC_PATHS = [
     "js",
     "pdfs",
     #'extra/robots.txt',
-    "extra/favicon.png",
+    "images/favicon.ico",
 ]
 EXTRA_PATH_METADATA = {
     # 'extra/robots.txt': {'path': 'robots.txt'},
-    "extra/favicon.ico": {"path": "favicon.png"}
+    "images/favicon.ico": {"path": "favicon.ico"}
 }
 
 # https://github.com/getpelican/pelican-plugins/tree/master/gallery
