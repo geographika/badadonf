@@ -40,7 +40,8 @@ jobs:
       - name: Build website
         run: |
           cd ./website
-          export MY_SITE_URL="https://geographika.github.io/badadonf/"
+          # export MY_SITE_URL="https://geographika.github.io/badadonf/"
+          export MY_SITE_URL="https://badadonf.fr/"
           pelican content --debug
 
       - name: Deploy gh-pages
