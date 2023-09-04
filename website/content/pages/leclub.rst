@@ -2,7 +2,7 @@ Le Club
 #######
 
 :date: 2017-08-31 23:55
-:modified: 2022-09-04 10:20
+:modified: 2023-09-04 10:20
 :tags: bureau, horarires, entrainement, cotisations
 :authors: Badadonf
 :summary: Le Club

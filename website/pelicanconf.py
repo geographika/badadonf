@@ -79,10 +79,12 @@ STATIC_PATHS = [
     "pdfs",
     #'extra/robots.txt',
     "images/favicon.ico",
+    'extra/CNAME',
 ]
 EXTRA_PATH_METADATA = {
     # 'extra/robots.txt': {'path': 'robots.txt'},
-    "images/favicon.ico": {"path": "favicon.ico"}
+    "images/favicon.ico": {"path": "favicon.ico"},
+    "extra/CNAME": {"path": "CNAME"}
 }
 
 # https://github.com/getpelican/pelican-plugins/tree/master/gallery
