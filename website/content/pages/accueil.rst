@@ -2,11 +2,10 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 ########################################
 
 :date: 2016-09-02 10:20
-:modified: 2023-09-03 10:20
+:modified: 2023-09-08 10:20
 :tags: horaires
 :authors: Badadonf
 :summary: Horaires pour badminton
-:javascripts: twitter.js
 :save_as: index.html
 :status: hidden
 :page-order: 000
@@ -18,7 +17,11 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
     <div class="bg-success">
 
-    Nous reprendrons le Bad le le lundi 04 septembre, 2023 au Gymnase du COSEC aux horaires habituelles!
+    Nous reprendrons le Bad le <b>lundi 04 septembre 2023</b> au Gymnase du COSEC aux horaires habituelles!
+    <br /><br />
+    La limite des inscriptions est fixée au <b>vendredi 6 octobre 2023</b>
+    <br /><br />
+    Les entrainements (lundi 19h30 – 21h) reprendront le <b>lundi 9 octobre 2023</b>
 .. raw:: html
 
     </div>
@@ -27,42 +30,57 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 Inscrivez-vous!
 ---------------
 
+Vous vous questionnez quant à votre inscription ? Venez nous rencontrer et vous essayer au badminton lors des sessions de jeu libre. 
+Vous avez la possibilitéde participer à 2 sessions d’essais.
+
 .. image:: ./images/nezant.jpg
     :align: right
     :alt: nexant
     :width: 450 px
 
-+ `Fiche d'Inscription Adultes (PDF) <{static}/pdfs/feuille_202223/Fiche_Inscription_Adultes_Numerique.pdf>`_
-+ `Fiche d'Inscription Jeunes (PDF) <{static}/pdfs/feuille_202223/Fiche_Inscription_Jeunes_Numerique.pdf>`_
-+ `Feuille d'Information - Tarifs, Horaires, Contacts (PDF) <{static}/pdfs/feuille_202223/Feuille_Information.pdf>`_
++ `Feuille d'Information - Tarifs, Horaires, Contacts (PDF) <{static}/pdfs/feuille_202324/Feuille_Information.pdf>`_
++ `Certificat Médical FFBaD (PDF) <{static}/pdfs/feuille_202324/Certificat_Medical_FFBaD.pdf>`_
 
-Voir `la page Cotisations Saison 2022-2023 <{filename}/pages/leclub.rst>`_ pour plus de détails.
+Seniors:
 
-Horaires
---------
-    
-Pas de séances pendant les vacances scolaires de Noël . 
++ `Fiche d'Inscription Adultes (PDF) <{static}/pdfs/feuille_202324/Fiche_Inscription_Adultes_Numerique.pdf>`_
++ `Questionnaire de santé Adultes (PDF) <{static}/pdfs/feuille_202324/QS_Attestation_Adultes.pdf>`_
+
+Jeunes:
+
++ `Fiche d'Inscription Jeunes (PDF) <{static}/pdfs/feuille_202324/Fiche_Inscription_Jeunes_Numerique.pdf>`_
++ `Questionnaire de santé Mineurs (PDF) <{static}/pdfs/feuille_202324/QS_Attestation_Mineurs.pdf>`_
+
+Voir `la page Cotisations Saison 2023-2024 <{filename}/pages/leclub.rst>`_ pour plus de détails.
+
+Horaires Seniors
+----------------
+
+Pas de séances pendant les vacances scolaires de Noël.
 
 **Lundi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
 * Ouvert de 19h
 * 19h30 - 21h: Entraînement
-* 21h 22h: Jeu libre
-
-**Mercredi (gymnase : COSEC - 29 rue des Deux Piliers)**
-
-* 13h30 – 15h: Entraînement Jeunes Groupe 1
-* 15h – 16h30: Entraînement Jeunes Groupe 2
+* 21h - 22h: Jeu libre
 
 **Jeudi (gymnase : NEZANT)**
 
 * 19h – 22h: Jeu Libre
 
-**Vendredi (gymnase : COSEC - 29 rue des Deux Piliers)**
+**Vendredi (gymnase : NEZANT)**
 
 *En période scolaire*
 
-* 20h – 22h: Jeu Libre et INTERCLUB
+* 20h30 – 22h30: Jeu Libre et INTERCLUB
+
+Horaires Jeunes
+---------------
+
+**Mercredi (gymnase : COSEC - 29 rue des Deux Piliers)**
+
+* 13h30 – 15h: Entraînement Jeunes (nés en 2012-2015)
+* 15h – 16h30: Entraînement Jeunes (nés en 2008-2011)
 
 Carte
 -----
@@ -92,4 +110,4 @@ Contact
 
 Vous souhaitez poser une question ? Vous désirez un renseignement ?
 
-Envoyez nous un mail à l'adresse mail suivante: badadonf@live.fr
+Envoyez nous un mail à l'adresse mail suivante: jerome_leroux@hotmail.fr ou téléphoner 06.71.17.08.51

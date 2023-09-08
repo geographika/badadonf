@@ -30,12 +30,16 @@ git submodule update --init
 To build:
 
 ```
+C:\VirtualEnvs\badadonf\Scripts\activate.ps1
+$PROJECT_ROOT="D:\GitHub\badadonf"
+
 $WEB_PATH="$PROJECT_ROOT\website"
 $MAGICK_HOME="C:\Program Files\ImageMagick-7.1.1-Q16-HDRI"
 
 C:\VirtualEnvs\badadonf\Scripts\activate.ps1
 cd $WEB_PATH
-pelican content --debug
+# pelican content --debug
+pelican content
 ```
 
 To view (easiest to keep this running in separate command window for hot reloading after new build):
