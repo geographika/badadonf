@@ -518,6 +518,15 @@
     <Content Include="website\content\images\match.jpg" />
     <Content Include="website\content\images\nezant.jpg" />
     <Content Include="website\content\js\leaflet\leaflet.js.map" />
+    <Content Include="website\content\pdfs\feuille_202223\Feuille_Information.pdf" />
+    <Content Include="website\content\pdfs\feuille_202223\Fiche_Inscription_Adultes_Numerique.pdf" />
+    <Content Include="website\content\pdfs\feuille_202223\Fiche_Inscription_Jeunes_Numerique.pdf" />
+    <Content Include="website\content\pdfs\feuille_202324\Certificat_Medical_FFBaD.pdf" />
+    <Content Include="website\content\pdfs\feuille_202324\Feuille_Information.pdf" />
+    <Content Include="website\content\pdfs\feuille_202324\Fiche_Inscription_Adultes_Numerique.pdf" />
+    <Content Include="website\content\pdfs\feuille_202324\Fiche_Inscription_Jeunes_Numerique.pdf" />
+    <Content Include="website\content\pdfs\feuille_202324\QS_Attestation_Adultes.pdf" />
+    <Content Include="website\content\pdfs\feuille_202324\QS_Attestation_Mineurs.pdf" />
     <Content Include="website\content\posts\noel2018.rst" />
     <Content Include="website\content\posts\entrainement2018.rst" />
     <Content Include="website\content\images\gallery\badadonf9\2017-11-19 19.16.49.jpg" />
@@ -794,6 +803,7 @@
     <Folder Include="website\content\js\leaflet\" />
     <Folder Include="website\content\js\leaflet\images\" />
     <Folder Include="website\content\js\" />
+    <Folder Include="website\content\pdfs\feuille_202324\" />
     <Folder Include="website\content\posts\" />
     <Folder Include="website\content\pdfs\" />
     <Folder Include="website\content\pages\" />

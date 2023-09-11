@@ -1,14 +1,13 @@
-Interclub
-#########
+Interclub 2019
+##############
 
 :date: 2016-10-05 23:09
 :modified: 2019-02-14 23:09
 :tags: interclub
 :authors: Badadonf
 :summary: équipe et résultats
-:styles: 
 :category: interclubs
-:page-order: 003
+:category: archives
 
 **Ligue:** Ligue D4A
 

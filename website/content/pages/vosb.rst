@@ -7,7 +7,7 @@ VOSB
 :authors: Badadonf
 :summary: 
 :styles: 
-:page-order: 004
+:page-order: 003
 
 Le club de badminton appartient à la `Vaillante omnisport de Saint-Brice (VOSB) <http://www.saintbrice95.fr/Loisirs-et-detente/Clubs-et-associations/Vaillante-omnisport-de-Saint-Brice-VOSB>`_
 - une association multisports ouverte à tous. 
