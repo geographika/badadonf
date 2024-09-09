@@ -2,7 +2,7 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 ########################################
 
 :date: 2016-09-02 10:20
-:modified: 2023-09-08 10:20
+:modified: 2024-09-08 10:20
 :tags: horaires
 :authors: Badadonf
 :summary: Horaires pour badminton
@@ -17,11 +17,11 @@ VOSB Badminton de Saint-Brice-sous-Forêt
 
     <div class="bg-success">
 
-    Nous reprendrons le Bad le <b>lundi 04 septembre 2023</b> au Gymnase du COSEC aux horaires habituelles!
+    Nous reprendrons le Bad le <b>lundi 09 septembre 2024</b> au Gymnase du COSEC aux horaires habituelles!
     <br /><br />
-    La limite des inscriptions est fixée au <b>vendredi 6 octobre 2023</b>
+    La limite des inscriptions est fixée au <b>jeudi 10 octobre 2024</b>
     <br /><br />
-    Les entrainements (lundi 19h30 – 21h) reprendront le <b>lundi 9 octobre 2023</b>
+    Les entrainements (lundi 19h30 – 21h) reprendront le <b>lundi 7 octobre 2024</b>
 .. raw:: html
 
     </div>
@@ -38,20 +38,20 @@ Vous avez la possibilitéde participer à 2 sessions d’essais.
     :alt: nexant
     :width: 450 px
 
-+ `Feuille d'Information - Tarifs, Horaires, Contacts (PDF) <{static}/pdfs/feuille_202324/Feuille_Information.pdf>`_
-+ `Certificat Médical FFBaD (PDF) <{static}/pdfs/feuille_202324/Certificat_Medical_FFBaD.pdf>`_
++ `Feuille d'Information - Tarifs, Horaires, Contacts (PDF) <{static}/pdfs/feuille_202425/Feuille_Information.pdf>`_
++ `Certificat Médical FFBaD (PDF) <{static}/pdfs/feuille_202425/Certificat_Medical_FFBaD.pdf>`_
 
 Seniors:
 
-+ `Fiche d'Inscription Adultes (PDF) <{static}/pdfs/feuille_202324/Fiche_Inscription_Adultes_Numerique.pdf>`_
-+ `Questionnaire de santé Adultes (PDF) <{static}/pdfs/feuille_202324/QS_Attestation_Adultes.pdf>`_
++ `Fiche d'Inscription Adultes (PDF) <{static}/pdfs/feuille_202425/Fiche_Inscription_Adultes_Numerique.pdf>`_
++ `Questionnaire de santé Adultes (PDF) <{static}/pdfs/feuille_202425/QS_Attestation_Adultes.pdf>`_
 
 Jeunes:
 
-+ `Fiche d'Inscription Jeunes (PDF) <{static}/pdfs/feuille_202324/Fiche_Inscription_Jeunes_Numerique.pdf>`_
-+ `Questionnaire de santé Mineurs (PDF) <{static}/pdfs/feuille_202324/QS_Attestation_Mineurs.pdf>`_
++ `Fiche d'Inscription Jeunes (PDF) <{static}/pdfs/feuille_202425/Fiche_Inscription_Jeunes_Numerique.pdf>`_
++ `Questionnaire de santé Mineurs (PDF) <{static}/pdfs/feuille_202425/QS_Attestation_Mineurs.pdf>`_
 
-Voir `la page Cotisations Saison 2023-2024 <{filename}/pages/leclub.rst>`_ pour plus de détails.
+Voir `la page Cotisations Saison 2024-2025 <{filename}/pages/leclub.rst>`_ pour plus de détails.
 
 Horaires Seniors
 ----------------
@@ -79,8 +79,8 @@ Horaires Jeunes
 
 **Mercredi (gymnase : COSEC - 29 rue des Deux Piliers)**
 
-* 13h30 – 15h: Entraînement Jeunes (nés en 2012-2015)
-* 15h – 16h30: Entraînement Jeunes (nés en 2008-2011)
+* 13h15 – 14h45: Entraînement Jeunes (nés en 2012-2016)
+* 14h45 – 16h15: Entraînement Jeunes (nés en 2009-2011)
 
 Carte
 -----
@@ -110,4 +110,4 @@ Contact
 
 Vous souhaitez poser une question ? Vous désirez un renseignement ?
 
-Envoyez nous un mail à l'adresse mail suivante: jerome_leroux@hotmail.fr ou téléphoner 06.71.17.08.51
+Envoyez nous un mail à l'adresse mail suivante: secretairevosbbad@gmail.com ou téléphoner Camille VISSEAU 06.76.60.65.41.

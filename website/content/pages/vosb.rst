@@ -2,20 +2,20 @@ VOSB
 ####
 
 :date: 2017-02-26 23:09
-:modified: 2017-02-26 23:09
+:modified: 2024-09-09 23:09
 :tags: vosb
 :authors: Badadonf
 :summary: 
 :styles: 
 :page-order: 003
 
-Le club de badminton appartient à la `Vaillante omnisport de Saint-Brice (VOSB) <http://www.saintbrice95.fr/Loisirs-et-detente/Clubs-et-associations/Vaillante-omnisport-de-Saint-Brice-VOSB>`_
+Le club de badminton appartient à la `Vaillante omnisport de Saint-Brice (VOSB) <https://www.saintbrice95.fr/culture-sport-et-loisirs/vie-associative/annuaire-des-associations/association-93/vaillante-omnisport-de-saint-brice-vosb-badminton-200.html>`_
 - une association multisports ouverte à tous. 
 
-.. image:: /pdfs/plaquette_de_la_VOSB.pdf
-	:alt: plaquette VOSB
+.. image:: /pdfs/Guide_des_associations_2024-2026.pdf
+    :alt: plaquette VOSB
 
-* Plaquette de la VOSB `plaquette_de_la_VOSB.pdf <{static}/pdfs/plaquette_de_la_VOSB.pdf>`_
+* Plaquette de la VOSB `plaquette_de_la_VOSB.pdf <{static}/pdfs/Guide_des_associations_2024-2026.pdf>`_
 
 CDBVO
 -----

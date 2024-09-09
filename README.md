@@ -14,7 +14,7 @@ $PROJECT_ROOT="D:\GitHub\badadonf"
 
 cd $PROJECT_ROOT
 
-pip install  -r requirements.txt
+pip install -r requirements.txt
 
 git clone https://github.com/geographika/pelican-themes
 git clone https://github.com/getpelican/pelican-plugins.git
@@ -24,6 +24,10 @@ git clone https://github.com/getpelican/pelican-plugins.git
 cd "$PROJECT_ROOT\pelican-plugins"
 git submodule update --init
 ```
+
+ImageMagick also needs to be installed or the following errors will be returned when trying to generate PDF
+previews. Download link: https://imagemagick.org/script/download.php#windows
+See PDFs section below for more details.
 
 ## Build
 
